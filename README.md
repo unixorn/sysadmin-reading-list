@@ -55,6 +55,34 @@ Whether or not your shop uses git internally, you're going to end up needing to 
 
 * [Pro Git](https://git-scm.com/book/en/v2) is a great resource.
 
+### SSH
+
+* [SSH, The Secure Shell: The Definitive Guide, 2nd Edition](http://shop.oreilly.com/product/9780596008956.do)
+
+### Text Editors:
+
+Don't get involved in the Editor Wars.  Just.  Don't.  Your choice of tool does not need defending.  Nor does anyone else's choice.
+
+#### Vim
+
+Vim is a reality of life for SysAdmins.  You must be able to do at least basic edits with it.  You don't need to love it, but you will have to use it.
+
+* [vi and Vim Editors Pocket Reference, 2nd Edition](http://shop.oreilly.com/product/0636920010913.do)
+
+* [Damian Conway, "More Instantly Better Vim" - OSCON 2013](https://www.youtube.com/watch?v=aHm36-na4-4)
+
+#### Emacs
+
+Many people like Emacs.  You might be one of them.  Don't be afraid to try it out.
+
+#### Visual Editors and IDEs
+
+Use tools with which you are productive.  If you want to use a GUI Text Editor or IDE, don't let anyone give you a hard time about that.
+
+There are GUI versions of vim and emacs that have ardent followers.
+
+[Atom](https://atom.io/) is a fairly new editor with significant traction and plugin ecosystem.
+
 ## Blogs and Podcasts
 
 * [Arrested Devops](https://www.arresteddevops.com/) is hosted by Matt Stratton, Trevor Hess, and Bridget Kromhout. ADO is the podcast that helps you achieve understanding, develop good practices, and operate your team and organization for maximum DevOps awesomeness.
