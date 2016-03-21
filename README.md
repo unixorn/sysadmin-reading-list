@@ -1,4 +1,7 @@
 # sysadmin-reading-list
+
+[![Build Status](https://travis-ci.org/unixorn/sysadmin-reading-list.png)](https://travis-ci.org/unixorn/sysadmin-reading-list)
+
 A reading list for the larval stage sysadmin. This list is focused on the UNIX family of OSes.
 
 So you've got your first sysadmin job. Congratulations, it's going to be an interesting ride.
