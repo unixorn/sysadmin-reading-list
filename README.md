@@ -63,6 +63,8 @@ Whether or not your shop uses git internally, you're going to end up needing to 
 
 Don't get involved in the Editor Wars.  Just.  Don't.  Your choice of tool does not need defending.  Nor does anyone else's choice.
 
+However, you should care about your tools.  You should be able to use them efficiently.
+
 #### Vim
 
 Vim is a reality of life for SysAdmins.  You must be able to do at least basic edits with it.  You don't need to love it, but you will have to use it.
