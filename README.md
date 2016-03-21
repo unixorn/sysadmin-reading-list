@@ -20,7 +20,13 @@ Every sysadmin needs to know Bash.
 
 ### Regular Expressions
 
-You're going to want your regular expressions to be like ![xkcd 208](https://xkcd.com/208/), but in reality it's going to be a lot more like ![xkcd 1171](https://xkcd.com/1171/) some days.
+You're going to want your regular expressions to be like:
+
+![xkcd 208](http://imgs.xkcd.com/comics/regular_expressions.png),
+
+but in reality it's going to be a lot more like:
+
+![xkcd 1171](http://imgs.xkcd.com/comics/perl_problems.png) some days.
 
 But seriously, you're going to find regexes very useful.
 
