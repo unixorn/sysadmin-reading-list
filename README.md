@@ -1,13 +1,13 @@
 # sysadmin-reading-list
-A reading list for the larval stage sysadmin.
+A reading list for the larval stage sysadmin. This list is focused on the UNIX family of OSes.
 
 So you've got your first sysadmin job. Congratulations, it's going to be an interesting ride.
 
 ## Books to Read
 
+* [The Phoenix Project]() - know why your projects are important to the business
 * [Time Management for System Administrators](http://smile.amazon.com/Management-System-Administrators-Thomas-Limoncelli/dp/0596007833/ref=sr_1_4?s=books&ie=UTF8&qid=1458496299), by Tom Limoncelli. You're going to be pulled in a dozen different directions, if you can't manage your time you're going to suffer.
 * [UNIX-Linux-System-Administration-Handbook](http://smile.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0131480057/ref=sr_1_1?s=books&ie=UTF8&qid=1458496395&sr=1-1&keywords=linux+system+administration) by Nemeth is a great book, this book is targeted to larger system deployments and real world large systems.
-* [The Phoenix Project]() - know why your projects are important to the business
 
 ## Languages
 
