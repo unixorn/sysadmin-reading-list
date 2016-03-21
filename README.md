@@ -18,24 +18,44 @@ Every sysadmin needs to know Bash.
 * [Learning the Bash Shell](http://shop.oreilly.com/product/9780596009656.do) - hard to go wrong with an O'Reilly reference on anything, really.
 * [Bash Pitfalls](http://mywiki.wooledge.org/BashPitfalls) - Greg Wooledge has a great list of unpleasant surprises in Bash
 
-### Regular Expressions
-
-You're going to want your regular expressions to be like:
-
-![xkcd 208](http://imgs.xkcd.com/comics/regular_expressions.png),
-
-but in reality it's going to be a lot more like:
-
-![xkcd 1171](http://imgs.xkcd.com/comics/perl_problems.png) some days.
-
-But seriously, you're going to find regexes very useful.
-
-* [Regular Expressions Cookbook](http://shop.oreilly.com/product/0636920023630.do)
-* [Introducing Regular Expressions](http://shop.oreilly.com/product/0636920012337.do)
-
 ### Ruby
 
 If you're in a Ruby shop, you'll want these:
 
 * [The Ruby Programming Language](http://shop.oreilly.com/product/9780596516178.do)
 * [Ruby Best Practices](http://shop.oreilly.com/product/9780596523015.do)
+
+
+## Tools
+
+### Regular Expressions
+
+You're going to want your regular expressions to be like:
+
+![xkcd 208](http://imgs.xkcd.com/comics/regular_expressions.png),
+
+but in reality they're going to be a lot more like at first:
+
+![xkcd 1171](http://imgs.xkcd.com/comics/perl_problems.png) some days.
+
+But seriously, you're going to find regexes very useful for handling logs.
+
+* [Regular Expressions Cookbook](http://shop.oreilly.com/product/0636920023630.do)
+* [Introducing Regular Expressions](http://shop.oreilly.com/product/0636920012337.do)
+
+### Sed & Awk
+
+* [sed and awk Pocket Reference](http://shop.oreilly.com/product/9780596003524.do) presents a concise summary of regular expressions and pattern matching, and summaries of sed and awk and how to use them to edit files and convert data from one format to another.
+
+### Source control
+
+#### Git
+
+Whether or not your shop uses git internally, you're going to end up needing to use it for the many useful things on GitHub.
+
+* [Pro Git](https://git-scm.com/book/en/v2) is a great resource.
+
+## Blogs and Podcasts
+
+* [Arrested Devops](https://www.arresteddevops.com/) is hosted by Matt Stratton, Trevor Hess, and Bridget Kromhout. ADO is the podcast that helps you achieve understanding, develop good practices, and operate your team and organization for maximum DevOps awesomeness.
+* [Kitchen Soap](http://www.kitchensoap.com/) - John Alspaw is the CTO at Etsy and writes a great blog about web operations and operating at scale and other things that are interesting to ops types.
