@@ -4,6 +4,29 @@
 
 A reading list for the larval stage sysadmin. This list is focused on the UNIX family of OSes.
 
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+- [sysadmin-reading-list](#sysadmin-reading-list)
+  - [Books to Read](#books-to-read)
+  - [Languages](#languages)
+    - [Bash](#bash)
+    - [Ruby](#ruby)
+  - [Tools](#tools)
+    - [Regular Expressions](#regular-expressions)
+    - [Sed & Awk](#sed-&-awk)
+    - [Source control](#source-control)
+      - [Git](#git)
+    - [SSH](#ssh)
+    - [Text Editors:](#text-editors)
+      - [Vim](#vim)
+      - [Emacs](#emacs)
+      - [Visual Editors and IDEs](#visual-editors-and-ides)
+  - [Blogs and Podcasts](#blogs-and-podcasts)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 So you've got your first sysadmin job. Congratulations, it's going to be an interesting ride.
 
 ## Books to Read
