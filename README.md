@@ -54,6 +54,19 @@ If you're in a Ruby shop, you'll want these:
 
 ## Tools
 
+### Configuration Management
+
+Quite simply, if you aren't using configuration management, you're doing it wrong.
+
+You don't want to manually configure any servers - no matter how hard you try, they won't end up truly identical and having meat typing in commands takes far too long per server, doesn't scale, and the manual labor will discourage you from standing up new VMs for testing.
+
+There are several good options
+
+* [Ansible](http://www.ansible.com/) is designed to be minimal in nature, consistent, secure, and highly reliable. Was recently purchased by Red Hat.
+* [Chef](http://www.opscode.com/chef/) is written in Ruby and Erlang and uses a Ruby DSL to describe system configuration
+* [Puppet](http://puppetlabs.com/) makes it easy to automate the provisioning, configuration and ongoing management of your machines and the software running on them. Make rapid, repeatable changes and automatically enforce the consistency of systems and devices – across physical and virtual machines, on premise or in the cloud.
+* [Salt](http://www.saltstack.com/) orchestrates the build and ongoing management of your infrastructure.
+
 ### Regular Expressions
 
 You're going to want your regular expressions to be like:
