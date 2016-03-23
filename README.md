@@ -93,7 +93,7 @@ However, you should care about your tools.  You should be able to use them effic
 
 #### Vim
 
-Vim is a reality of life for SysAdmins.  You must be able to do at least basic edits with it.  You don't need to love it, but you will have to use it.
+Vim is a reality of life for SysAdmins.  It is the one editor you can be sure is installed in even the most minimal install. You must be able to do at least basic edits with it.  You don't need to love it, but you will have to use it.
 
 * [vi and Vim Editors Pocket Reference, 2nd Edition](http://shop.oreilly.com/product/0636920010913.do)
 
@@ -110,6 +110,7 @@ Use tools with which you are productive.  If you want to use a GUI Text Editor o
 There are GUI versions of vim and emacs that have ardent followers.
 
 [Atom](https://atom.io/) is a fairly new editor with significant traction and plugin ecosystem.
+[Sublime Text](http://sublimetext.com) is another editor with an extensive plugin ecosystem and arguably one of the inspirations for Atom.
 
 ## Blogs and Podcasts
 
