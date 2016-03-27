@@ -13,6 +13,7 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
   - [Languages](#languages)
     - [Bash](#bash)
     - [Ruby](#ruby)
+    - [Python](#python)
   - [Tools](#tools)
     - [Regular Expressions](#regular-expressions)
     - [Sed & Awk](#sed-&-awk)
@@ -51,6 +52,11 @@ If you're in a Ruby shop, you'll want these:
 * [The Ruby Programming Language](http://shop.oreilly.com/product/9780596516178.do)
 * [Ruby Best Practices](http://shop.oreilly.com/product/9780596523015.do)
 
+### Python
+
+If you're in a Python shop, you'll want these:
+
+* [Learn Python the Hard Way] (https://github.com/discoposse/sysadmin-reading-list.git)
 
 ## Tools
 
