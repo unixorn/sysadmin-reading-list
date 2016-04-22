@@ -108,6 +108,7 @@ But seriously, you're going to find regexes very useful for handling logs.
 Whether or not your shop uses git internally, you're going to end up needing to use it for the many useful things on GitHub.
 
 * [Pro Git](https://git-scm.com/book/en/v2) is a great resource.
+* [git-flight-rules](https://github.com/k88hudson/git-flight-rules) is Kate Hudson's guide to using Git.
 
 ### SSH
 
