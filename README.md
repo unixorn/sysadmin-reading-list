@@ -113,6 +113,7 @@ Whether or not your shop uses git internally, you're going to end up needing to 
 * [git-flight-rules](https://github.com/k88hudson/git-flight-rules) is Kate Hudson's guide to using Git.
 * [Pro Git](https://git-scm.com/book/en/v2) is a great resource.
 * [Writing Good Commit Messages](http://chris.beams.io/posts/git-commit/) is a good article.
+* [19 Git Tips for Everyday Use](http://www.alexkras.com/19-git-tips-for-everyday-use/) - a good set of starter tips for using git
 
 ### SSH
 
