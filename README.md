@@ -106,13 +106,19 @@ But seriously, you're going to find regexes very useful for handling logs.
 
 ### Source control
 
+No matter what source control you use (git, hg, perforce, whatever), you're going to have to write commit messages. Make them good. Explain _why_ you made the change, not just _what_ you changed. And no, the diff is not an explanation.
+
+Here are a couple of articles that while focused on git apply to any system you're using:
+
+* [Writing Good Commit Messages](http://chris.beams.io/posts/git-commit/) is a good article on writing coherent commit messages
+* [5 Useful Tips for a Better Commit Message](https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message) is another good article on writing commit messages.
+
 #### Git
 
 Whether or not your shop uses git internally, you're going to end up needing to use it for the many useful things on GitHub.
 
-* [git-flight-rules](https://github.com/k88hudson/git-flight-rules) is Kate Hudson's guide to using Git.
-* [Pro Git](https://git-scm.com/book/en/v2) is a great resource.
-* [Writing Good Commit Messages](http://chris.beams.io/posts/git-commit/) is a good article.
+* [git-flight-rules](https://github.com/k88hudson/git-flight-rules) is Kate Hudson's guide to using Git in specific situations.
+* [Pro Git](https://git-scm.com/book/en/v2) by Scott Chacon and Ben Straub is a great overall resource for git.
 * [19 Git Tips for Everyday Use](http://www.alexkras.com/19-git-tips-for-everyday-use/) - a good set of starter tips for using git
 
 ### SSH
@@ -149,6 +155,7 @@ There are GUI versions of vim and emacs that have ardent followers.
 
 * [Arrested Devops](https://www.arresteddevops.com/) is hosted by Matt Stratton, Trevor Hess, and Bridget Kromhout. ADO is the podcast that helps you achieve understanding, develop good practices, and operate your team and organization for maximum DevOps awesomeness.
 * [Code as Craft](http://codeascraft.com/) is Etsy's ops blog and is full of well written examples of dealing with real-world problems at scale.
+* [Julia Evans' Blog](http://jvns.ca/) - Julia writes a great blog where she'll dive into interesting topics and explain them clearly.
 * [Kitchen Soap](http://www.kitchensoap.com/) - John Alspaw is the CTO at Etsy and writes a great blog about web operations and operating at scale and other things that are interesting to ops types.
 
 ## Other Resources
