@@ -62,6 +62,7 @@ If you're in a Ruby shop, you'll want these:
 If you're in a Python shop, you'll want these:
 
 * [Learn Python the Hard Way](http://learnpythonthehardway.org/book/)
+* [Programming Python](http://shop.oreilly.com/product/9780596158118.do)
 
 ## Tools
 
