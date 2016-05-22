@@ -46,16 +46,16 @@ So you've got your first sysadmin job. Congratulations, it's going to be an inte
 
 Every sysadmin needs to know Bash.
 
-* [Learning the Bash Shell](http://shop.oreilly.com/product/9780596009656.do) - hard to go wrong with an O'Reilly reference on anything, really.
 * [Bash Pitfalls](http://mywiki.wooledge.org/BashPitfalls) - Greg Wooledge has a great list of unpleasant surprises in Bash
+* [Learning the Bash Shell](http://shop.oreilly.com/product/9780596009656.do) - hard to go wrong with an O'Reilly reference on anything, really.
 * Google's [Shell Style Guide](https://google.github.io/styleguide/shell.xml) lists what Google's developers consider best practices for bash scripts.
 
 ### Ruby
 
 If you're in a Ruby shop, you'll want these:
 
-* [The Ruby Programming Language](http://shop.oreilly.com/product/9780596516178.do)
 * [Ruby Best Practices](http://shop.oreilly.com/product/9780596523015.do)
+* [The Ruby Programming Language](http://shop.oreilly.com/product/9780596516178.do)
 
 ### Python
 
@@ -98,8 +98,8 @@ but in reality they're going to be a lot more like at first:
 
 But seriously, you're going to find regexes very useful for handling logs.
 
-* [Regular Expressions Cookbook](http://shop.oreilly.com/product/0636920023630.do)
 * [Introducing Regular Expressions](http://shop.oreilly.com/product/0636920012337.do)
+* [Regular Expressions Cookbook](http://shop.oreilly.com/product/0636920023630.do)
 
 ### Sed & Awk
 
@@ -113,17 +113,17 @@ Good commit messages help the rest of your team understand what you're trying to
 
 Here are a few articles that while focused on git apply to any system you're using:
 
+* [5 Useful Tips for a Better Commit Message](https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message) is another good article on writing commit messages.
 * [A Note About Git Commit Messages](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
 * [Writing Good Commit Messages](http://chris.beams.io/posts/git-commit/) is a good article on writing coherent commit messages
-* [5 Useful Tips for a Better Commit Message](https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message) is another good article on writing commit messages.
 
 #### Git
 
 Whether or not your shop uses git internally, you're going to end up needing to use it for the many useful things on GitHub.
 
+* [19 Git Tips for Everyday Use](http://www.alexkras.com/19-git-tips-for-everyday-use/) - a good set of starter tips for using git
 * [git-flight-rules](https://github.com/k88hudson/git-flight-rules) is Kate Hudson's guide to using Git in specific situations.
 * [Pro Git](https://git-scm.com/book/en/v2) by Scott Chacon and Ben Straub is a great overall resource for git.
-* [19 Git Tips for Everyday Use](http://www.alexkras.com/19-git-tips-for-everyday-use/) - a good set of starter tips for using git
 
 ### SSH
 
@@ -139,8 +139,8 @@ However, you should care about your tools.  You should be able to use them effic
 
 Vim is a reality of life for SysAdmins.  It is the one editor you can be sure is installed in even the most minimal install. You must be able to do at least basic edits with it.  You don't need to love it, but you will have to use it.
 
-* [vi and Vim Editors Pocket Reference, 2nd Edition](http://shop.oreilly.com/product/0636920010913.do)
 * [Damian Conway, "More Instantly Better Vim" - OSCON 2013](https://www.youtube.com/watch?v=aHm36-na4-4)
+* [vi and Vim Editors Pocket Reference, 2nd Edition](http://shop.oreilly.com/product/0636920010913.do)
 
 #### Emacs
 
