@@ -61,7 +61,7 @@ If you're in a Ruby shop, you'll want these:
 
 If you're in a Python shop, you'll want these:
 
-* [Learn Python the Hard Way] (http://learnpythonthehardway.org/book/)
+* [Learn Python the Hard Way](http://learnpythonthehardway.org/book/)
 
 ## Tools
 
