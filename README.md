@@ -109,7 +109,7 @@ But seriously, you're going to find regexes very useful for handling logs.
 
 No matter what source control you use (git, hg, perforce, whatever), you're going to have to write commit messages. Make them good. Explain _why_ you made the change, not just _what_ you changed. And no, the diff is not an explanation.
 
-Good commit messages help the rest of your team understand what you're trying to do and make it easier for them to find logic errors in your pull requests - the code may be technically correct, but if they understand what you're _trying_ to do, they can point out that it isn't actually doing what you want it to.
+Good commit messages help the rest of your team understand what you're trying to do and make it easier for them to find logic errors in your pull requests - the code may be technically correct, but if they understand what you're _trying_ to do, they can see when your code isn't actually doing what you want it to.
 
 Here are a few articles that while focused on git apply to any system you're using:
 
