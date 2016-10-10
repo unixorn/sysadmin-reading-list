@@ -13,6 +13,9 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
   - [Bash](#bash)
   - [Ruby](#ruby)
   - [Python](#python)
+    - [Tutorial](#tutorials-@-python)
+    - [Sysadmin](#python-&-sysadmin)
+    - [Deployment Utils](#python-&-deployment)
 - [Tools](#tools)
   - [Cloud](#cloud)
     - [AWS](#aws)
@@ -61,12 +64,28 @@ If you're in a Ruby shop, you'll want these:
 
 ### Python
 
-If you're in a Python shop, you'll want these:
+As of Python, compared to bash, you will love it's higher support towards string manipulation and system infrastructure.
 
-* [Learn Python the Hard Way](http://learnpythonthehardway.org/book/)
-* [Programming Python](http://shop.oreilly.com/product/9780596158118.do)
+A couple of places to go into as training would be:
 
-## Tools
+#### Tutorials @ Python
+
+* [Learn Python the Hard Way](http://learnpythonthehardway.org/book/), a rather comprehensive tutorial covering many aspects of the language.
+* [Programming Python](http://shop.oreilly.com/product/9780596158118.do), a well-written O'Reilly book, short and concise. 
+
+#### Python & Sysadmin
+
+* [Practical Python for Sysadmins](http://macadmins.psu.edu/wp-content/uploads/sites/1567/2013/06/psumacconf2013-practical-python-for-mac-admins.pdf), an awesome transition course from Bash to Python (full highlights).
+* [General Data](http://docs.python-guide.org/en/latest/scenarios/admin/), a neat place to see usage and examples of Python and not only.
+* [WSGI - Web Server Gateway Interface](http://uwsgi-docs.readthedocs.io/en/latest/WSGIquickstart.html), the Python implementation of web servers.
+
+#### Python & Deployment Utils
+
+* [WSGI + Gunicorn tutorial](https://www.digitalocean.com/community/tutorials/how-to-deploy-python-wsgi-apps-using-gunicorn-http-server-behind-nginx)
+* [WSGI + Flask tutorial](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps)
+* [WSGI + Pyramid tutorial](https://www.digitalocean.com/community/tutorials/how-to-deploy-pyramid-based-python-wsgi-web-applications)
+
+Tools
 
 ### Cloud
 
