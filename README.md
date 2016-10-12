@@ -88,6 +88,13 @@ A couple of places to go into as training would be:
 * [WSGI + Flask tutorial](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps)
 * [WSGI + Pyramid tutorial](https://www.digitalocean.com/community/tutorials/how-to-deploy-pyramid-based-python-wsgi-web-applications)
 
+### Powershell
+
+Often you'll find yourself in a Windows enviroment, like it or not. These  might come help you in those cases -
+
+* [Code-Repository](http://poshcode.org/) 
+* [Best Practices and Style guide](https://github.com/PoshCode/PowerShellPracticeAndStyle)
+
 Tools
 
 ### Cloud
