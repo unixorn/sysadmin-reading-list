@@ -45,6 +45,7 @@ So you've got your first sysadmin job. Congratulations, it's going to be an inte
 * [The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations](https://smile.amazon.com/DevOps-Handbook-World-Class-Reliability-Organizations/dp/1942788002) - The results of a multi-user case study on DevOps and the practical-oriented sequel to The Phoenix Project
 * [Time Management for System Administrators](http://smile.amazon.com/Management-System-Administrators-Thomas-Limoncelli/dp/0596007833), by Tom Limoncelli. You're going to be pulled in a dozen different directions, if you can't manage your time you're going to suffer.
 * [UNIX-Linux-System-Administration-Handbook](http://smile.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0131480057) by Nemeth is a great book, this book is targeted to larger system deployments and real world large systems.
+* [Systems Performance: Enterprise and Cloud](https://smile.amazon.com/Systems-Performance-Enterprise-Brendan-Gregg/dp/0133390098) by Brendan Gregg, this book is an award winner and a favorite of many a sysadmin, it addresses systems performance at scale.
 
 ## Languages
 
@@ -73,7 +74,7 @@ A couple of places to go into as training would be:
 #### Tutorials @ Python
 
 * [Learn Python the Hard Way](http://learnpythonthehardway.org/book/), a rather comprehensive tutorial covering many aspects of the language.
-* [Programming Python](http://shop.oreilly.com/product/9780596158118.do), a well-written O'Reilly book, short and concise. 
+* [Programming Python](http://shop.oreilly.com/product/9780596158118.do), a well-written O'Reilly book, short and concise.
 
 #### Python & Sysadmin
 
@@ -182,6 +183,7 @@ There are GUI versions of vim and emacs that have ardent followers.
 
 [Atom](https://atom.io/) is a fairly new editor with significant traction and plugin ecosystem.
 [Sublime Text](http://sublimetext.com) is another editor with an extensive plugin ecosystem and arguably one of the inspirations for Atom.
+[Visual Studio Code](https://code.visualstudio.com) is a cross platform editor that is gaining traction in the marketplace.
 
 ## Blogs and Podcasts
 
@@ -189,6 +191,12 @@ There are GUI versions of vim and emacs that have ardent followers.
 * [Code as Craft](http://codeascraft.com/) is Etsy's ops blog and is full of well written examples of dealing with real-world problems at scale.
 * [Julia Evans' Blog](http://jvns.ca/) - Julia writes a great blog where she'll dive into interesting topics and explain them clearly.
 * [Kitchen Soap](http://www.kitchensoap.com/) - John Alspaw is the CTO at Etsy and writes a great blog about web operations and operating at scale and other things that are interesting to ops types.
+
+## Online Communities
+
+* [Hangops Slack](https://signup.hangops.com/) is a community of DevOps minded folk with many subject focused chat rooms.
+* [DevOpsChat Slack](https://devopschat.co/) is another community of DevOps minded folk with a diverse set of topic specific chat rooms. Home to Arrested DevOps.
+* [PowerShell Slack](http://slack.poshcode.org/) is a community of PowerShell enthusiasts and Windows centric DevOps topics.
 
 ## Other Resources
 
