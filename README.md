@@ -94,7 +94,8 @@ Often you'll find yourself in a Windows enviroment, like it or not. These  might
 
 * [Code-Repository](http://poshcode.org/) 
 * [Best Practices and Style guide](https://github.com/PoshCode/PowerShellPracticeAndStyle)
-
+* [PS Cmdlets In Your Inbox](https://github.com/MaxAnderson95/Cmdlets_In_Your_Inbox) lets you schedule a task to get PowerShell Cmdlets via email daily or at the command line.
+* [PowerShell.org eBooks](https://powershell.org/ebooks/)
 Tools
 
 ### Cloud
@@ -198,6 +199,7 @@ There are GUI versions of vim and emacs that have ardent followers.
 * [Code as Craft](http://codeascraft.com/) is Etsy's ops blog and is full of well written examples of dealing with real-world problems at scale.
 * [Julia Evans' Blog](http://jvns.ca/) - Julia writes a great blog where she'll dive into interesting topics and explain them clearly.
 * [Kitchen Soap](http://www.kitchensoap.com/) - John Alspaw is the CTO at Etsy and writes a great blog about web operations and operating at scale and other things that are interesting to ops types.
+* [PowerScripting Podcast](https://powershell.org/podcast/) is hosted by Jon Walz and Hal Rottenberg.
 
 ## Online Communities
 
