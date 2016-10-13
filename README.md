@@ -94,7 +94,8 @@ Often you'll find yourself in a Windows enviroment, like it or not. These  might
 
 * [Code-Repository](http://poshcode.org/) 
 * [Best Practices and Style guide](https://github.com/PoshCode/PowerShellPracticeAndStyle)
-
+* [PS Cmdlets In Your Inbox](https://github.com/MaxAnderson95/Cmdlets_In_Your_Inbox) lets you schedule a task to get PowerShell Cmdlets via email daily or at the command line.
+* [PowerShell.org eBooks](https://powershell.org/ebooks/)
 Tools
 
 ### Cloud
