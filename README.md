@@ -199,6 +199,7 @@ There are GUI versions of vim and emacs that have ardent followers.
 * [Code as Craft](http://codeascraft.com/) is Etsy's ops blog and is full of well written examples of dealing with real-world problems at scale.
 * [Julia Evans' Blog](http://jvns.ca/) - Julia writes a great blog where she'll dive into interesting topics and explain them clearly.
 * [Kitchen Soap](http://www.kitchensoap.com/) - John Alspaw is the CTO at Etsy and writes a great blog about web operations and operating at scale and other things that are interesting to ops types.
+* [PowerScripting Podcast](https://powershell.org/podcast/) is hosted by Jon Walz and Hal Rottenberg.
 
 ## Online Communities
 
