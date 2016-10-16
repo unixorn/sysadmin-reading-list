@@ -53,10 +53,11 @@ So you've got your first sysadmin job. Congratulations, it's going to be an inte
 
 Every sysadmin needs to know Bash.
 
+* [Advancing in the Bash Shell](http://samrowe.com/wordpress/advancing-in-the-bash-shell/) - Sam Rowe's bash as CLI tutorial
 * [Bash Pitfalls](http://mywiki.wooledge.org/BashPitfalls) - Greg Wooledge has a great list of unpleasant surprises in Bash
 * [Learning the Bash Shell](http://shop.oreilly.com/product/9780596009656.do) - hard to go wrong with an O'Reilly reference on anything, really.
-* Google's [Shell Style Guide](https://google.github.io/styleguide/shell.xml) lists what Google's developers consider best practices for bash scripts.
 * [shellcheck](http://shellcheck.net) is a lint for bash. It'll help you find unused variables, deprecated syntax and other things that make your bash scripts less stable. You can install it with `apt-get`, `brew`, `cabal`, or `yum`.
+* Google's [Shell Style Guide](https://google.github.io/styleguide/shell.xml) lists what Google's developers consider best practices for bash scripts.
 
 ### Ruby
 
@@ -92,7 +93,7 @@ A couple of places to go into as training would be:
 
 Often you'll find yourself in a Windows enviroment, like it or not. These  might come help you in those cases -
 
-* [Code-Repository](http://poshcode.org/) 
+* [Code-Repository](http://poshcode.org/)
 * [Best Practices and Style guide](https://github.com/PoshCode/PowerShellPracticeAndStyle)
 * [PS Cmdlets In Your Inbox](https://github.com/MaxAnderson95/Cmdlets_In_Your_Inbox) lets you schedule a task to get PowerShell Cmdlets via email daily or at the command line.
 * [PowerShell.org eBooks](https://powershell.org/ebooks/)
