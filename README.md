@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/unixorn/sysadmin-reading-list.png)](https://travis-ci.org/unixorn/sysadmin-reading-list)
 
-A reading list for the larval stage sysadmin. This list is focused on the UNIX family of OSes.
+A reading list for the larval stage sysadmin. This list is focused on the UNIX family of OSes, mainly because that is my area of expertise.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -13,12 +13,13 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
   - [Bash](#bash)
   - [Ruby](#ruby)
   - [Python](#python)
-    - [Tutorial](#tutorials-@-python)
-    - [Sysadmin](#python-&-sysadmin)
-    - [Deployment Utils](#python-&-deployment)
-- [Tools](#tools)
+    - [Tutorials @ Python](#tutorials-@-python)
+    - [Python & Sysadmin](#python-&-sysadmin)
+    - [Python & Deployment Utils](#python-&-deployment-utils)
+  - [Powershell](#powershell)
   - [Cloud](#cloud)
     - [AWS](#aws)
+    - [Azure](#azure)
   - [Configuration Management](#configuration-management)
   - [Regular Expressions](#regular-expressions)
   - [Sed & Awk](#sed-&-awk)
@@ -30,6 +31,7 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
     - [Emacs](#emacs)
     - [Visual Editors and IDEs](#visual-editors-and-ides)
 - [Blogs and Podcasts](#blogs-and-podcasts)
+- [Online Communities](#online-communities)
 - [Other Resources](#other-resources)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -53,10 +55,11 @@ So you've got your first sysadmin job. Congratulations, it's going to be an inte
 
 Every sysadmin needs to know Bash.
 
+* [Advancing in the Bash Shell](http://samrowe.com/wordpress/advancing-in-the-bash-shell/) - Sam Rowe's bash as CLI tutorial
 * [Bash Pitfalls](http://mywiki.wooledge.org/BashPitfalls) - Greg Wooledge has a great list of unpleasant surprises in Bash
 * [Learning the Bash Shell](http://shop.oreilly.com/product/9780596009656.do) - hard to go wrong with an O'Reilly reference on anything, really.
-* Google's [Shell Style Guide](https://google.github.io/styleguide/shell.xml) lists what Google's developers consider best practices for bash scripts.
 * [shellcheck](http://shellcheck.net) is a lint for bash. It'll help you find unused variables, deprecated syntax and other things that make your bash scripts less stable. You can install it with `apt-get`, `brew`, `cabal`, or `yum`.
+* Google's [Shell Style Guide](https://google.github.io/styleguide/shell.xml) lists what Google's developers consider best practices for bash scripts.
 
 ### Ruby
 
@@ -92,7 +95,7 @@ A couple of places to go into as training would be:
 
 Often you'll find yourself in a Windows enviroment, like it or not. These  might come help you in those cases -
 
-* [Code-Repository](http://poshcode.org/) 
+* [Code-Repository](http://poshcode.org/)
 * [Best Practices and Style guide](https://github.com/PoshCode/PowerShellPracticeAndStyle)
 * [PS Cmdlets In Your Inbox](https://github.com/MaxAnderson95/Cmdlets_In_Your_Inbox) lets you schedule a task to get PowerShell Cmdlets via email daily or at the command line.
 * [PowerShell.org eBooks](https://powershell.org/ebooks/)
