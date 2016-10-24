@@ -13,7 +13,7 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
   - [Bash](#bash)
   - [Ruby](#ruby)
   - [Python](#python)
-    - [Tutorials @ Python](#tutorials-@-python)
+    - [Tutorials @ Python](#tutorials--python)
     - [Python & Sysadmin](#python-&-sysadmin)
     - [Python & Deployment Utils](#python-&-deployment-utils)
   - [Powershell](#powershell)
@@ -30,6 +30,7 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
     - [Vim](#vim)
     - [Emacs](#emacs)
     - [Visual Editors and IDEs](#visual-editors-and-ides)
+- [Windows Administration](#windows-administration)
 - [Blogs and Podcasts](#blogs-and-podcasts)
 - [Online Communities](#online-communities)
 - [Other Resources](#other-resources)
@@ -195,6 +196,8 @@ There are GUI versions of vim and emacs that have ardent followers.
 [Atom](https://atom.io/) is a fairly new editor with significant traction and plugin ecosystem.
 [Sublime Text](http://sublimetext.com) is another editor with an extensive plugin ecosystem and arguably one of the inspirations for Atom.
 [Visual Studio Code](https://code.visualstudio.com) is a cross platform editor that is gaining traction in the marketplace.
+
+## Windows Administration
 
 ## Blogs and Podcasts
 
