@@ -13,7 +13,7 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
   - [Bash](#bash)
   - [Ruby](#ruby)
   - [Python](#python)
-    - [Tutorials @ Python](#tutorials-@-python)
+    - [Tutorials @ Python](#tutorials--python)
     - [Python & Sysadmin](#python-&-sysadmin)
     - [Python & Deployment Utils](#python-&-deployment-utils)
   - [Powershell](#powershell)
@@ -30,6 +30,7 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
     - [Vim](#vim)
     - [Emacs](#emacs)
     - [Visual Editors and IDEs](#visual-editors-and-ides)
+- [Windows Administration](#windows-administration)
 - [Blogs and Podcasts](#blogs-and-podcasts)
 - [Online Communities](#online-communities)
 - [Other Resources](#other-resources)
@@ -196,10 +197,13 @@ There are GUI versions of vim and emacs that have ardent followers.
 [Sublime Text](http://sublimetext.com) is another editor with an extensive plugin ecosystem and arguably one of the inspirations for Atom.
 [Visual Studio Code](https://code.visualstudio.com) is a cross platform editor that is gaining traction in the marketplace.
 
+## Windows Administration
+
 ## Blogs and Podcasts
 
 * [Arrested Devops](https://www.arresteddevops.com/) is hosted by Matt Stratton, Trevor Hess, and Bridget Kromhout. ADO is the podcast that helps you achieve understanding, develop good practices, and operate your team and organization for maximum DevOps awesomeness.
 * [Code as Craft](http://codeascraft.com/) is Etsy's ops blog and is full of well written examples of dealing with real-world problems at scale.
+* [Hey, Scripting Guy! Blog](https://blogs.technet.microsoft.com/heyscriptingguy/) is a blog that answers common (and some uncommon) PowerShell queries.
 * [Julia Evans' Blog](http://jvns.ca/) - Julia writes a great blog where she'll dive into interesting topics and explain them clearly.
 * [Kitchen Soap](http://www.kitchensoap.com/) - John Alspaw is the CTO at Etsy and writes a great blog about web operations and operating at scale and other things that are interesting to ops types.
 * [PowerScripting Podcast](https://powershell.org/podcast/) is hosted by Jon Walz and Hal Rottenberg.

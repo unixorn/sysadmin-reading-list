@@ -1,3 +1,22 @@
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+  - [creative commons](#creative-commons)
+- [Attribution-NonCommercial-ShareAlike 4.0 International](#attribution-noncommercial-sharealike-40-international)
+    - [Using Creative Commons Public Licenses](#using-creative-commons-public-licenses)
+  - [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License](#creative-commons-attribution-noncommercial-sharealike-40-international-public-license)
+    - [Section 1 – Definitions.](#section-1-%E2%80%93-definitions)
+    - [Section 2 – Scope.](#section-2-%E2%80%93-scope)
+    - [Section 3 – License Conditions.](#section-3-%E2%80%93-license-conditions)
+    - [Section 4 – Sui Generis Database Rights.](#section-4-%E2%80%93-sui-generis-database-rights)
+    - [Section 5 – Disclaimer of Warranties and Limitation of Liability.](#section-5-%E2%80%93-disclaimer-of-warranties-and-limitation-of-liability)
+    - [Section 6 – Term and Termination.](#section-6-%E2%80%93-term-and-termination)
+    - [Section 7 – Other Terms and Conditions.](#section-7-%E2%80%93-other-terms-and-conditions)
+    - [Section 8 – Interpretation.](#section-8-%E2%80%93-interpretation)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
 ## creative commons
 
 # Attribution-NonCommercial-ShareAlike 4.0 International
