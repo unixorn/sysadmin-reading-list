@@ -53,6 +53,8 @@ So you've got your first sysadmin job. Congratulations, it's going to be an inte
 * [Time Management for System Administrators](http://smile.amazon.com/Management-System-Administrators-Thomas-Limoncelli/dp/0596007833), by Tom Limoncelli. You're going to be pulled in a dozen different directions, if you can't manage your time you're going to suffer.
 * [UNIX-Linux-System-Administration-Handbook](http://smile.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0131480057) by Evi Nemeth is a great book, this book is targeted to larger system deployments and real world large systems.
 * [Web Operations: Keeping the Data on Time](https://smile.amazon.com/Web-Operations-Keeping-Data-Time-ebook/dp/B0043M4Z34) - A collection of essays and interviews, with web veterans such as Theo Schlossnagle, Baron Schwartz, and Alistair Croll that will teach you strategies for designing your web site to scale up smoothly to web-scale load.
+* [Git Magic (free ebook)](http://www-cs-students.stanford.edu/~blynn/gitmagic/) - Git is a version control Swiss army knife. A reliable versatile multipurpose revision control tool whose extraordinary flexibility makes it tricky to learn, let alone master.
+
 
 ## Languages
 
@@ -72,6 +74,8 @@ If you're in a Ruby shop, you'll want these:
 
 * [Ruby Best Practices](http://shop.oreilly.com/product/9780596523015.do)
 * [The Ruby Programming Language](http://shop.oreilly.com/product/9780596516178.do)
+* [Ruby: Learn Ruby in 24 Hours or Less](https://www.amazon.es/Ruby-Beginners-Learning-Programming-Course/dp/1533191611/ref=sr_1_2?ie=UTF8&qid=1477384606&sr=8-2&keywords=ruby)
+
 
 ### Python
 
