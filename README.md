@@ -13,7 +13,7 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
   - [Bash](#bash)
   - [Ruby](#ruby)
   - [Python](#python)
-    - [Tutorials @ Python](#tutorials--python)
+    - [Tutorials @ Python](#tutorials-@-python)
     - [Python & Sysadmin](#python-&-sysadmin)
     - [Python & Deployment Utils](#python-&-deployment-utils)
   - [Powershell](#powershell)
