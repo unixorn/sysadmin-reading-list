@@ -92,23 +92,23 @@ A couple of places to go into as training would be:
 #### Python & Sysadmin
 
 * [Practical Python for Sysadmins](http://macadmins.psu.edu/wp-content/uploads/sites/1567/2013/06/psumacconf2013-practical-python-for-mac-admins.pdf), an awesome transition course from Bash to Python (full highlights).
-* [General Data](http://docs.python-guide.org/en/latest/scenarios/admin/), a neat place to see usage and examples of Python and not only.
+* [The Hitchhiker's Guide to Python](http://docs.python-guide.org/en/latest/scenarios/admin/), a neat place to see usage and examples of Python and not only for systems administration.
 * [WSGI - Web Server Gateway Interface](http://uwsgi-docs.readthedocs.io/en/latest/WSGIquickstart.html), the Python implementation of web servers.
 
 #### Python & Deployment Utils
 
-* [WSGI + Gunicorn tutorial](https://www.digitalocean.com/community/tutorials/how-to-deploy-python-wsgi-apps-using-gunicorn-http-server-behind-nginx)
 * [WSGI + Flask tutorial](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps)
+* [WSGI + Gunicorn tutorial](https://www.digitalocean.com/community/tutorials/how-to-deploy-python-wsgi-apps-using-gunicorn-http-server-behind-nginx)
 * [WSGI + Pyramid tutorial](https://www.digitalocean.com/community/tutorials/how-to-deploy-pyramid-based-python-wsgi-web-applications)
 
 ### Powershell
 
 Often you'll find yourself in a Windows enviroment, like it or not. These  might come help you in those cases -
 
-* [Code-Repository](http://poshcode.org/)
 * [Best Practices and Style guide](https://github.com/PoshCode/PowerShellPracticeAndStyle)
-* [PS Cmdlets In Your Inbox](https://github.com/MaxAnderson95/Cmdlets_In_Your_Inbox) lets you schedule a task to get PowerShell Cmdlets via email daily or at the command line.
+* [Code-Repository](http://poshcode.org/)
 * [PowerShell.org eBooks](https://powershell.org/ebooks/)
+* [PS Cmdlets In Your Inbox](https://github.com/MaxAnderson95/Cmdlets_In_Your_Inbox) lets you schedule a task to get PowerShell Cmdlets via email daily or at the command line.
 Tools
 
 ### Cloud
@@ -116,16 +116,16 @@ Tools
 #### AWS
 
 * [AWSCli](https://github.com/aws/aws-cli) provides a unified command line interface to Amazon Web Services. Wean yourself off of the webui if you want to be truly productive
-* [S3cmd](http://s3tools.org/s3cmd) is a free command line tool and client for uploading, retrieving and managing data in Amazon S3 and other cloud storage service providers that use the S3 protocol, such as Google Cloud Storage or DreamHost DreamObjects.
 * [og-aws](https://github.com/open-guides/og-aws) is an excellent resource to AWS written by and for engineers who use AWS extensively.
+* [S3cmd](http://s3tools.org/s3cmd) is a free command line tool and client for uploading, retrieving and managing data in Amazon S3 and other cloud storage service providers that use the S3 protocol, such as Google Cloud Storage or DreamHost DreamObjects.
 
 #### Azure
 
-* [Azure Quickstart Templates](https://github.com/Azure/azure-quickstart-templates) community contributed Azure Resource Manager templates for tons of things.
-* [Azure Friday](https://azure.microsoft.com/en-us/documentation/videos/azure-friday/) "Just two engineers, a laptop and the cloud, solving problems".
-* [Azure Xplat CLI](https://github.com/Azure/azure-xplat-cli) cross platform CLI interface for Azure (written in nodejs).
 * [Azure CLI 2.0](https://github.com/Azure/azure-cli) new preview CLI interface for Azure (written in python).
 * [Azure Code Samples](https://azure.microsoft.com/en-us/documentation/samples/) samples of code showing how to interact with Azure.
+* [Azure Friday](https://azure.microsoft.com/en-us/documentation/videos/azure-friday/) "Just two engineers, a laptop and the cloud, solving problems".
+* [Azure Quickstart Templates](https://github.com/Azure/azure-quickstart-templates) community contributed Azure Resource Manager templates for tons of things.
+* [Azure Xplat CLI](https://github.com/Azure/azure-xplat-cli) cross platform CLI interface for Azure (written in nodejs).
 * [Official Azure Documentation](https://azure.microsoft.com/en-us/documentation/) official documentation for all Azure services.
 
 
