@@ -74,8 +74,8 @@ Every *NIX sysadmin needs to know Bash. Here are some useful resources to help y
 If you're in a Ruby shop, you'll want these:
 
 * [Ruby Best Practices](http://shop.oreilly.com/product/9780596523015.do)
+* [Ruby: Learn Ruby in 24 Hours or Less](https://smile.amazon.com/Ruby-Beginners-Learning-Programming-Course/dp/1533191611)
 * [The Ruby Programming Language](http://shop.oreilly.com/product/9780596516178.do)
-* [Ruby: Learn Ruby in 24 Hours or Less](https://www.amazon.es/Ruby-Beginners-Learning-Programming-Course/dp/1533191611/ref=sr_1_2?ie=UTF8&qid=1477384606&sr=8-2&keywords=ruby)
 
 
 ### Python
