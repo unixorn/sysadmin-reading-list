@@ -77,7 +77,6 @@ If you're in a Ruby shop, you'll want these:
 * [Ruby: Learn Ruby in 24 Hours or Less](https://smile.amazon.com/Ruby-Beginners-Learning-Programming-Course/dp/1533191611)
 * [The Ruby Programming Language](http://shop.oreilly.com/product/9780596516178.do)
 
-
 ### Python
 
 As of Python, compared to bash, you will love it's higher support towards string manipulation and system infrastructure.
@@ -127,7 +126,6 @@ Tools
 * [Azure Quickstart Templates](https://github.com/Azure/azure-quickstart-templates) community contributed Azure Resource Manager templates for tons of things.
 * [Azure Xplat CLI](https://github.com/Azure/azure-xplat-cli) cross platform CLI interface for Azure (written in nodejs).
 * [Official Azure Documentation](https://azure.microsoft.com/en-us/documentation/) official documentation for all Azure services.
-
 
 ### Configuration Management
 
