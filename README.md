@@ -172,6 +172,7 @@ Whether or not your shop uses git internally, you're going to end up needing to 
 * [git-tips/tips](https://github.com/git-tips/tips) is a collection of git tips
 * [Pro Git](https://git-scm.com/book/en/v2) by Scott Chacon and Ben Straub is a great overall resource for git.
 * [Why the Heck is Git so Hard? The Places Model](http://merrigrove.blogspot.com/2014/02/why-heck-is-git-so-hard-places-model-ok.html) - an article about moving from SVN/CVS to git.
+* [git-extra-commands](https://github.com/unixorn/git-extra-commands) - a collection of extra git helper scripts
 
 ### SSH
 
