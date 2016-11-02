@@ -41,7 +41,7 @@ So you've got your first sysadmin job. Congratulations, it's going to be an inte
 
 ## Books to Read
 
-* [Clean Code](https://www.amazon.es/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) - Every year, countless hours and significant resources are lost because of poorly written code. But it doesn't have to be that way. Martin has teamed up with his colleagues from Object Mentor to distill their best agile practice of cleaning code "on the fly" into a book that will instill within you the values of a software craftsman and make you a better programmer-but only if you work at it
+* [Clean Code](https://www.amazon.es/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) - Every year, countless hours and significant resources are lost because of poorly written code. But it doesn't have to be that way. Martin has teamed up with his colleagues from Object Mentor to distill their best agile practice of cleaning code "on the fly" into a book that will instill within you the values of a software craftsman and make you a better programmer-but only if you work at it.
 * [Effective DevOps](http://shop.oreilly.com/product/0636920039846.do) - A practical guide for creating affinity among teams and promoting efficient tool usage in your company.
 * [Git Magic (free ebook)](http://www-cs-students.stanford.edu/~blynn/gitmagic/) - Git is a version control Swiss army knife. A reliable versatile multipurpose revision control tool whose extraordinary flexibility makes it tricky to learn, let alone master.
 * [Lean Startup](https://smile.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898) or [Lean Enterprise](https://smile.amazon.com/Lean-Enterprise-Performance-Organizations-Innovate/dp/1449368425) - This pair describes the process surrounding implementation and use of Lean principles in Startup and Enterprise organizations. There are a number of companion pieces that extend the principles to specific fields of study and implementation, such as [Lean Analytics](https://smile.amazon.com/Lean-Analytics-Better-Startup-Faster/dp/1449335675).
@@ -51,7 +51,7 @@ So you've got your first sysadmin job. Congratulations, it's going to be an inte
 * [The Art of Monitoring](https://artofmonitoring.com/) - James Turnbull's book on the art of modern application and infrastructure monitoring and metrics.
 * [The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations](https://smile.amazon.com/DevOps-Handbook-World-Class-Reliability-Organizations/dp/1942788002) - The results of a multi-user case study on DevOps and the practical-oriented sequel to The Phoenix Project
 * [The Goal](https://smile.amazon.com/Goal-Process-Ongoing-Improvement/dp/0884271951/ref=zg_bs_10020725011_1) - A foundational novel on the Theory of Constraints and many other operational concerns.
-* [The Phoenix Project](http://smile.amazon.com/Phoenix-Project-DevOps-Helping-Business-ebook/dp/B00AZRBLHO) - know why your projects are important to the business
+* [The Phoenix Project](http://smile.amazon.com/Phoenix-Project-DevOps-Helping-Business-ebook/dp/B00AZRBLHO) - know why your projects are important to the business.
 * [The Practice of Cloud System Administration](https://smile.amazon.com/Practice-Cloud-System-Administration-Distributed/dp/032194318X), by Tom Limoncelli. Focuses on “distributed” or “cloud” computing and brings a DevOps/SRE sensibility to the practice of system administration. Includes case studies and examples from Google, Etsy, Twitter, Facebook, Netflix, Amazon, and other industry giants are explained in practical ways that are useful to all enterprises.
 * [Time Management for System Administrators](http://smile.amazon.com/Management-System-Administrators-Thomas-Limoncelli/dp/0596007833), by Tom Limoncelli. You're going to be pulled in a dozen different directions, if you can't manage your time you're going to suffer.
 * [UNIX-Linux-System-Administration-Handbook](http://smile.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0131480057) by Evi Nemeth is a great book, this book is targeted to larger system deployments and real world large systems.
@@ -63,8 +63,8 @@ So you've got your first sysadmin job. Congratulations, it's going to be an inte
 
 Every *NIX sysadmin needs to know Bash. Here are some useful resources to help you step up your shell scripting game:
 
-* [Advancing in the Bash Shell](http://samrowe.com/wordpress/advancing-in-the-bash-shell/) - Sam Rowe's bash as CLI tutorial
-* [Bash Pitfalls](http://mywiki.wooledge.org/BashPitfalls) - Greg Wooledge has a great list of unpleasant surprises in Bash
+* [Advancing in the Bash Shell](http://samrowe.com/wordpress/advancing-in-the-bash-shell/) - Sam Rowe's bash as CLI tutorial.
+* [Bash Pitfalls](http://mywiki.wooledge.org/BashPitfalls) - Greg Wooledge has a great list of unpleasant surprises in Bash.
 * [Google's Shell Style Guide](https://google.github.io/styleguide/shell.xml) lists what Google's developers consider best practices for bash scripts.
 * [Learning the Bash Shell](http://shop.oreilly.com/product/9780596009656.do) - hard to go wrong with an O'Reilly reference on anything, really.
 * [shellcheck](http://shellcheck.net) is a lint for bash. It'll help you find unused variables, deprecated syntax and other things that make your bash scripts less stable. You can install it with `apt-get`, `brew`, `cabal`, or `yum`.
@@ -108,13 +108,14 @@ Often you'll find yourself in a Windows enviroment, like it or not. These  might
 * [Code-Repository](http://poshcode.org/)
 * [PowerShell.org eBooks](https://powershell.org/ebooks/)
 * [PS Cmdlets In Your Inbox](https://github.com/MaxAnderson95/Cmdlets_In_Your_Inbox) lets you schedule a task to get PowerShell Cmdlets via email daily or at the command line.
-Tools
+
+## Tools
 
 ### Cloud
 
 #### AWS
 
-* [AWSCli](https://github.com/aws/aws-cli) provides a unified command line interface to Amazon Web Services. Wean yourself off of the webui if you want to be truly productive
+* [AWSCli](https://github.com/aws/aws-cli) provides a unified command line interface to Amazon Web Services. Wean yourself off of the webui if you want to be truly productive.
 * [og-aws](https://github.com/open-guides/og-aws) is an excellent resource to AWS written by and for engineers who use AWS extensively.
 * [S3cmd](http://s3tools.org/s3cmd) is a free command line tool and client for uploading, retrieving and managing data in Amazon S3 and other cloud storage service providers that use the S3 protocol, such as Google Cloud Storage or DreamHost DreamObjects.
 
@@ -161,13 +162,13 @@ Here are a few articles that while focused on git apply to any system you're usi
 
 * [5 Useful Tips for a Better Commit Message](https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message) is another good article on writing commit messages.
 * [A Note About Git Commit Messages](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
-* [Writing Good Commit Messages](http://chris.beams.io/posts/git-commit/) is a good article on writing coherent commit messages
+* [Writing Good Commit Messages](http://chris.beams.io/posts/git-commit/) is a good article on writing coherent commit messages.
 
 #### Git
 
 Whether or not your shop uses git internally, you're going to end up needing to use it for the many useful things on GitHub.
 
-* [19 Git Tips for Everyday Use](http://www.alexkras.com/19-git-tips-for-everyday-use/) - a good set of starter tips for using git
+* [19 Git Tips for Everyday Use](http://www.alexkras.com/19-git-tips-for-everyday-use/) - a good set of starter tips for using git.
 * [git-flight-rules](https://github.com/k88hudson/git-flight-rules) is Kate Hudson's guide to using Git in specific situations.
 * [git-tips/tips](https://github.com/git-tips/tips) is a collection of git tips
 * [Pro Git](https://git-scm.com/book/en/v2) by Scott Chacon and Ben Straub is a great overall resource for git.
@@ -212,7 +213,7 @@ There are GUI versions of vim and emacs that have ardent followers.
 * [Arrested Devops](https://www.arresteddevops.com/) is hosted by Matt Stratton, Trevor Hess, and Bridget Kromhout. ADO is the podcast that helps you achieve understanding, develop good practices, and operate your team and organization for maximum DevOps awesomeness.
 * [Code as Craft](http://codeascraft.com/) is Etsy's ops blog and is full of well written examples of dealing with real-world problems at scale.
 * [Hey, Scripting Guy! Blog](https://blogs.technet.microsoft.com/heyscriptingguy/) is a blog that answers common (and some uncommon) PowerShell queries.
-* [Julia Evans' Blog](http://jvns.ca/) - Julia writes a great blog where she'll dive into interesting topics and explain them clearly.
+* [Julia Evans' Blog](http://jvns.ca/) - Julia writes a great blog where she dives into interesting ops topics and explains them clearly.
 * [Kitchen Soap](http://www.kitchensoap.com/) - John Alspaw is the CTO at Etsy and writes a great blog about web operations and operating at scale and other things that are interesting to ops types.
 * [PowerScripting Podcast](https://powershell.org/podcast/) is hosted by Jon Walz and Hal Rottenberg.
 
