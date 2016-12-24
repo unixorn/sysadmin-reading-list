@@ -226,3 +226,4 @@ There are GUI versions of vim and emacs that have ardent followers.
 ## Other Resources
 
 * [awesome-sysadmin](https://github.com/n1trux/awesome-sysadmin) - A curated list of awesome open-source sysadmin resources.
+* [stack-on-a-budget](https://github.com/255kb/stack-on-a-budget) - A list of free/cheap tiers of services that you can use to learn the various cloud-based systems.
