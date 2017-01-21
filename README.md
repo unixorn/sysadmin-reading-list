@@ -69,17 +69,18 @@ Every *NIX sysadmin needs to know Bash. Here are some useful resources to help y
 * [Learning the Bash Shell](http://shop.oreilly.com/product/9780596009656.do) - hard to go wrong with an O'Reilly reference on anything, really.
 * [shellcheck](http://shellcheck.net) is a lint for bash. It'll help you find unused variables, deprecated syntax and other things that make your bash scripts less stable. You can install it with `apt-get`, `brew`, `cabal`, or `yum`.
 
-### Ruby
+### Powershell
 
-If you're in a Ruby shop, you'll want these:
+Often you'll find yourself in a Windows enviroment, like it or not. These might come help you in those cases -
 
-* [Ruby Best Practices](http://shop.oreilly.com/product/9780596523015.do)
-* [Ruby: Learn Ruby in 24 Hours or Less](https://smile.amazon.com/Ruby-Beginners-Learning-Programming-Course/dp/1533191611)
-* [The Ruby Programming Language](http://shop.oreilly.com/product/9780596516178.do)
+* [Best Practices and Style guide](https://github.com/PoshCode/PowerShellPracticeAndStyle)
+* [Code-Repository](http://poshcode.org/)
+* [PowerShell.org eBooks](https://powershell.org/ebooks/)
+* [PS Cmdlets In Your Inbox](https://github.com/MaxAnderson95/Cmdlets_In_Your_Inbox) lets you schedule a task to get PowerShell Cmdlets via email daily or at the command line.
 
 ### Python
 
-As of Python, compared to bash, you will love it's higher support towards string manipulation and system infrastructure.
+As for Python, you will love it's higher support towards string manipulation and system infrastructure compared to Bash.
 
 A couple of places to go into as training would be:
 
@@ -100,14 +101,13 @@ A couple of places to go into as training would be:
 * [WSGI + Gunicorn tutorial](https://www.digitalocean.com/community/tutorials/how-to-deploy-python-wsgi-apps-using-gunicorn-http-server-behind-nginx)
 * [WSGI + Pyramid tutorial](https://www.digitalocean.com/community/tutorials/how-to-deploy-pyramid-based-python-wsgi-web-applications)
 
-### Powershell
+### Ruby
 
-Often you'll find yourself in a Windows enviroment, like it or not. These  might come help you in those cases -
+If you're in a Ruby shop, you'll want these:
 
-* [Best Practices and Style guide](https://github.com/PoshCode/PowerShellPracticeAndStyle)
-* [Code-Repository](http://poshcode.org/)
-* [PowerShell.org eBooks](https://powershell.org/ebooks/)
-* [PS Cmdlets In Your Inbox](https://github.com/MaxAnderson95/Cmdlets_In_Your_Inbox) lets you schedule a task to get PowerShell Cmdlets via email daily or at the command line.
+* [Ruby Best Practices](http://shop.oreilly.com/product/9780596523015.do)
+* [Ruby: Learn Ruby in 24 Hours or Less](https://smile.amazon.com/Ruby-Beginners-Learning-Programming-Course/dp/1533191611)
+* [The Ruby Programming Language](http://shop.oreilly.com/product/9780596516178.do)
 
 ## Tools
 
