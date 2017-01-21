@@ -113,6 +113,10 @@ Often you'll find yourself in a Windows enviroment, like it or not. These  might
 
 ### Cloud
 
+#### Multi-Platform
+
+* [Terraform](https://www.terraform.io) is a tool that allows you to configure your infrastructure as code, just like Chef/Puppet/etc allow you to manage the configuration of individual machines as code, with all the benefits of being able to diff, code review, etc. Terraform works with (as of this edit) AWS, Google Cloud, Microsoft Azure and many other systems.
+
 #### AWS
 
 * [AWSCli](https://github.com/aws/aws-cli) provides a unified command line interface to Amazon Web Services. Wean yourself off of the webui if you want to be truly productive.
@@ -133,6 +137,8 @@ Often you'll find yourself in a Windows enviroment, like it or not. These  might
 Quite simply, if you aren't using configuration management, you're doing it wrong.
 
 You don't want to manually configure any servers - no matter how hard you try, they won't end up truly identical and having meat typing in commands takes far too long per server, doesn't scale, and the manual labor will discourage you from standing up new VMs for testing.
+
+Treating your configuration as something described in text files allows you to treat it like code. You can do pull-requests, get your changes reviewed by your team and view the differences between your configuration at different times.
 
 There are several good options:
 
@@ -206,8 +212,6 @@ There are GUI versions of vim and emacs that have ardent followers.
 * [Sublime Text](http://sublimetext.com) is another editor with an extensive plugin ecosystem and arguably one of the inspirations for Atom.
 * [Visual Studio Code](https://code.visualstudio.com) is a cross platform editor that is gaining traction in the marketplace.
 
-## Windows Administration
-
 ## Blogs and Podcasts
 
 * [Arrested Devops](https://www.arresteddevops.com/) is hosted by Matt Stratton, Trevor Hess, and Bridget Kromhout. ADO is the podcast that helps you achieve understanding, develop good practices, and operate your team and organization for maximum DevOps awesomeness.
@@ -222,6 +226,10 @@ There are GUI versions of vim and emacs that have ardent followers.
 * [DevOpsChat Slack](https://devopschat.co/) is another community of DevOps minded folk with a diverse set of topic specific chat rooms. Home to Arrested DevOps.
 * [Hangops Slack](https://signup.hangops.com/) is a community of DevOps minded folk with many subject focused chat rooms.
 * [PowerShell Slack](http://slack.poshcode.org/) is a community of PowerShell enthusiasts and Windows centric DevOps topics.
+
+## Windows Administration
+
+Help wanted here.
 
 ## Other Resources
 
