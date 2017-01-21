@@ -61,7 +61,9 @@ So you've got your first sysadmin job. Congratulations, it's going to be an inte
 
 ### Bash
 
-Every *NIX sysadmin needs to know Bash. Here are some useful resources to help you step up your shell scripting game:
+Bash is objectively a terrible programming language. All variables default to being globals, there is no module system built into the language, dealing with hashes is horrible, and there are other horrors based on it trying to be backward compatible with `sh`.
+
+That said, every *NIX sysadmin needs to know Bash. Here are some useful resources to help you step up your shell scripting game:
 
 * [Advancing in the Bash Shell](http://samrowe.com/wordpress/advancing-in-the-bash-shell/) - Sam Rowe's bash as CLI tutorial.
 * [Bash Pitfalls](http://mywiki.wooledge.org/BashPitfalls) - Greg Wooledge has a great list of unpleasant surprises in Bash.
@@ -80,7 +82,7 @@ Often you'll find yourself in a Windows enviroment, like it or not. These might 
 
 ### Python
 
-As for Python, you will love it's higher support towards string manipulation and system infrastructure compared to Bash.
+Python has much better support for string manipulation and system infrastructure compared to Bash. In addition, there is a rich library of modules supporting various tasks you can use in your scripts that are just a `pip install` away.
 
 A couple of places to go into as training would be:
 
@@ -102,6 +104,8 @@ A couple of places to go into as training would be:
 * [WSGI + Pyramid tutorial](https://www.digitalocean.com/community/tutorials/how-to-deploy-pyramid-based-python-wsgi-web-applications)
 
 ### Ruby
+
+Ruby also has a rich ecosystem of gems you can use in your programs.
 
 If you're in a Ruby shop, you'll want these:
 
