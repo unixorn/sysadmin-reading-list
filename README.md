@@ -67,19 +67,20 @@ Every *NIX sysadmin needs to know Bash. Here are some useful resources to help y
 * [Bash Pitfalls](http://mywiki.wooledge.org/BashPitfalls) - Greg Wooledge has a great list of unpleasant surprises in Bash.
 * [Google's Shell Style Guide](https://google.github.io/styleguide/shell.xml) lists what Google's developers consider best practices for bash scripts.
 * [Learning the Bash Shell](http://shop.oreilly.com/product/9780596009656.do) - hard to go wrong with an O'Reilly reference on anything, really.
-* [shellcheck](http://shellcheck.net) is a lint for bash. It'll help you find unused variables, deprecated syntax and other things that make your bash scripts less stable. You can install it with `apt-get`, `brew`, `cabal`, or `yum`.
+* [shellcheck](https://github.com/koalaman/shellcheck) is a lint for bash. It'll help you find unused variables, deprecated syntax and other things that make your bash scripts less stable. You can install it with `apt-get`, `brew`, `cabal`, or `yum`.
 
-### Ruby
+### Powershell
 
-If you're in a Ruby shop, you'll want these:
+Often you'll find yourself in a Windows enviroment, like it or not. These might come help you in those cases -
 
-* [Ruby Best Practices](http://shop.oreilly.com/product/9780596523015.do)
-* [Ruby: Learn Ruby in 24 Hours or Less](https://smile.amazon.com/Ruby-Beginners-Learning-Programming-Course/dp/1533191611)
-* [The Ruby Programming Language](http://shop.oreilly.com/product/9780596516178.do)
+* [Best Practices and Style guide](https://github.com/PoshCode/PowerShellPracticeAndStyle)
+* [Code-Repository](http://poshcode.org/)
+* [PowerShell.org eBooks](https://powershell.org/ebooks/)
+* [PS Cmdlets In Your Inbox](https://github.com/MaxAnderson95/Cmdlets_In_Your_Inbox) lets you schedule a task to get PowerShell Cmdlets via email daily or at the command line.
 
 ### Python
 
-As of Python, compared to bash, you will love it's higher support towards string manipulation and system infrastructure.
+As for Python, you will love it's higher support towards string manipulation and system infrastructure compared to Bash.
 
 A couple of places to go into as training would be:
 
@@ -100,18 +101,21 @@ A couple of places to go into as training would be:
 * [WSGI + Gunicorn tutorial](https://www.digitalocean.com/community/tutorials/how-to-deploy-python-wsgi-apps-using-gunicorn-http-server-behind-nginx)
 * [WSGI + Pyramid tutorial](https://www.digitalocean.com/community/tutorials/how-to-deploy-pyramid-based-python-wsgi-web-applications)
 
-### Powershell
+### Ruby
 
-Often you'll find yourself in a Windows enviroment, like it or not. These  might come help you in those cases -
+If you're in a Ruby shop, you'll want these:
 
-* [Best Practices and Style guide](https://github.com/PoshCode/PowerShellPracticeAndStyle)
-* [Code-Repository](http://poshcode.org/)
-* [PowerShell.org eBooks](https://powershell.org/ebooks/)
-* [PS Cmdlets In Your Inbox](https://github.com/MaxAnderson95/Cmdlets_In_Your_Inbox) lets you schedule a task to get PowerShell Cmdlets via email daily or at the command line.
+* [Ruby Best Practices](http://shop.oreilly.com/product/9780596523015.do)
+* [Ruby: Learn Ruby in 24 Hours or Less](https://smile.amazon.com/Ruby-Beginners-Learning-Programming-Course/dp/1533191611)
+* [The Ruby Programming Language](http://shop.oreilly.com/product/9780596516178.do)
 
 ## Tools
 
 ### Cloud
+
+#### Multi-Platform
+
+* [Terraform](https://www.terraform.io) is a tool that allows you to configure your infrastructure as code, just like Chef/Puppet/etc allow you to manage the configuration of individual machines as code, with all the benefits of being able to diff, code review, etc. Terraform works with (as of this edit) AWS, Google Cloud, Microsoft Azure and many other systems.
 
 #### AWS
 
@@ -133,6 +137,8 @@ Often you'll find yourself in a Windows enviroment, like it or not. These  might
 Quite simply, if you aren't using configuration management, you're doing it wrong.
 
 You don't want to manually configure any servers - no matter how hard you try, they won't end up truly identical and having meat typing in commands takes far too long per server, doesn't scale, and the manual labor will discourage you from standing up new VMs for testing.
+
+Treating your configuration as something described in text files allows you to treat it like code. You can do pull-requests, get your changes reviewed by your team and view the differences between your configuration at different times.
 
 There are several good options:
 
@@ -206,8 +212,6 @@ There are GUI versions of vim and emacs that have ardent followers.
 * [Sublime Text](http://sublimetext.com) is another editor with an extensive plugin ecosystem and arguably one of the inspirations for Atom.
 * [Visual Studio Code](https://code.visualstudio.com) is a cross platform editor that is gaining traction in the marketplace.
 
-## Windows Administration
-
 ## Blogs and Podcasts
 
 * [Arrested Devops](https://www.arresteddevops.com/) is hosted by Matt Stratton, Trevor Hess, and Bridget Kromhout. ADO is the podcast that helps you achieve understanding, develop good practices, and operate your team and organization for maximum DevOps awesomeness.
@@ -222,6 +226,10 @@ There are GUI versions of vim and emacs that have ardent followers.
 * [DevOpsChat Slack](https://devopschat.co/) is another community of DevOps minded folk with a diverse set of topic specific chat rooms. Home to Arrested DevOps.
 * [Hangops Slack](https://signup.hangops.com/) is a community of DevOps minded folk with many subject focused chat rooms.
 * [PowerShell Slack](http://slack.poshcode.org/) is a community of PowerShell enthusiasts and Windows centric DevOps topics.
+
+## Windows Administration
+
+Help wanted here.
 
 ## Other Resources
 
