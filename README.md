@@ -11,18 +11,22 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
 - [Books to Read](#books-to-read)
 - [Languages](#languages)
   - [Bash](#bash)
-  - [Ruby](#ruby)
-  - [Python](#python)
-    - [Tutorials @ Python](#tutorials-@-python)
-    - [Python & Sysadmin](#python-&-sysadmin)
-    - [Python & Deployment Utils](#python-&-deployment-utils)
   - [Powershell](#powershell)
+  - [Python](#python)
+    - [Python Books](#python-books)
+    - [Tutorials @ Python](#tutorials--python)
+    - [Python & Sysadmin](#python--sysadmin)
+    - [Python & Deployment Utils](#python--deployment-utils)
+  - [Ruby](#ruby)
+    - [Ruby Books](#ruby-books)
+- [Tools](#tools)
   - [Cloud](#cloud)
+    - [Multi-Platform](#multi-platform)
     - [AWS](#aws)
     - [Azure](#azure)
   - [Configuration Management](#configuration-management)
   - [Regular Expressions](#regular-expressions)
-  - [Sed & Awk](#sed-&-awk)
+  - [Sed & Awk](#sed--awk)
   - [Source control](#source-control)
     - [Git](#git)
   - [SSH](#ssh)
@@ -30,9 +34,9 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
     - [Vim](#vim)
     - [Emacs](#emacs)
     - [Visual Editors and IDEs](#visual-editors-and-ides)
-- [Windows Administration](#windows-administration)
 - [Blogs and Podcasts](#blogs-and-podcasts)
 - [Online Communities](#online-communities)
+- [Windows Administration](#windows-administration)
 - [Other Resources](#other-resources)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -82,14 +86,17 @@ Often you'll find yourself in a Windows enviroment, like it or not. These might 
 
 ### Python
 
-Python has much better support for string manipulation and system infrastructure compared to Bash. In addition, there is a rich library of modules supporting various tasks you can use in your scripts that are just a `pip install` away.
+Python has much better support for string manipulation and system infrastructure than Bash. In addition, there is a rich library of modules supporting various tasks you can use in your scripts that are just a `pip install` away.
 
 A couple of places to go into as training would be:
+
+#### Python Books
+
+* [Programming Python](http://shop.oreilly.com/product/9780596158118.do), a well-written O'Reilly book, short and concise.
 
 #### Tutorials @ Python
 
 * [Learn Python the Hard Way](http://learnpythonthehardway.org/book/), a rather comprehensive tutorial covering many aspects of the language.
-* [Programming Python](http://shop.oreilly.com/product/9780596158118.do), a well-written O'Reilly book, short and concise.
 
 #### Python & Sysadmin
 
@@ -105,9 +112,11 @@ A couple of places to go into as training would be:
 
 ### Ruby
 
-Ruby also has a rich ecosystem of gems you can use in your programs.
+Ruby also has a rich ecosystem of gems you can use in your programs, and like Python, much better string and data structure manipulation than Bash.
 
-If you're in a Ruby shop, you'll want these:
+#### Ruby Books
+
+If you're in a Ruby shop, you'll want these books:
 
 * [Ruby Best Practices](http://shop.oreilly.com/product/9780596523015.do)
 * [Ruby: Learn Ruby in 24 Hours or Less](https://smile.amazon.com/Ruby-Beginners-Learning-Programming-Course/dp/1533191611)
@@ -164,11 +173,11 @@ Among the many places you're going to find regexes very useful for is handling l
 
 ### Source control
 
-No matter what source control you use (git, hg, perforce, whatever), you're going to have to write commit messages. Make them good. Explain _why_ you made the change, not just _what_ you changed. And no, the diff is not an explanation.
+No matter what source control system you use (git, hg, perforce, whatever), you're going to have to write commit messages. Make them good. Explain _why_ you made the change, not just _what_ you changed. And no, the diff is not an explanation. Always start with a single line that explains what you were trying to do in general, then a body that goes into more detail.
 
-Good commit messages help the rest of your team understand what you're trying to do and make it easier for them to find logic errors in your pull requests - the code may be technically correct, but if they understand what you're _trying_ to do, they can see when your code isn't actually doing what you want it to.
+Good commit messages help the rest of your team understand what you're trying to do and make it easier for them to find logic errors in your pull requests - the code may be technically correct, but if they understand what you're _trying_ to do, they can see when your code isn't actually doing what you say you want it to do, even if it is technically correct.
 
-Here are a few articles that while focused on git apply to any system you're using:
+Here are a few articles that while focused on git apply to any source control system you're using:
 
 * [5 Useful Tips for a Better Commit Message](https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message) is another good article on writing commit messages.
 * [A Note About Git Commit Messages](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
@@ -197,7 +206,7 @@ However, you should care about your tools.  You should be able to use them effic
 
 #### Vim
 
-Vim is a reality of life for SysAdmins.  It is the one editor you can be sure is installed in even the most minimal install. You must be able to do at least basic edits with it.  You don't need to love it, but you will have to use it.
+Vim is a reality of life for SysAdmins.  It is the one editor you can be sure is installed in even the most minimal install. You must be able to do at least basic edits with it.  You don't need to love it, but you _will_ have to use it.
 
 * [Damian Conway, "More Instantly Better Vim" - OSCON 2013](https://www.youtube.com/watch?v=aHm36-na4-4)
 * [vi and Vim Editors Pocket Reference, 2nd Edition](http://shop.oreilly.com/product/0636920010913.do)
@@ -239,6 +248,6 @@ Help wanted here.
 
 * [awesome-sysadmin](https://github.com/n1trux/awesome-sysadmin) - A curated list of awesome open-source sysadmin resources.
 * Etsy's [Debriefing Facilitation Guide](https://extfiles.etsy.com/DebriefingFacilitationGuide.pdf) is a great guide to conducting a blame-free debrief after an outage.
-* [oncall-handbook](https://github.com/alicegoldfuss/oncall-handbook) - Alice Goldfuss' excellent oncall handbook, read this before your first oncall shift.)
+* [oncall-handbook](https://github.com/alicegoldfuss/oncall-handbook) - Alice Goldfuss' excellent oncall handbook, read this before your first oncall shift.
 * [stack-on-a-budget](https://github.com/255kb/stack-on-a-budget) - A list of free/cheap tiers of services that you can use to learn the various cloud-based systems.
 * [sysadvent](https://sysadvent.blogspot.com/) - Every year the sysadvent team publishes 24 good articles for sysadmins.
