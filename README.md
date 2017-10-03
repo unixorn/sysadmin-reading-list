@@ -19,6 +19,11 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
     - [Python & Deployment Utils](#python--deployment-utils)
   - [Ruby](#ruby)
     - [Ruby Books](#ruby-books)
+  - [Perl](#perl)
+    - [Toolchain](#toolchain)
+    - [Web](#web)
+    - [Modules](#modules)
+    - [Blog Posts](#blog-posts)
 - [Tools](#tools)
   - [Cloud](#cloud)
     - [Multi-Platform](#multi-platform)
@@ -122,6 +127,31 @@ If you're in a Ruby shop, you'll want these books:
 * [Ruby Best Practices](http://shop.oreilly.com/product/9780596523015.do)
 * [Ruby: Learn Ruby in 24 Hours or Less](https://smile.amazon.com/Ruby-Beginners-Learning-Programming-Course/dp/1533191611)
 * [The Ruby Programming Language](http://shop.oreilly.com/product/9780596516178.do)
+
+### Perl
+
+Perl has a long history of being the system administrator's friend, bringing the best of bash, sed and awk together. It is also suitable for building tools for the system administrator to utilise in their work.
+
+#### Toolchain
+
+* [carton](https://metacpan.org/pod/Carton) - A dependency management tool.
+* [cpanm](https://metacpan.org/pod/App::cpanminus) - An alternative and very friendly tool for installing modules from CPAN. This pairs well with perlbrew.
+* [perlbrew](https://perlbrew.pl/) - A tool for managing one or more Perl installations, without needing to modify the system-level Perl.
+* [pinto](https://metacpan.org/pod/Pinto) - A tool for managing a private CPAN repository.
+
+#### Web
+
+* [Mojolicious](https://metacpan.org/pod/Mojolicious) - A rich framework for doing all things web, from building web services and sites to building HTTP client applications.
+* [Plack/PSGI](http://plackperl.org/) - The Perl implementation of WSGI, with many Plack servers available for use.
+
+#### Modules
+
+* [Task::Kensho](https://metacpan.org/pod/Task::Kensho) - A list of recommended modules for many purposes, including reading configuration files, connecting to databases, logging, sending email, web crawling and development, and handling XML.
+
+#### Blog Posts
+
+* [Perl on the Rise for Devops](https://scalability.org/2017/01/perl-on-the-rise-for-devops/)
+* [A Perl Toolchain for Building Microservices at Scale](https://engineering.semantics3.com/a-perl-toolchain-for-building-micro-services-at-scale-8851626a4b1b)
 
 ## Tools
 
