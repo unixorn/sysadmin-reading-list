@@ -30,6 +30,9 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
     - [AWS](#aws)
     - [Azure](#azure)
   - [Configuration Management](#configuration-management)
+  - [Docker](#docker)
+    - [Installing Docker](#installing-docker)
+    - [Learning Docker](#learning-docker)
   - [Regular Expressions](#regular-expressions)
   - [Sed & Awk](#sed--awk)
   - [Source control](#source-control)
@@ -190,6 +193,27 @@ There are several good options:
 * [Chef](http://www.opscode.com/chef/) is written in Ruby and Erlang and uses a Ruby DSL to describe system configuration
 * [Puppet](http://puppetlabs.com/) makes it easy to automate the provisioning, configuration and ongoing management of your machines and the software running on them. Make rapid, repeatable changes and automatically enforce the consistency of systems and devices – across physical and virtual machines, on premise or in the cloud.
 * [Salt](http://www.saltstack.com/) orchestrates the build and ongoing management of your infrastructure.
+
+### Docker
+
+[Docker](https://www.docker.com/what-docker) is a tool for running and managing
+containers. Containers are rapidly growing in popularity for local development
+(as an alternative to virtual machines), and can also run software in production
+with tools like [Kubernetes](https://kubernetes.io/) or [Amazon
+ECS](https://aws.amazon.com/ecs/).
+
+#### Installing Docker
+
+Follow the installation instructions for your preferred platform:
+
+* [Docker CE for Mac](https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac)
+* [Docker CE for Linux](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/)
+  * Linux usually requires a separate installation of [docker-compose](https://docs.docker.com/compose/install/)
+* [Docker CE for Windows](https://docs.docker.com/docker-for-windows/install/)
+
+#### Learning Docker
+
+* [The Docker Book](https://www.dockerbook.com/) - An excellent resource for getting started with Docker. This book is quick & easy to read.
 
 ### Regular Expressions
 
