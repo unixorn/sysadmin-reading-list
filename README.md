@@ -278,7 +278,37 @@ Vim is a reality of life for SysAdmins.  It is the one editor you can be sure is
 
 #### Emacs
 
-Many people like Emacs.  You might be one of them.  Don't be afraid to try it out.
+Emacs is an extremely extensible editor. In jest, it is frequently referred to as an operating system with a half-decent editor.
+
+If you want to get a taste of what emacs can do, you can defer to Magnars and his excellent video tutorials/demos:
+
+* http://emacsrocks.com/
+
+One of the biggest problems with Emacs is that the defaults present a fairly different experience to what people are used to. Your first stop should be learning the basics using the built-in tutorial, followed by the mini-manual from tuhdo:
+
+* Type `ctrl-h`, followed closely by `t` from within emacs to see the tutorial
+* http://tuhdo.github.io/index.html
+
+Emacs can be can be made to look and act relatively modern if that's your desire:
+
+* http://emacs.sexy/
+
+If you're looking for emacs packages, the following online package index is the most popular, and tracks many:
+
+* http://melpa.org/
+
+There are several excellent starter kits out there, with varying delineations of wizz-bang. Roughly sorted by wizz-bang, here are the starter kits that exist, with spacemacs being the most popular:
+
+* https://github.com/technomancy/better-defaults
+* https://github.com/bbatsov/prelude
+* https://github.com/hlissner/doom-emacs
+* https://github.com/syl20bnr/spacemacs
+
+Here are some emacs configurations for inspiration:
+
+* Steve Purcell's excellent config: https://github.com/purcell/emacs.d
+* Magnar Sveen's very interesting and original emacs config! https://github.com/magnars/.emacs.d
+* Phil Hagelberg's config: https://github.com/technomancy/dotfiles/tree/master/.emacs.d
 
 #### Visual Editors and IDEs
 
