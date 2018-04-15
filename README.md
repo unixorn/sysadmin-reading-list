@@ -8,7 +8,7 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [Books to Read](#books-to-read)
+- [Articles and Books to Read](#articles-and-books-to-read)
 - [Languages](#languages)
   - [Bash](#bash)
   - [Powershell](#powershell)
@@ -38,6 +38,8 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
   - [Source control](#source-control)
     - [Git](#git)
   - [SSH](#ssh)
+  - [Testing](#testing)
+    - [Test Harnesses](#test-harnesses)
   - [Text Editors:](#text-editors)
     - [Vim](#vim)
     - [Emacs](#emacs)
@@ -46,6 +48,8 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
 - [Online Communities](#online-communities)
 - [Windows Administration](#windows-administration)
 - [Other Resources](#other-resources)
+  - [Miscellanea](#miscellanea)
+  - [Career/Finance](#careerfinance)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
