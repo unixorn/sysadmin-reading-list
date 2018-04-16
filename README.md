@@ -116,7 +116,6 @@ A couple of places to go into as training would be:
 
 #### Python & Sysadmin
 
-* [Practical Python for Sysadmins](http://macadmins.psu.edu/wp-content/uploads/sites/1567/2013/06/psumacconf2013-practical-python-for-mac-admins.pdf), an awesome transition course from Bash to Python (full highlights).
 * [The Hitchhiker's Guide to Python](http://docs.python-guide.org/en/latest/scenarios/admin/), a neat place to see usage and examples of Python and not only for systems administration.
 * [WSGI - Web Server Gateway Interface](http://uwsgi-docs.readthedocs.io/en/latest/WSGIquickstart.html), the Python implementation of web servers.
 
