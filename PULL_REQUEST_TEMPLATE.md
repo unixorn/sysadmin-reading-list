@@ -1,11 +1,17 @@
 <!--- Provide a general summary of your changes in the Title above -->
 
-# Description
-<!--- Describe your changes in detail -->
-
 # Motivation and Context
 <!--- Why is this change required? What problem does it solve? -->
 <!--- If it fixes an open issue, please link to the issue here. -->
+
+# Description
+<!--- Describe your changes in detail -->
+
+# License Assignment
+
+This repository is copyright 2017-2018 Joseph Block under a [Attribution-NonCommercial-ShareAlike 4.0 International](#attribution-noncommercial-sharealike-40-international) license.
+
+- [ ] I assign copyright to the changes in this PR to Joseph Block per the [Attribution-NonCommercial-ShareAlike 4.0 International](#attribution-noncommercial-sharealike-40-international) license.
 
 # Types of changes
 <!--- What types of changes does your PR introduce? Put an `x` in all the boxes that apply: -->
