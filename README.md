@@ -358,4 +358,5 @@ Help wanted here.
 
 ### Career/Finance
 
+* [The Holloway Guide to Equity Compensation](https://www.holloway.com/g/equity-compensation) - Stock options, RSUs, job offers, and taxes—a detailed reference, including hundreds of resources, explained from the ground up.
 * [What I Wish I'd Known About Equity Before Joining A Unicorn](https://gist.github.com/yossorion/4965df74fd6da6cdc280ec57e83a202d) - This is an excellent summary of how to value stock options and what the tax implications are and how to minimize potential tax (in a USA-centric way). I heartily recommend reading it before you accept any offers involving stock as part of your compensation.
