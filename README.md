@@ -6,7 +6,7 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+**Table of Contents**
 
 - [Articles and Books to Read](#articles-and-books-to-read)
 - [Languages](#languages)
