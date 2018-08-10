@@ -20,4 +20,5 @@
 * Put only stuff on the list you can personally recommend.
 * Use imperative (e.g. add instead of added/adding) in your commit descriptions.
 * Include hyperlinks to resources where possible. (e.g. add link to O'Reilly's page for an O'Reilly book)
-  * If you're linking to Amazon, use smile.amazon.com so that any purchases people make contribute to their chosen charity
+  * If you're linking to Amazon, use smile.amazon.com so that any purchases people make contribute to their chosen charity.
+* Contributions to this repository are covered by the [Attribution-NonCommercial-ShareAlike 4.0 International](#attribution-noncommercial-sharealike-40-international) license.
