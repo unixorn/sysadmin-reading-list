@@ -358,5 +358,6 @@ Help wanted here.
 
 ### Career/Finance
 
+* [Kalzumeus Podcast Episode 12: Salary Negotiation with Josh Doody](https://www.kalzumeus.com/2016/06/03/kalzumeus-podcast-episode-12-salary-negotiation-with-josh-doody/) - A good podcast (there's a transcript too) episode on how to negotiate salary. You have to do it, it affects your life, you should do it well.
 * [The Holloway Guide to Equity Compensation](https://www.holloway.com/g/equity-compensation) - Stock options, RSUs, job offers, and taxes—a detailed reference, including hundreds of resources, explained from the ground up.
 * [What I Wish I'd Known About Equity Before Joining A Unicorn](https://gist.github.com/yossorion/4965df74fd6da6cdc280ec57e83a202d) - This is an excellent summary of how to value stock options and what the tax implications are and how to minimize potential tax (in a USA-centric way). I heartily recommend reading it before you accept any offers involving stock as part of your compensation.
