@@ -88,7 +88,9 @@ That said, every *NIX sysadmin needs to know Bash. Here are some useful resource
 * [Google's Shell Style Guide](https://google.github.io/styleguide/shell.xml) lists what Google's developers consider best practices for bash scripts.
 * [Learning the Bash Shell](http://shop.oreilly.com/product/9780596009656.do) - hard to go wrong with an O'Reilly reference on anything, really.
 * [Pure Bash Bible](https://github.com/dylanaraps/pure-bash-bible) - A collection of pure bash alternatives to external processes.
+* [Safe Ways to do Things in Bash(https://github.com/anordal/shellharden/blob/master/how_to_do_things_safely_in_bash.md) - Excellent set of tips from the authors of [shellharden](https://github.com/anordal/shellharden)
 * [shellcheck](https://github.com/koalaman/shellcheck) is a lint for bash. It'll help you find unused variables, deprecated syntax and other things that make your bash scripts less stable. You can install it with `apt-get`, `brew`, `cabal`, or `yum`.
+* [shellharden](https://github.com/anordal/shellharden) - is a syntax highlighter and a tool to semi-automate the rewriting of scripts to ShellCheck conformance, mainly focused on quoting.
 
 ### Powershell
 
