@@ -18,7 +18,7 @@ This repository is copyright 2017-2018 Joseph Block under a [Attribution-NonComm
 
 - [ ] New entry
 - [ ] Typo cleanup
-- [ ] Test updates
+- [ ] Text updates
 
 # Checklist:
 <!--- Go over all the following points, and put an `x` in all the boxes that apply. -->
