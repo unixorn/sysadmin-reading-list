@@ -252,11 +252,11 @@ Here are a few articles that while focused on git apply to any source control sy
 Whether or not your shop uses git internally, you're going to end up needing to use it for the many useful things on GitHub.
 
 * [19 Git Tips for Everyday Use](http://www.alexkras.com/19-git-tips-for-everyday-use/) - a good set of starter tips for using git.
+* [git-extra-commands](https://github.com/unixorn/git-extra-commands) - a collection of extra git helper scripts.
 * [git-flight-rules](https://github.com/k88hudson/git-flight-rules) is Kate Hudson's guide to using Git in specific situations.
 * [git-tips/tips](https://github.com/git-tips/tips) is a collection of git tips
 * [Pro Git](https://git-scm.com/book/en/v2) by Scott Chacon and Ben Straub is a great overall resource for git.
 * [Why the Heck is Git so Hard? The Places Model](http://merrigrove.blogspot.com/2014/02/why-heck-is-git-so-hard-places-model-ok.html) - an article about moving from SVN/CVS to git.
-* [git-extra-commands](https://github.com/unixorn/git-extra-commands) - a collection of extra git helper scripts.
 * Ben Limmer's [Git Skills Talk](https://github.com/blimmer/1up-git-skills-talk) will help you understand using git (particularly with GitHub)
 
 ### SSH
