@@ -53,7 +53,7 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-So you've got your first sysadmin job. Congratulations, it's going to be an interesting ride.
+So you've got your first sysadmin/sre job or internship. Congratulations, it's going to be an interesting ride.
 
 ## Articles and Books to Read
 
@@ -71,7 +71,7 @@ So you've got your first sysadmin job. Congratulations, it's going to be an inte
 * [The Goal](https://smile.amazon.com/Goal-Process-Ongoing-Improvement/dp/0884271951/ref=zg_bs_10020725011_1) - A foundational novel on the Theory of Constraints and many other operational concerns.
 * [The Phoenix Project](http://smile.amazon.com/Phoenix-Project-DevOps-Helping-Business-ebook/dp/B00AZRBLHO) - know why your projects are important to the business.
 * [The Practice of Cloud System Administration](https://smile.amazon.com/Practice-Cloud-System-Administration-Distributed/dp/032194318X), by Tom Limoncelli. Focuses on “distributed” or “cloud” computing and brings a DevOps/SRE sensibility to the practice of system administration. Includes case studies and examples from Google, Etsy, Twitter, Facebook, Netflix, Amazon, and other industry giants are explained in practical ways that are useful to all enterprises.
-* [Time Management for System Administrators](http://smile.amazon.com/Management-System-Administrators-Thomas-Limoncelli/dp/0596007833), by Tom Limoncelli. You're going to be pulled in a dozen different directions, if you can't manage your time you're going to suffer.
+* [Time Management for System Administrators](http://smile.amazon.com/Management-System-Administrators-Thomas-Limoncelli/dp/0596007833), by Tom Limoncelli. You're going to be pulled in a dozen different directions, if you can't manage your time you and your job performance are going to suffer.
 * [UNIX-Linux-System-Administration-Handbook](http://smile.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0131480057) by Evi Nemeth is a great book, this book is targeted to larger system deployments and real world large systems.
 * [Web Operations: Keeping the Data on Time](https://smile.amazon.com/Web-Operations-Keeping-Data-Time-ebook/dp/B0043M4Z34) - A collection of essays and interviews, with web veterans such as Theo Schlossnagle, Baron Schwartz, and Alistair Croll that will teach you strategies for designing your web site to scale up smoothly to web-scale load.
 
@@ -81,7 +81,9 @@ So you've got your first sysadmin job. Congratulations, it's going to be an inte
 
 Bash is objectively a terrible programming language. All variables default to being globals, there is no module system built into the language, dealing with hashes is horrible, and there are other horrors based on it trying to be backward compatible with `sh`.
 
-That said, every *NIX sysadmin needs to know Bash. Here are some useful resources to help you step up your shell scripting game:
+That said, it is on every system, so every *NIX sysadmin needs to know Bash. 
+
+Here are some useful resources to help you step up your shell scripting game:
 
 * [Advancing in the Bash Shell](http://samrowe.com/wordpress/advancing-in-the-bash-shell/) - Sam Rowe's bash as CLI tutorial.
 * [Bash Pitfalls](http://mywiki.wooledge.org/BashPitfalls) - Greg Wooledge has a great list of unpleasant surprises in Bash.
@@ -314,9 +316,9 @@ There are several excellent starter kits out there, with varying delineations of
 
 Here are some emacs configurations for inspiration:
 
-* Steve Purcell's excellent config: https://github.com/purcell/emacs.d
 * Magnar Sveen's very interesting and original emacs config! https://github.com/magnars/.emacs.d
 * Phil Hagelberg's config: https://github.com/technomancy/dotfiles/tree/master/.emacs.d
+* Steve Purcell's excellent config: https://github.com/purcell/emacs.d
 
 #### Visual Editors and IDEs
 
@@ -352,11 +354,11 @@ Help wanted here.
 ### Miscellanea
 
 * [awesome-sysadmin](https://github.com/n1trux/awesome-sysadmin) - A curated list of awesome open-source sysadmin resources.
-* Etsy's [Debriefing Facilitation Guide](https://extfiles.etsy.com/DebriefingFacilitationGuide.pdf) is a great guide to conducting a blame-free debrief after an outage.
 * [oncall-handbook](https://github.com/alicegoldfuss/oncall-handbook) - Alice Goldfuss' excellent oncall handbook, read this before your first oncall shift.
 * [sre-interview](https://github.com/michael-kehoe/sre-interview) - A collection of questions to practice for interviews.
 * [stack-on-a-budget](https://github.com/255kb/stack-on-a-budget) - A list of free/cheap tiers of services that you can use to learn the various cloud-based systems.
 * [sysadvent](https://sysadvent.blogspot.com/) - Every year the sysadvent team publishes 24 good articles for sysadmins.
+* Etsy's [Debriefing Facilitation Guide](https://extfiles.etsy.com/DebriefingFacilitationGuide.pdf) is a great guide to conducting a blame-free debrief after an outage.
 * Pēteris Ņikiforovs has a good blog post explaining what everything you see in top/htop output [here](https://peteris.rocks/blog/htop/)
 
 ### Career/Finance
