@@ -35,6 +35,7 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
     - [Learning Docker](#learning-docker)
   - [Regular Expressions](#regular-expressions)
   - [Sed & Awk](#sed--awk)
+  - [Serverless](#serverless)
   - [Source control](#source-control)
     - [Git](#git)
   - [SSH](#ssh)
@@ -243,6 +244,14 @@ Among the many places you're going to find regexes very useful for is handling l
 ### Sed & Awk
 
 * [sed and awk Pocket Reference](http://shop.oreilly.com/product/9780596003524.do) presents a concise summary of regular expressions and pattern matching, and summaries of sed and awk and how to use them to edit files and convert data from one format to another.
+
+### Serverless
+
+Serverless doesn't mean no sysadmins, even though there aren't instances to administer. We need to change common processes that we rely on to monitor and manage services that run on serverless platforms. There are not system level metrics to understand how our application is working.
+
+Here are a few resources to help:
+
+* [Building observability into a serverless application](https://vimeo.com/289905221) (Video) Yan Cui presents some guidelines to implementing observability into serverless on AWS. Helpful patterns that can be applied to other platforms as well.
 
 ### Source control
 
