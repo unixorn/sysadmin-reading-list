@@ -191,6 +191,12 @@ Perl has a long history of being the system administrator's friend, bringing the
 * [Azure Xplat CLI](https://github.com/Azure/azure-xplat-cli) cross platform CLI interface for Azure (written in nodejs).
 * [Official Azure Documentation](https://azure.microsoft.com/en-us/documentation/) official documentation for all Azure services.
 
+#### Google Cloud
+
+* [Introduction](https://cloud.google.com/docs/overview/) official introduction and an overview.
+* [GCP for AWS professionals](https://cloud.google.com/docs/compare/aws/) list equivalents for AWS products in GCP.
+* [GCP for Azure professionals](https://cloud.google.com/docs/compare/azure/) list equivalents for Azure products in GCP.
+
 ### Configuration Management
 
 Quite simply, if you aren't using configuration management, you're doing it wrong.
