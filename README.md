@@ -119,7 +119,7 @@ A couple of places to go into as training would be:
 
 #### Tutorials @ Python
 
-* [Learn Python the Hard Way](http://learnpythonthehardway.org/book/), a rather comprehensive tutorial covering many aspects of the language.
+* [Google's Python Course](https://developers.google.com/edu/python/), an introduction to Python, assuming little programming experience.
 
 #### Python & Sysadmin
 
