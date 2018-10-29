@@ -4,4 +4,4 @@ rvm:
 before_script:
   - gem install awesome_bot
 script:
-  - awesome_bot README.md --allow-redirect --allow-dupe -w www.terraform.io,signup.hangops.com,kitchen.ci
+  - awesome_bot README.md --allow-redirect --allow-dupe -w www.terraform.io,signup.hangops.com,kitchen.ci --white-list https://vimeo.com/289905221

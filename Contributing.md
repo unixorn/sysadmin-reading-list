@@ -12,6 +12,7 @@
 ## Commits
 
 * Search previous suggestions before making a new one.
+* Free resources are preferred to paid ones.
 * Please use the following format: `[RESOURCE](LINK) - DESCRIPTION.`
   * Try to keep descriptions short (<80 characters).
   * End descriptions with a period.
