@@ -185,6 +185,7 @@ Perl has a long history of being the system administrator's friend, bringing the
 
 #### Azure
 
+* [Az PowerShell Module](https://docs.microsoft.com/en-us/powershell/azure/new-azureps-module-az?view=azurermps-6.13.0) The cross-platform (i.e. PS Core) Azure PowerShell module. Replaces the `AzureRm` module and provides a migration path from it.
 * [Azure CLI 2.0](https://github.com/Azure/azure-cli) new preview CLI interface for Azure (written in python).
 * [Azure Code Samples](https://azure.microsoft.com/en-us/documentation/samples/) samples of code showing how to interact with Azure.
 * [Azure Friday](https://azure.microsoft.com/en-us/documentation/videos/azure-friday/) "Just two engineers, a laptop and the cloud, solving problems".
