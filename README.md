@@ -78,6 +78,10 @@ So you've got your first sysadmin/sre job or internship. Congratulations, it's g
 
 ## Languages
 
+The **Dev** part of **DevOps** means you're going to inevitably end up writing some code. Here's a list of [free programming books](https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md) for many languages.
+
+Here are some of the scripting languages you're most likely to see in your infrastructure, with links too some good references and tutorials.
+
 ### Bash
 
 `bash` is objectively a terrible programming language. All variables default to being globals, there is no module system built into the language, dealing with hashes is horrible, and there are other horrors based on it trying to be backward compatible with `sh`.
