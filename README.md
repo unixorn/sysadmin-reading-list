@@ -62,7 +62,7 @@ So you've got your first sysadmin/sre job or internship. Congratulations, it's g
 * [Continuous Delivery](https://smile.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912) - A book that has rapidly become *the* guide to planning and implementing build pipelines.
 * [Effective DevOps](http://shop.oreilly.com/product/0636920039846.do) - A practical guide for creating affinity among teams and promoting efficient tool usage in your company.
 * [Git Magic (free ebook)](http://www-cs-students.stanford.edu/~blynn/gitmagic/) - Git is a version control Swiss army knife. A reliable versatile multipurpose revision control tool whose extraordinary flexibility makes it tricky to learn, let alone master.
-* [Hello DNS](https://github.com/ahupowerdns/hello-dns) - Every sysadmin/sre needs to know how DNS works. Start with [DNS Basics](https://github.com/ahupowerdns/hello-dns/blob/master/basic.md) is a good introduction.
+* [Hello DNS](https://github.com/ahupowerdns/hello-dns) - Every sysadmin/sre needs to know how DNS works. Start with [DNS Basics](https://github.com/ahupowerdns/hello-dns/blob/master/basic.md) it's a good introduction.
 * [Lean Startup](https://smile.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898) or [Lean Enterprise](https://smile.amazon.com/Lean-Enterprise-Performance-Organizations-Innovate/dp/1449368425) - This pair describes the process surrounding implementation and use of Lean principles in Startup and Enterprise organizations. There are a number of companion pieces that extend the principles to specific fields of study and implementation, such as [Lean Analytics](https://smile.amazon.com/Lean-Analytics-Better-Startup-Faster/dp/1449335675).
 * [Site Reliability Engineering](http://shop.oreilly.com/product/0636920041528.do) - How Google Runs Production Systems. This can be read online for free at Google's SRE [site](https://landing.google.com/sre/book/index.html).
 * [Systems Performance: Enterprise and Cloud](https://smile.amazon.com/Systems-Performance-Enterprise-Brendan-Gregg/dp/0133390098) by Brendan Gregg, this book is an award winner and a favorite of many a sysadmin, it addresses systems performance at scale.
@@ -78,21 +78,25 @@ So you've got your first sysadmin/sre job or internship. Congratulations, it's g
 
 ## Languages
 
+The **Dev** part of **DevOps** means you're going to inevitably end up writing some code. Here's a list of [free programming books](https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md) for many languages.
+
+Here are some of the scripting languages you're most likely to see in your infrastructure, with links too some good references and tutorials.
+
 ### Bash
 
-Bash is objectively a terrible programming language. All variables default to being globals, there is no module system built into the language, dealing with hashes is horrible, and there are other horrors based on it trying to be backward compatible with `sh`.
+`bash` is objectively a terrible programming language. All variables default to being globals, there is no module system built into the language, dealing with hashes is horrible, and there are other horrors based on it trying to be backward compatible with `sh`.
 
-That said, it is on every system, so every *NIX sysadmin needs to know Bash. 
+That said, it is on every system, so every *NIX sysadmin needs to know `bash`. 
 
 Here are some useful resources to help you step up your shell scripting game:
 
-* [Advancing in the Bash Shell](http://samrowe.com/wordpress/advancing-in-the-bash-shell/) - Sam Rowe's bash as CLI tutorial.
-* [Bash Pitfalls](http://mywiki.wooledge.org/BashPitfalls) - Greg Wooledge has a great list of unpleasant surprises in Bash.
-* [Google's Shell Style Guide](https://google.github.io/styleguide/shell.xml) lists what Google's developers consider best practices for bash scripts.
+* [Advancing in the Bash Shell](http://samrowe.com/wordpress/advancing-in-the-bash-shell/) - Sam Rowe's `bash` as CLI tutorial.
+* [Bash Pitfalls](http://mywiki.wooledge.org/BashPitfalls) - Greg Wooledge has a great list of unpleasant surprises in `bash`.
+* [Google's Shell Style Guide](https://google.github.io/styleguide/shell.xml) lists what Google's developers consider best practices for `bash` scripts.
 * [Learning the Bash Shell](http://shop.oreilly.com/product/9780596009656.do) - hard to go wrong with an O'Reilly reference on anything, really.
-* [Pure Bash Bible](https://github.com/dylanaraps/pure-bash-bible) - A collection of pure bash alternatives to external processes.
+* [Pure Bash Bible](https://github.com/dylanaraps/pure-bash-bible) - A collection of pure `bash` alternatives to external processes.
 * [Safe Ways to do Things in Bash](https://github.com/anordal/shellharden/blob/master/how_to_do_things_safely_in_bash.md) - Excellent set of tips from the authors of [shellharden](https://github.com/anordal/shellharden)
-* [shellcheck](https://github.com/koalaman/shellcheck) is a lint for bash. It'll help you find unused variables, deprecated syntax and other things that make your bash scripts less stable. You can install it with `apt-get`, `brew`, `cabal`, or `yum`.
+* [shellcheck](https://github.com/koalaman/shellcheck) is a lint for bash. It'll help you find unused variables, deprecated syntax and other things that make your `bash` scripts less stable. You can install it with `apt-get`, `brew`, `cabal`, or `yum`.
 * [shellharden](https://github.com/anordal/shellharden) - is a syntax highlighter and a tool to semi-automate the rewriting of scripts to ShellCheck conformance, mainly focused on quoting.
 * [zshelldoc](https://github.com/zdharma/zshelldoc) - Documentation generator for Bash & Zsh, with call-trees, comment extraction, etc.
 
@@ -146,7 +150,7 @@ If you're in a Ruby shop, you'll want these books:
 
 ### Perl
 
-Perl has a long history of being the system administrator's friend, bringing the best of bash, sed and awk together. It is also suitable for building tools for the system administrator to utilise in their work.
+Perl has a long history of being the system administrator's friend, bringing the best of `bash`, `sed` and `awk` together. It is also suitable for building tools for the system administrator to utilise in their work.
 
 #### Toolchain
 
@@ -205,11 +209,11 @@ Quite simply, if you aren't using configuration management, you're doing it wron
 
 You don't want to manually configure any servers - no matter how hard you try, they won't end up truly identical and having meat typing in commands takes far too long per server, doesn't scale, and the manual labor will discourage you from standing up new VMs for testing.
 
-Treating your configuration as something described in text files allows you to treat it like code. You can do pull-requests, get your changes reviewed by your team and view the differences between your configuration at different times.
+Treating your configuration as something described in text files allows you to treat it like code. You can do pull-requests, get your changes reviewed by your team, view the differences between your configuration at different times, and almost most-importantly, find out who changed the configuration and when.
 
 There are several good options:
 
-* [Ansible](http://www.ansible.com/) is designed to be minimal in nature, consistent, secure, and highly reliable. Was recently purchased by Red Hat.
+* [Ansible](http://www.ansible.com/) is designed to be minimal in nature, consistent, secure, and highly reliable. Is owned & supported by Red Hat.
 * [Chef](http://www.opscode.com/chef/) is written in Ruby and Erlang and uses a Ruby DSL to describe system configuration
 * [Puppet](http://puppetlabs.com/) makes it easy to automate the provisioning, configuration and ongoing management of your machines and the software running on them. Make rapid, repeatable changes and automatically enforce the consistency of systems and devices – across physical and virtual machines, on premise or in the cloud.
 * [Salt](http://www.saltstack.com/) orchestrates the build and ongoing management of your infrastructure.
@@ -252,15 +256,15 @@ Serverless doesn't mean no sysadmins, even though there aren't instances to admi
 
 Here are a few resources to help:
 
-* [Building observability into a serverless application](https://vimeo.com/289905221) (Video) Yan Cui presents some guidelines to implementing observability into serverless on AWS. Helpful patterns that can be applied to other platforms as well.
+* [Building observability into a serverless application](https://vimeo.com/289905221) (Video) Yan Cui presents some guidelines to implementing observability into serverless on AWS. The patterns in this talk can be applied to other platforms as well.
 
 ### Source control
 
-No matter what source control system you use (git, hg, perforce, whatever), you're going to have to write commit messages. Make them good. Explain _why_ you made the change, not just _what_ you changed. And no, the diff is not an explanation. Always start with a single line that explains what you were trying to do in general, then a body that goes into more detail.
+No matter what source control system you use (`git`, `hg`, `perforce`, whatever), you're going to have to write commit messages. Make them good. Explain _why_ you made the change, not just _what_ you changed. And no, the diff is not an explanation. Always start with a single line that explains what you were trying to do in general, then a body that goes into more detail.
 
-Good commit messages help the rest of your team understand what you're trying to do and make it easier for them to find logic errors in your pull requests - the code may be technically correct, but if they understand what you're _trying_ to do, they can see when your code isn't actually doing what you say you want it to do, even if it is technically correct.
+Good commit messages help the rest of your team understand what you're trying to do and make it easier for them to find logic errors in your pull requests - the code may be technically correct, but if they understand what you're _trying_ to do, they can see when your code isn't actually doing what you say you want it to do, even when it is technically correct.
 
-Here are a few articles that while focused on git apply to any source control system you're using:
+Here are a few articles that while focused on `git` apply to any source control system you're using:
 
 * [5 Useful Tips for a Better Commit Message](https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message) is another good article on writing commit messages.
 * [A Note About Git Commit Messages](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
@@ -268,7 +272,7 @@ Here are a few articles that while focused on git apply to any source control sy
 
 #### Git
 
-Whether or not your shop uses git internally, you're going to end up needing to use it for the many useful things on GitHub.
+Whether or not your shop uses `git` internally, you're going to end up needing to use it for the many useful things on GitHub.
 
 * [19 Git Tips for Everyday Use](http://www.alexkras.com/19-git-tips-for-everyday-use/) - a good set of starter tips for using git.
 * [git-extra-commands](https://github.com/unixorn/git-extra-commands) - a collection of extra git helper scripts.
@@ -298,7 +302,7 @@ However, you should care about your tools.  You should be able to use them effic
 
 #### Vim
 
-Vim is a reality of life for SysAdmins.  It is the one editor you can be sure is installed in even the most minimal install. You must be able to do at least basic edits with it.  You don't need to love it, but you _will_ have to use it.
+`vim` is a reality of life for SysAdmins.  It is the one editor you can be sure is installed in even the most minimal unix or linux install. You must be able to do at least basic edits with it.  You don't need to love it, but you _will_ have to use it.
 
 * [Damian Conway, "More Instantly Better Vim" - OSCON 2013](https://www.youtube.com/watch?v=aHm36-na4-4)
 * [vi and Vim Editors Pocket Reference, 2nd Edition](http://shop.oreilly.com/product/0636920010913.do)
@@ -307,11 +311,11 @@ Vim is a reality of life for SysAdmins.  It is the one editor you can be sure is
 
 Emacs is an extremely extensible editor. In jest, it is frequently referred to as an operating system with a half-decent editor.
 
-If you want to get a taste of what emacs can do, you can defer to Magnars and his excellent video tutorials/demos:
+If you want to get a taste of what `emacs` can do, you can defer to Magnars and his excellent video tutorials/demos:
 
 * http://emacsrocks.com/
 
-One of the biggest problems with Emacs is that the defaults present a fairly different experience to what people are used to. Your first stop should be learning the basics using the built-in tutorial, followed by the mini-manual from tuhdo:
+One of the biggest problems with `emacs` is that the defaults present a fairly different experience to what people are used to. Your first stop should be learning the basics using the built-in tutorial, followed by the mini-manual from tuhdo:
 
 * Type `ctrl-h`, followed closely by `t` from within emacs to see the tutorial
 * http://tuhdo.github.io/index.html
@@ -320,7 +324,7 @@ Emacs can be can be made to look and act relatively modern if that's your desire
 
 * http://emacs.sexy/
 
-If you're looking for emacs packages, the following online package index is the most popular, and tracks many:
+If you're looking for `emacs` packages, the following online package index is the most popular, and tracks many:
 
 * http://melpa.org/
 
@@ -331,9 +335,9 @@ There are several excellent starter kits out there, with varying delineations of
 * https://github.com/hlissner/doom-emacs
 * https://github.com/syl20bnr/spacemacs
 
-Here are some emacs configurations for inspiration:
+Here are some `emacs` configurations for inspiration:
 
-* Magnar Sveen's very interesting and original emacs config! https://github.com/magnars/.emacs.d
+* Magnar Sveen's very interesting and original `emacs` config! https://github.com/magnars/.emacs.d
 * Phil Hagelberg's config: https://github.com/technomancy/dotfiles/tree/master/.emacs.d
 * Steve Purcell's excellent config: https://github.com/purcell/emacs.d
 
@@ -341,7 +345,7 @@ Here are some emacs configurations for inspiration:
 
 Use tools with which you are productive.  If you want to use a GUI Text Editor or IDE, don't let anyone give you a hard time about that.
 
-There are GUI versions of vim and emacs that have ardent followers.
+There are GUI versions of `vim` and `emacs` that have ardent followers.
 
 * [Atom](https://atom.io/) is a fairly new editor with significant traction and plugin ecosystem.
 * [Sublime Text](http://sublimetext.com) is another editor with an extensive plugin ecosystem and arguably one of the inspirations for Atom.
@@ -380,7 +384,7 @@ Help wanted here.
 
 ### Career/Finance
 
-* Patrick McKenzie wrote a great blog post on [salary negotiation](https://www.kalzumeus.com/2012/01/23/salary-negotiation/). Salary negotiation is one of the few times in your life where a five minute conversation can earn you thousands of dollars - be prepared.
+* Patrick McKenzie wrote a great blog post on [salary negotiation](https://www.kalzumeus.com/2012/01/23/salary-negotiation/). Salary negotiation is one of the few times in your life where a five minute conversation can earn you (or _cost_ you!) thousands of dollars - be prepared.
 * Patrick also has a good podcast episode on salary negotiation - [Kalzumeus Podcast Episode 12: Salary Negotiation with Josh Doody](https://www.kalzumeus.com/2016/06/03/kalzumeus-podcast-episode-12-salary-negotiation-with-josh-doody/)  (there's a transcript too). You have to do it, it affects your life, you should do it well.
-* [The Holloway Guide to Equity Compensation](https://www.holloway.com/g/equity-compensation) - Stock options, RSUs, job offers, and taxes—a detailed reference, including hundreds of resources, explained from the ground up.
-* [What I Wish I'd Known About Equity Before Joining A Unicorn](https://gist.github.com/yossorion/4965df74fd6da6cdc280ec57e83a202d) - This is an excellent summary of how to value stock options and what the tax implications are and how to minimize potential tax (in a USA-centric way). I heartily recommend reading it before you accept any offers involving stock as part of your compensation.
+* [The Holloway Guide to Equity Compensation](https://www.holloway.com/g/equity-compensation) - Stock options, RSUs, job offers, and taxes — a detailed reference, including hundreds of resources, explained from the ground up.
+* [What I Wish I'd Known About Equity Before Joining A Unicorn](https://gist.github.com/yossorion/4965df74fd6da6cdc280ec57e83a202d) - This is an excellent (though USA-centric) summary of how to value stock options and what the tax implications are and how to minimize potential tax. I heartily recommend reading it before you accept any offers involving stock as part of your compensation.
