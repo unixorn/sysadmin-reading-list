@@ -1,6 +1,8 @@
 # sysadmin-reading-list
 
-[![Build Status](https://travis-ci.org/unixorn/sysadmin-reading-list.png)](https://travis-ci.org/unixorn/sysadmin-reading-list)
+[![GitHub stars](https://img.shields.io/github/stars/unixorn/sysadmin-reading-list.svg)](https://github.com/unixorn/sysadmin-reading-list/stargazers)
+[![CircleCI](https://circleci.com/gh/unixorn/sysadmin-reading-list.svg?style=shield)](https://circleci.com/gh/unixorn/sysadmin-reading-list)
+[![GitHub last commit (branch)](https://img.shields.io/github/last-commit/unixorn/sysadmin-reading-list/master.svg)](https://github.com/unixorn/sysadmin-reading-list)
 
 A reading list for the larval stage sysadmin. This list is focused on the UNIX family of OSes, mainly because that is my area of expertise.
 
