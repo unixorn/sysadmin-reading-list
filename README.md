@@ -376,7 +376,7 @@ Help wanted here.
 
 ### Miscellanea
 
-* [awesome-scalability](https://github.com/binhnguyennus/) - An organized reading list for illustrating the patterns behind scalable, reliable, and performant large-scale systems.
+* [awesome-scalability](https://github.com/binhnguyennus/awesome-scalability/) - An organized reading list for illustrating the patterns behind scalable, reliable, and performant large-scale systems.
 * [awesome-sysadmin](https://github.com/n1trux/awesome-sysadmin) - A curated list of awesome open-source sysadmin resources.
 * [oncall-handbook](https://github.com/alicegoldfuss/oncall-handbook) - Alice Goldfuss' excellent oncall handbook, read this before your first oncall shift.
 * [sre-interview](https://github.com/michael-kehoe/sre-interview) - A collection of questions to practice for interviews.
