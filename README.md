@@ -4,7 +4,7 @@
 [![CircleCI](https://circleci.com/gh/unixorn/sysadmin-reading-list.svg?style=shield)](https://circleci.com/gh/unixorn/sysadmin-reading-list)
 [![GitHub last commit (branch)](https://img.shields.io/github/last-commit/unixorn/sysadmin-reading-list/master.svg)](https://github.com/unixorn/sysadmin-reading-list)
 
-A reading list for the larval stage sysadmin. This list is focused on the UNIX family of OSes, mainly because that is my area of expertise.
+A reading list for the larval stage sysadmin. This list is focused on the UNIX family of OSes, mainly because that is my area of expertise, but PRs about other OSes are welcome.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -385,9 +385,13 @@ Help wanted here.
 * Etsy's [Debriefing Facilitation Guide](https://extfiles.etsy.com/DebriefingFacilitationGuide.pdf) is a great guide to conducting a blame-free debrief after an outage.
 * Pēteris Ņikiforovs has a good blog post explaining what everything you see in top/htop output [here](https://peteris.rocks/blog/htop/)
 
-### Career/Finance
+### Career
 
 * Alice Goldfuss wrote an excellent article, [How to Get Into SRE](https://blog.alicegoldfuss.com/how-to-get-into-sre/), about her path to becoming an SRE.
+* Alice also gave a great presentation - [Passing the Console: Fostering the Next Generation of Ops Professionals](https://www.usenix.org/conference/lisa16/conference-program/presentation/goldfuss) at LISA16
+
+### Finance/Salary
+
 * Patrick McKenzie wrote a great blog post on [salary negotiation](https://www.kalzumeus.com/2012/01/23/salary-negotiation/). Salary negotiation is one of the few times in your life where a five minute conversation can earn you (or _cost_ you!) thousands of dollars - be prepared.
 * Patrick also has a good podcast episode on salary negotiation - [Kalzumeus Podcast Episode 12: Salary Negotiation with Josh Doody](https://www.kalzumeus.com/2016/06/03/kalzumeus-podcast-episode-12-salary-negotiation-with-josh-doody/)  (there's a transcript too). You have to do it, it affects your life, you should do it well.
 * [The Holloway Guide to Equity Compensation](https://www.holloway.com/g/equity-compensation) - Stock options, RSUs, job offers, and taxes — a detailed reference, including hundreds of resources, explained from the ground up.
