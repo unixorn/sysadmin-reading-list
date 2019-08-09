@@ -8,7 +8,7 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
+## Table of Contents
 
 - [Articles and Books to Read](#articles-and-books-to-read)
 - [Languages](#languages)
@@ -31,6 +31,7 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
     - [Multi-Platform](#multi-platform)
     - [AWS](#aws)
     - [Azure](#azure)
+    - [Google Cloud](#google-cloud)
   - [Configuration Management](#configuration-management)
   - [Docker](#docker)
     - [Installing Docker](#installing-docker)
@@ -52,7 +53,9 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
 - [Windows Administration](#windows-administration)
 - [Other Resources](#other-resources)
   - [Miscellanea](#miscellanea)
-  - [Career/Finance](#careerfinance)
+  - [Career](#career)
+  - [Finance/Salary](#financesalary)
+- [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
