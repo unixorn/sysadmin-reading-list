@@ -8,7 +8,7 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
+## Table of Contents
 
 - [Articles and Books to Read](#articles-and-books-to-read)
 - [Languages](#languages)
@@ -31,6 +31,7 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
     - [Multi-Platform](#multi-platform)
     - [AWS](#aws)
     - [Azure](#azure)
+    - [Google Cloud](#google-cloud)
   - [Configuration Management](#configuration-management)
   - [Docker](#docker)
     - [Installing Docker](#installing-docker)
@@ -52,7 +53,9 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
 - [Windows Administration](#windows-administration)
 - [Other Resources](#other-resources)
   - [Miscellanea](#miscellanea)
-  - [Career/Finance](#careerfinance)
+  - [Career](#career)
+  - [Finance/Salary](#financesalary)
+- [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -384,6 +387,7 @@ Help wanted here.
 * [sysadvent](https://sysadvent.blogspot.com/) - Every year the sysadvent team publishes 24 good articles for sysadmins.
 * Etsy's [Debriefing Facilitation Guide](https://extfiles.etsy.com/DebriefingFacilitationGuide.pdf) is a great guide to conducting a blame-free debrief after an outage.
 * Pēteris Ņikiforovs has a good blog post explaining what everything you see in top/htop output [here](https://peteris.rocks/blog/htop/)
+* Dan Luu wrote an excellent article about the [Normalization of Deviance](https://danluu.com/wat/) that is good food for thought about engineering practices.
 
 ### Career
 
@@ -396,3 +400,7 @@ Help wanted here.
 * Patrick also has a good podcast episode on salary negotiation - [Kalzumeus Podcast Episode 12: Salary Negotiation with Josh Doody](https://www.kalzumeus.com/2016/06/03/kalzumeus-podcast-episode-12-salary-negotiation-with-josh-doody/)  (there's a transcript too). You have to do it, it affects your life, you should do it well.
 * [The Holloway Guide to Equity Compensation](https://www.holloway.com/g/equity-compensation) - Stock options, RSUs, job offers, and taxes — a detailed reference, including hundreds of resources, explained from the ground up.
 * [What I Wish I'd Known About Equity Before Joining A Unicorn](https://gist.github.com/yossorion/4965df74fd6da6cdc280ec57e83a202d) - This is an excellent (though USA-centric) summary of how to value stock options and what the tax implications are and how to minimize potential tax. I heartily recommend reading it before you accept any offers involving stock as part of your compensation.
+
+## License
+
+This repository is copyright 2017-2019 Joseph Block under a [Attribution-NonCommercial-ShareAlike 4.0 International](#attribution-noncommercial-sharealike-40-international) license.
