@@ -54,6 +54,7 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
 - [Other Resources](#other-resources)
   - [Miscellanea](#miscellanea)
   - [Career](#career)
+  - [Communication](#communication)
   - [Finance/Salary](#financesalary)
 - [License](#license)
 
@@ -393,7 +394,12 @@ Help wanted here.
 
 * Alice Goldfuss wrote an excellent article, [How to Get Into SRE](https://blog.alicegoldfuss.com/how-to-get-into-sre/), about her path to becoming an SRE.
 * Alice also gave a great presentation - [Passing the Console: Fostering the Next Generation of Ops Professionals](https://www.usenix.org/conference/lisa16/conference-program/presentation/goldfuss) at LISA16
-* Writing good documentation and design docs is as important as writing code. The more senior you are, the more writing you're going to have to do - communication skills are a must. Gergely Orosz wrote an excellent blog post about [Undervalued Software Engineering Skills: Writing Well](https://blog.pragmaticengineer.com/on-writing-well/).
+
+### Communication
+
+Writing good documentation and design docs is as important as writing code. The more senior you are, the more writing you're going to have to do - communication skills are a must.
+* Email - Like it or not, you're going to write a _lot_ of email in the course of you work. Lazarus Lazaridis wrote a good article on [Composing Better Emails](https://iridakos.com/how-to/2019/06/26/composing-better-emails.html)
+* Gergely Orosz wrote an excellent blog post about [Undervalued Software Engineering Skills: Writing Well](https://blog.pragmaticengineer.com/on-writing-well/).
 
 ### Finance/Salary
 
