@@ -54,6 +54,7 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
 - [Other Resources](#other-resources)
   - [Miscellanea](#miscellanea)
   - [Career](#career)
+  - [Communication](#communication)
   - [Finance/Salary](#financesalary)
 - [License](#license)
 
