@@ -32,6 +32,7 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
     - [AWS](#aws)
     - [Azure](#azure)
     - [Google Cloud](#google-cloud)
+    - [OpenStack](#openstack)
   - [Configuration Management](#configuration-management)
   - [Docker](#docker)
     - [Installing Docker](#installing-docker)
@@ -208,6 +209,16 @@ Perl has a long history of being the system administrator's friend, bringing the
 * [Introduction](https://cloud.google.com/docs/overview/) official introduction and an overview.
 * [GCP for AWS professionals](https://cloud.google.com/docs/compare/aws/) list equivalents for AWS products in GCP.
 * [GCP for Azure professionals](https://cloud.google.com/docs/compare/azure/) list equivalents for Azure products in GCP.
+
+#### OpenStack
+
+* [Introduction](https://www.openstack.org/software/) The OpenStack project's official introductory overview.
+* [Installing](https://www.openstack.org/software/project-navigator/deployment-tools) The list of tools you should consider if you want to install and operate OpenStack yourself.
+* [Community](https://www.openstack.org/community/) Where to go and who to ask for help.
+* [Planet OpenStack](http://planet.openstack.org) An aggregated feed from across the Internet of OpenStack-related content, including contributions from individuals.
+* [Public Clouds](https://www.openstack.org/marketplace/public-clouds/) Similar to AWS, GCP or Azure, this is a list of providers who offer cloud services running on OpenStack.
+* [SuperUser](https://superuser.openstack.org) SuperUser is an online 'publication' aggregating and editorialising content related to OpenStack and Open Infrastructure.
+* [Stackalytics](https://www.stackalytics.com) Code contribution statistics to OpenStack and related projects.
 
 ### Configuration Management
 
