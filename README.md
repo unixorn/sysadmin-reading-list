@@ -10,54 +10,57 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 ## Table of Contents
 
-- [Articles and Books to Read](#articles-and-books-to-read)
-- [Languages](#languages)
-  - [Bash](#bash)
-  - [Powershell](#powershell)
-  - [Python](#python)
-    - [Python Books](#python-books)
-    - [Tutorials @ Python](#tutorials--python)
-    - [Python & Sysadmin](#python--sysadmin)
-    - [Python & Deployment Utils](#python--deployment-utils)
-  - [Ruby](#ruby)
-    - [Ruby Books](#ruby-books)
-  - [Perl](#perl)
-    - [Toolchain](#toolchain)
-    - [Web](#web)
-    - [Modules](#modules)
-    - [Blog Posts](#blog-posts)
-- [Tools](#tools)
-  - [Cloud](#cloud)
-    - [Multi-Platform](#multi-platform)
-    - [AWS](#aws)
-    - [Azure](#azure)
-    - [Google Cloud](#google-cloud)
-    - [OpenStack](#openstack)
-  - [Configuration Management](#configuration-management)
-  - [Docker](#docker)
-    - [Installing Docker](#installing-docker)
-    - [Learning Docker](#learning-docker)
-  - [Regular Expressions](#regular-expressions)
-  - [Sed & Awk](#sed--awk)
-  - [Serverless](#serverless)
-  - [Source control](#source-control)
-    - [Git](#git)
-  - [SSH](#ssh)
-  - [Testing](#testing)
-    - [Test Harnesses](#test-harnesses)
-  - [Text Editors:](#text-editors)
-    - [Vim](#vim)
-    - [Emacs](#emacs)
-    - [Visual Editors and IDEs](#visual-editors-and-ides)
-- [Blogs and Podcasts](#blogs-and-podcasts)
-- [Online Communities](#online-communities)
-- [Windows Administration](#windows-administration)
-- [Other Resources](#other-resources)
-  - [Miscellanea](#miscellanea)
-  - [Career](#career)
-  - [Communication](#communication)
-  - [Finance/Salary](#financesalary)
-- [License](#license)
+- [sysadmin-reading-list](#sysadmin-reading-list)
+  - [Table of Contents](#table-of-contents)
+  - [Articles and Books to Read](#articles-and-books-to-read)
+  - [Languages](#languages)
+    - [Bash](#bash)
+    - [Powershell](#powershell)
+    - [Python](#python)
+      - [Python Books](#python-books)
+      - [Tutorials @ Python](#tutorials--python)
+      - [Python & Sysadmin](#python--sysadmin)
+      - [Python & Deployment Utils](#python--deployment-utils)
+    - [Ruby](#ruby)
+      - [Ruby Books](#ruby-books)
+    - [Perl](#perl)
+      - [Perl Books](#perl-books)
+      - [Toolchain](#toolchain)
+      - [Web](#web)
+      - [Modules](#modules)
+      - [Blog Posts](#blog-posts)
+  - [Tools](#tools)
+    - [Cloud](#cloud)
+      - [Multi-Platform](#multi-platform)
+      - [AWS](#aws)
+      - [Azure](#azure)
+      - [Google Cloud](#google-cloud)
+      - [OpenStack](#openstack)
+    - [Configuration Management](#configuration-management)
+    - [Docker](#docker)
+      - [Installing Docker](#installing-docker)
+      - [Learning Docker](#learning-docker)
+    - [Regular Expressions](#regular-expressions)
+    - [Sed & Awk](#sed--awk)
+    - [Serverless](#serverless)
+    - [Source control](#source-control)
+      - [Git](#git)
+    - [SSH](#ssh)
+    - [Testing](#testing)
+      - [Test Harnesses](#test-harnesses)
+    - [Text Editors:](#text-editors)
+      - [Vim](#vim)
+      - [Emacs](#emacs)
+      - [Visual Editors and IDEs](#visual-editors-and-ides)
+  - [Blogs and Podcasts](#blogs-and-podcasts)
+  - [Online Communities](#online-communities)
+  - [Windows Administration](#windows-administration)
+  - [Other Resources](#other-resources)
+    - [Miscellanea](#miscellanea)
+    - [Career](#career)
+    - [Communication](#communication)
+    - [Finance/Salary](#financesalary)
+  - [License](#license)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -66,7 +69,22 @@ So you've got your first sysadmin/sre job or internship. Congratulations, it's g
 ## Articles and Books to Read
 
 * [Clean Code](https://www.amazon.es/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) - Every year, countless hours and significant resources are lost because of poorly written code. But it doesn't have to be that way. Martin has teamed up with his colleagues from Object Mentor to distill their best agile practice of cleaning code "on the fly" into a book that will instill within you the values of a software craftsman and make you a better programmer-but only if you work at it.
-* [Continuous Delivery](https://smile.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912) - A book that has rapidly become *the* guide to planning and implementing build pipelines.
+* [Continuous Delivery](https://smile.amazon.co
+And admit that the waters
+Around you have grown
+(The Times They Are A-Changin' lyrics © Bob Dylan Music Co.)
+
+As of the 7th November 2016 Karen Pauley has officially stepped d/Continuous-Delivery-Deployment-Automation-Addis
+And admit that the waters
+Around you have grown
+(The Times They Are A-Changin' lyrics © Bob Dylan Music Co.)
+
+As of the 7th November 2016 Karen Pauley has officially stepped dn-Wesley/dp/0321601912) - A book that has rapidly become *the* guide to p
+And admit that the waters
+Around you have grown
+(The Times They Are A-Changin' lyrics © Bob Dylan Music Co.)
+
+As of the 7th November 2016 Karen Pauley has officially stepped danning and implementing build pipelines.
 * [Effective DevOps](http://shop.oreilly.com/product/0636920039846.do) - A practical guide for creating affinity among teams and promoting efficient tool usage in your company.
 * [Git Magic (free ebook)](http://www-cs-students.stanford.edu/~blynn/gitmagic/) - Git is a version control Swiss army knife. A reliable versatile multipurpose revision control tool whose extraordinary flexibility makes it tricky to learn, let alone master.
 * [Hello DNS](https://github.com/ahupowerdns/hello-dns) - Every sysadmin/sre needs to know how DNS works. Start with [DNS Basics](https://github.com/ahupowerdns/hello-dns/blob/master/basic.md) it's a good introduction.
@@ -159,6 +177,12 @@ If you're in a Ruby shop, you'll want these books:
 
 Perl has a long history of being the system administrator's friend, bringing the best of `bash`, `sed` and `awk` together. It is also suitable for building tools for the system administrator to utilise in their work.
 
+#### Perl Books
+
+* [Programming Perl](http://shop.oreilly.com/product/9780596004927.do)
+* [Learning Perl](http://shop.oreilly.com/product/9780596001322.do)
+* [Perl Best Practices](http://shop.oreilly.com/product/9780596001735.do)
+
 #### Toolchain
 
 * [carton](https://metacpan.org/pod/Carton) - A dependency management tool.
@@ -179,6 +203,7 @@ Perl has a long history of being the system administrator's friend, bringing the
 
 * [Perl on the Rise for Devops](https://scalability.org/2017/01/perl-on-the-rise-for-devops/)
 * [A Perl Toolchain for Building Microservices at Scale](https://engineering.semantics3.com/a-perl-toolchain-for-building-micro-services-at-scale-8851626a4b1b)
+* [Perl tricks for system administrators](https://opensource.com/life/16/7/perl-tricks-system-administrators)
 
 ## Tools
 
