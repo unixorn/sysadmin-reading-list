@@ -69,22 +69,7 @@ So you've got your first sysadmin/sre job or internship. Congratulations, it's g
 ## Articles and Books to Read
 
 * [Clean Code](https://www.amazon.es/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) - Every year, countless hours and significant resources are lost because of poorly written code. But it doesn't have to be that way. Martin has teamed up with his colleagues from Object Mentor to distill their best agile practice of cleaning code "on the fly" into a book that will instill within you the values of a software craftsman and make you a better programmer-but only if you work at it.
-* [Continuous Delivery](https://smile.amazon.co
-And admit that the waters
-Around you have grown
-(The Times They Are A-Changin' lyrics © Bob Dylan Music Co.)
-
-As of the 7th November 2016 Karen Pauley has officially stepped d/Continuous-Delivery-Deployment-Automation-Addis
-And admit that the waters
-Around you have grown
-(The Times They Are A-Changin' lyrics © Bob Dylan Music Co.)
-
-As of the 7th November 2016 Karen Pauley has officially stepped dn-Wesley/dp/0321601912) - A book that has rapidly become *the* guide to p
-And admit that the waters
-Around you have grown
-(The Times They Are A-Changin' lyrics © Bob Dylan Music Co.)
-
-As of the 7th November 2016 Karen Pauley has officially stepped danning and implementing build pipelines.
+* [Continuous Delivery](https://smile.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912) - A book that has rapidly become *the* guide to planning and implementing build pipelines.
 * [Effective DevOps](http://shop.oreilly.com/product/0636920039846.do) - A practical guide for creating affinity among teams and promoting efficient tool usage in your company.
 * [Git Magic (free ebook)](http://www-cs-students.stanford.edu/~blynn/gitmagic/) - Git is a version control Swiss army knife. A reliable versatile multipurpose revision control tool whose extraordinary flexibility makes it tricky to learn, let alone master.
 * [Hello DNS](https://github.com/ahupowerdns/hello-dns) - Every sysadmin/sre needs to know how DNS works. Start with [DNS Basics](https://github.com/ahupowerdns/hello-dns/blob/master/basic.md) it's a good introduction.
