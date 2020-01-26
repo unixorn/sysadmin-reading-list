@@ -436,4 +436,4 @@ Writing good documentation and design docs is as important as writing code. The 
 
 ## License
 
-This repository is copyright 2017-2019 Joseph Block under a [Attribution-NonCommercial-ShareAlike 4.0 International](#attribution-noncommercial-sharealike-40-international) license.
+This repository is copyright 2017-2020 Joseph Block under a [Attribution-NonCommercial-ShareAlike 4.0 International](#attribution-noncommercial-sharealike-40-international) license.
