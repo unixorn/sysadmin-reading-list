@@ -70,14 +70,14 @@ So you've got your first sysadmin/sre job or internship. Congratulations, it's g
 * [Clean Code](https://www.amazon.es/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) - Every year, countless hours and significant resources are lost because of poorly written code. But it doesn't have to be that way. Martin has teamed up with his colleagues from Object Mentor to distill their best agile practice of cleaning code "on the fly" into a book that will instill within you the values of a software craftsman and make you a better programmer-but only if you work at it.
 * [Continuous Delivery](https://smile.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912) - A book that has rapidly become *the* guide to planning and implementing build pipelines.
 * [Effective DevOps](http://shop.oreilly.com/product/0636920039846.do) - A practical guide for creating affinity among teams and promoting efficient tool usage in your company.
-* [Git Magic (free ebook)](http://www-cs-students.stanford.edu/~blynn/gitmagic/) - Git is a version control Swiss army knife. A reliable versatile multipurpose revision control tool whose extraordinary flexibility makes it tricky to learn, let alone master.
+* [Git Magic (free ebook)](http://www-cs-students.stanford.edu/~blynn/gitmagic/) - `git` is a version control Swiss army knife. A reliable versatile multipurpose revision control tool whose extraordinary flexibility makes it tricky to learn, let alone master.
 * [Hello DNS](https://github.com/ahupowerdns/hello-dns) - Every sysadmin/sre needs to know how DNS works. Start with [DNS Basics](https://github.com/ahupowerdns/hello-dns/blob/master/basic.md) it's a good introduction.
 * [Lean Startup](https://smile.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898) or [Lean Enterprise](https://smile.amazon.com/Lean-Enterprise-Performance-Organizations-Innovate/dp/1449368425) - This pair describes the process surrounding implementation and use of Lean principles in Startup and Enterprise organizations. There are a number of companion pieces that extend the principles to specific fields of study and implementation, such as [Lean Analytics](https://smile.amazon.com/Lean-Analytics-Better-Startup-Faster/dp/1449335675).
 * [Site Reliability Engineering](http://shop.oreilly.com/product/0636920041528.do) - How Google Runs Production Systems. This can be read online for free at Google's SRE [site](https://landing.google.com/sre/book/index.html).
-* [Systems Performance: Enterprise and Cloud](https://smile.amazon.com/Systems-Performance-Enterprise-Brendan-Gregg/dp/0133390098) by Brendan Gregg, this book is an award winner and a favorite of many a sysadmin, it addresses systems performance at scale.
+* [Systems Performance: Enterprise and Cloud](https://smile.amazon.com/Systems-Performance-Enterprise-Brendan-Gregg/dp/0133390098) by Brendan Gregg, this book is an award winner and a favorite of many a sysadmin and SRE, it addresses systems performance at scale.
 * [The Art of Capacity Planning](https://smile.amazon.com/Art-Capacity-Planning-Scaling-Resources-ebook/dp/B0026OR2Y0) - John Allspaw's book is a hands-on and practical guide to planning for such growth, with many techniques and considerations to help you plan, deploy, and manage web application infrastructure.
 * [The Art of Monitoring](https://artofmonitoring.com/) - James Turnbull's book on the art of modern application and infrastructure monitoring and metrics.
-* [The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations](https://smile.amazon.com/DevOps-Handbook-World-Class-Reliability-Organizations/dp/1942788002) - The results of a multi-user case study on DevOps and the practical-oriented sequel to The Phoenix Project
+* [The DevOps Handbook: How to Create World-Class Agility, Reliability, and Security in Technology Organizations](https://smile.amazon.com/DevOps-Handbook-World-Class-Reliability-Organizations/dp/1942788002) - The results of a multi-user case study on DevOps and the practical-oriented sequel to [The Phoenix Project](http://smile.amazon.com/Phoenix-Project-DevOps-Helping-Business-ebook/dp/B00AZRBLHO).
 * [The Goal](https://smile.amazon.com/Goal-Process-Ongoing-Improvement/dp/0884271951/ref=zg_bs_10020725011_1) - A foundational novel on the Theory of Constraints and many other operational concerns.
 * [The Phoenix Project](http://smile.amazon.com/Phoenix-Project-DevOps-Helping-Business-ebook/dp/B00AZRBLHO) - know why your projects are important to the business.
 * [The Practice of Cloud System Administration](https://smile.amazon.com/Practice-Cloud-System-Administration-Distributed/dp/032194318X), by Tom Limoncelli. Focuses on “distributed” or “cloud” computing and brings a DevOps/SRE sensibility to the practice of system administration. Includes case studies and examples from Google, Etsy, Twitter, Facebook, Netflix, Amazon, and other industry giants are explained in practical ways that are useful to all enterprises.
@@ -89,11 +89,11 @@ So you've got your first sysadmin/sre job or internship. Congratulations, it's g
 
 The **Dev** part of **DevOps** means you're going to inevitably end up writing some code. Here's a list of [free programming books](https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md) for many languages.
 
-Here are some of the scripting languages you're most likely to see in your infrastructure, with links too some good references and tutorials.
+Here are some of the scripting languages you're most likely to see in your infrastructure, with links to some good references and tutorials.
 
 ### Bash
 
-`bash` is objectively a terrible programming language. All variables default to being globals, there is no module system built into the language, dealing with hashes is horrible, and there are other horrors based on it trying to be backward compatible with `sh`.
+`bash` is objectively a terrible programming language. All variables default to being globals, there is no module system built into the language, dealing with hashes is horrible, and there are other horrors resulting from it trying to be backward compatible with `sh`.
 
 That said, it is on every system, so every *NIX sysadmin needs to know `bash`. 
 
@@ -102,19 +102,21 @@ Here are some useful resources to help you step up your shell scripting game:
 * [Advancing in the Bash Shell](http://samrowe.com/wordpress/advancing-in-the-bash-shell/) - Sam Rowe's `bash` as CLI tutorial.
 * [Bash Pitfalls](http://mywiki.wooledge.org/BashPitfalls) - Greg Wooledge has a great list of unpleasant surprises in `bash`.
 * [Google's Shell Style Guide](https://google.github.io/styleguide/shell.xml) lists what Google's developers consider best practices for `bash` scripts.
-* [Learning the Bash Shell](http://shop.oreilly.com/product/9780596009656.do) - hard to go wrong with an O'Reilly reference on anything, really.
+* [Learning the Bash Shell](http://shop.oreilly.com/product/9780596009656.do) - It's hard to go wrong with an O'Reilly reference on anything, really.
 * [Pure Bash Bible](https://github.com/dylanaraps/pure-bash-bible) - A collection of pure `bash` alternatives to external processes.
-* [Safe Ways to do Things in Bash](https://github.com/anordal/shellharden/blob/master/how_to_do_things_safely_in_bash.md) - Excellent set of tips from the authors of [shellharden](https://github.com/anordal/shellharden)
-* [shellcheck](https://github.com/koalaman/shellcheck) is a lint for bash. It'll help you find unused variables, deprecated syntax and other things that make your `bash` scripts less stable. You can install it with `apt-get`, `brew`, `cabal`, or `yum`.
+* [Safe Ways to do Things in Bash](https://github.com/anordal/shellharden/blob/master/how_to_do_things_safely_in_bash.md) - An excellent set of tips from the authors of [shellharden](https://github.com/anordal/shellharden).
+* [shellcheck](https://github.com/koalaman/shellcheck) is a lint for `bash`. It'll help you find unused variables, deprecated syntax and other things that make your `bash` scripts less stable. You can install it with `apt-get`, `brew`, `cabal`, or `yum`.
 * [shellharden](https://github.com/anordal/shellharden) - is a syntax highlighter and a tool to semi-automate the rewriting of scripts to ShellCheck conformance, mainly focused on quoting.
-* [zshelldoc](https://github.com/zdharma/zshelldoc) - Documentation generator for Bash & Zsh, with call-trees, comment extraction, etc.
+* [zshelldoc](https://github.com/zdharma/zshelldoc) - Documentation generator for Bash & ZSH, with call-trees, comment extraction, etc.
+
+Finally, remember that `bash` is not `sh`. If you're writing a script in `bash`, and testing it with `bash`, don't put `#!/bin/sh` as the shebang. Firstly, because `bash` behaves differently when called as `sh`, and secondly, not all *NIX systems (and not even all linux distributions) use `bash` as their `/bin/sh`.
 
 ### Powershell
 
 Often you'll find yourself in a Windows enviroment, like it or not. These might come help you in those cases -
 
 * [Best Practices and Style guide](https://github.com/PoshCode/PowerShellPracticeAndStyle)
-* [Powershell Slack](http://slack.poshcode.org) - Think of it as a virtual Powershell user's group
+* [Powershell Slack](http://slack.poshcode.org) - Think of it as a virtual Powershell user's group.
 * [PowerShell.org eBooks](https://leanpub.com/u/devopscollective/)
 * [PS Cmdlets In Your Inbox](https://github.com/MaxAnderson95/Cmdlets_In_Your_Inbox) lets you schedule a task to get PowerShell Cmdlets via email daily or at the command line.
 
@@ -122,11 +124,11 @@ Often you'll find yourself in a Windows enviroment, like it or not. These might 
 
 Python has much better support for string manipulation and system infrastructure than Bash. In addition, there is a rich library of modules supporting various tasks you can use in your scripts that are just a `pip install` away.
 
-A couple of places to go into as training would be:
+A couple of places to go into as training are:
 
 #### Python Books
 
-* [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/), a free Book that helps you automate boring and repetitive Tasks with Python.
+* [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/), a free Book that helps you automate boring and repetitive tasks with Python.
 * [Programming Python](http://shop.oreilly.com/product/9780596158118.do), a well-written O'Reilly book, short and concise.
 * [20 Python Libraries You Aren't Using (But Should)](http://www.oreilly.com/programming/free/20-python-libraries-you-arent-using-but-should.csp), a free Book by Caleb Hattingh published by O'Reilly (No real Email address needed.)
 
@@ -195,7 +197,7 @@ Perl has a long history of being the system administrator's friend, bringing the
 
 #### Multi-Platform
 
-* [Terraform](https://www.terraform.io) is a tool that allows you to configure your infrastructure as code, just like Chef/Puppet/etc allow you to manage the configuration of individual machines as code, with all the benefits of being able to diff, code review, etc. Terraform works with (as of this edit) AWS, Google Cloud, Microsoft Azure and many other systems.
+* [Terraform](https://www.terraform.io) is a tool that allows you to configure your infrastructure as code, just like Chef/Puppet/etc allow you to manage the configuration of individual machines as code, with all the benefits of being able to diff, code review, etc. Terraform works with (as of this edit) AWS, Google Cloud, Microsoft Azure, vSphere and many other systems.
 
 #### AWS
 
@@ -235,12 +237,12 @@ Quite simply, if you aren't using configuration management, you're doing it wron
 
 You don't want to manually configure any servers - no matter how hard you try, they won't end up truly identical and having meat typing in commands takes far too long per server, doesn't scale, and the manual labor will discourage you from standing up new VMs for testing.
 
-Treating your configuration as something described in text files allows you to treat it like code. You can do pull-requests, get your changes reviewed by your team, view the differences between your configuration at different times, and almost most-importantly, find out who changed the configuration and when.
+Treating your configuration as something described in text files allows you to treat it like code. You can do pull-requests, get your changes reviewed by your team, view the differences between your configuration at different times, and almost most-importantly, find out who changed the configuration, when, and if they wrote good commit messages, why.
 
 There are several good options:
 
 * [Ansible](http://www.ansible.com/) is designed to be minimal in nature, consistent, secure, and highly reliable. Is owned & supported by Red Hat.
-* [Chef](http://www.opscode.com/chef/) is written in Ruby and Erlang and uses a Ruby DSL to describe system configuration
+* [Chef](http://www.opscode.com/chef/) is written in Ruby and Erlang and uses a Ruby DSL to describe system configuration.
 * [Puppet](http://puppetlabs.com/) makes it easy to automate the provisioning, configuration and ongoing management of your machines and the software running on them. Make rapid, repeatable changes and automatically enforce the consistency of systems and devices – across physical and virtual machines, on premise or in the cloud.
 * [Salt](http://www.saltstack.com/) orchestrates the build and ongoing management of your infrastructure.
 
@@ -292,9 +294,9 @@ Here are a few resources to help:
 
 No matter what source control system you use (`git`, `hg`, `perforce`, whatever), you're going to have to write commit messages. Make them good. Explain _why_ you made the change, not just _what_ you changed. And no, the diff is not an explanation. Always start with a single line that explains what you were trying to do in general, then a body that goes into more detail.
 
-Good commit messages help the rest of your team understand what you're trying to do and make it easier for them to find logic errors in your pull requests - the code may be technically correct, but if they understand what you're _trying to do_, they can see when your code isn't actually doing what you say you want it to do, even when it is technically correct.
+Good commit messages help the rest of your team understand what you're trying to do and make it easier for them to find logic errors in your pull requests - the code may be technically correct, but if they understand what you're _trying to do_, they can see when your code isn't actually doing what you say you want it to do, even when it is syntactically correct.
 
-Here are a few articles that while focused on `git` apply to any source control system you're using:
+Here are a few articles that while focused on `git` apply to any source control system:
 
 * [5 Useful Tips for a Better Commit Message](https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message) is another good article on writing commit messages.
 * [A Note About Git Commit Messages](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
@@ -308,9 +310,9 @@ Whether or not your shop uses `git` internally, you're going to end up needing t
 * [git-extra-commands](https://github.com/unixorn/git-extra-commands) - a collection of extra git helper scripts.
 * [git-flight-rules](https://github.com/k88hudson/git-flight-rules) is Kate Hudson's guide to using Git in specific situations.
 * [git-tips/tips](https://github.com/git-tips/tips) is a collection of git tips
-* [Pro Git](https://git-scm.com/book/en/v2) by Scott Chacon and Ben Straub is a great overall resource for git.
-* [Why the Heck is Git so Hard? The Places Model](http://merrigrove.blogspot.com/2014/02/why-heck-is-git-so-hard-places-model-ok.html) - an article about moving from SVN/CVS to git.
-* Ben Limmer's [Git Skills Talk](https://github.com/blimmer/1up-git-skills-talk) will help you understand using git (particularly with GitHub)
+* [Pro Git](https://git-scm.com/book/en/v2) by Scott Chacon and Ben Straub is a great overall resource for `git`.
+* [Why the Heck is Git so Hard? The Places Model](http://merrigrove.blogspot.com/2014/02/why-heck-is-git-so-hard-places-model-ok.html) - an article about moving from SVN/CVS to `git`.
+* Ben Limmer's [Git Skills Talk](https://github.com/blimmer/1up-git-skills-talk) will help you understand using `git` (particularly with GitHub)
 
 ### SSH
 
@@ -332,7 +334,7 @@ However, you should care about your tools.  You should be able to use them effic
 
 #### Vim
 
-`vim` is a reality of life for SysAdmins.  It is the one editor you can be sure is installed in even the most minimal unix or linux install. You must be able to do at least basic edits with it.  You don't need to love it, but you _will_ have to use it.
+`vim` is a reality of life for SysAdmins.  It is the one editor you can be sure is installed in even the most minimal *NIX or linux install. You must be able to do at least basic edits with it.  You don't need to love it, but you _will_ have to use it.
 
 * [Damian Conway, "More Instantly Better Vim" - OSCON 2013](https://www.youtube.com/watch?v=aHm36-na4-4)
 * [vi and Vim Editors Pocket Reference, 2nd Edition](http://shop.oreilly.com/product/0636920010913.do)
@@ -410,20 +412,21 @@ Help wanted here.
 * [oncall-handbook](https://github.com/alicegoldfuss/oncall-handbook) - Alice Goldfuss' excellent oncall handbook, read this before your first oncall shift.
 * [sre-interview](https://github.com/michael-kehoe/sre-interview) - A collection of questions to practice for interviews.
 * [stack-on-a-budget](https://github.com/255kb/stack-on-a-budget) - A list of free/cheap tiers of services that you can use to learn the various cloud-based systems.
-* [sysadvent](https://sysadvent.blogspot.com/) - Every year the sysadvent team publishes 24 good articles for sysadmins.
+* [sysadvent](https://sysadvent.blogspot.com/) - Every year the sysadvent team publishes 24 good articles for sysadmins and SREs.
 * Etsy's [Debriefing Facilitation Guide](https://extfiles.etsy.com/DebriefingFacilitationGuide.pdf) is a great guide to conducting a blame-free debrief after an outage.
-* Pēteris Ņikiforovs has a good blog post explaining what everything you see in top/htop output [here](https://peteris.rocks/blog/htop/)
+* Pēteris Ņikiforovs has a good blog post explaining what everything you see in top/htop output [here](https://peteris.rocks/blog/htop/).
 * Dan Luu wrote an excellent article about the [Normalization of Deviance](https://danluu.com/wat/) that is good food for thought about engineering practices.
 
 ### Career
 
 * Alice Goldfuss wrote an excellent article, [How to Get Into SRE](https://blog.alicegoldfuss.com/how-to-get-into-sre/), about her path to becoming an SRE.
-* Alice also gave a great presentation - [Passing the Console: Fostering the Next Generation of Ops Professionals](https://www.usenix.org/conference/lisa16/conference-program/presentation/goldfuss) at LISA16
+* Alice also gave a great presentation - [Passing the Console: Fostering the Next Generation of Ops Professionals](https://www.usenix.org/conference/lisa16/conference-program/presentation/goldfuss) at LISA16.
 * Julia Evans has a couple of great resources on making your 1-on-1's with your manager more effective. 1-on-1s should _not_ just be a status report on what you're working on - you should be using them to focus on more big picture goals (both yours and the organizations) and your career. Read her article on [1-on-1 ideas](https://jvns.ca/blog/2015/03/06/1-1-topic-ideas/), and I recommend buying her [Help, I have a Manager!](https://wizardzines.com/zines/manager/) zine.
 
 ### Communication
 
 Writing good documentation and design docs is as important as writing code. The more senior you are, the more writing you're going to have to do - communication skills are a must.
+
 * Email - Like it or not, you're going to write a _lot_ of email in the course of you work. Lazarus Lazaridis wrote a good article on [Composing Better Emails](https://iridakos.com/how-to/2019/06/26/composing-better-emails.html)
 * Gergely Orosz wrote an excellent blog post about [Undervalued Software Engineering Skills: Writing Well](https://blog.pragmaticengineer.com/on-writing-well/).
 
@@ -432,7 +435,7 @@ Writing good documentation and design docs is as important as writing code. The 
 * Patrick McKenzie wrote a great blog post on [salary negotiation](https://www.kalzumeus.com/2012/01/23/salary-negotiation/). Salary negotiation is one of the few times in your life where a five minute conversation can earn you (or _cost_ you!) thousands of dollars - be prepared.
 * Patrick also has a good podcast episode on salary negotiation - [Kalzumeus Podcast Episode 12: Salary Negotiation with Josh Doody](https://www.kalzumeus.com/2016/06/03/kalzumeus-podcast-episode-12-salary-negotiation-with-josh-doody/)  (there's a transcript too). You have to do it, it affects your life, you should do it well.
 * [The Holloway Guide to Equity Compensation](https://www.holloway.com/g/equity-compensation) - Stock options, RSUs, job offers, and taxes — a detailed reference, including hundreds of resources, explained from the ground up.
-* [What I Wish I'd Known About Equity Before Joining A Unicorn](https://gist.github.com/yossorion/4965df74fd6da6cdc280ec57e83a202d) - This is an excellent (though USA-centric) summary of how to value stock options and what the tax implications are and how to minimize potential tax. I heartily recommend reading it before you accept any offers involving stock as part of your compensation.
+* [What I Wish I'd Known About Equity Before Joining A Unicorn](https://gist.github.com/yossorion/4965df74fd6da6cdc280ec57e83a202d) - This is an excellent (though USA-centric) summary of how to value stock options and what the tax implications are and how to minimize potential tax. I heartily recommend reading it before you accept any offers involving stock or stock options as part of your compensation.
 
 ## License
 
