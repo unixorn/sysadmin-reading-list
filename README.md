@@ -38,6 +38,9 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
   - [Docker](#docker)
     - [Installing Docker](#installing-docker)
     - [Learning Docker](#learning-docker)
+  - [Kubernetes](#kubernetes)
+    - [Tutorials](#tutorials)
+    - [Utilities](#utilities)
   - [Regular Expressions](#regular-expressions)
   - [Sed & Awk](#sed--awk)
   - [Serverless](#serverless)
@@ -249,10 +252,7 @@ There are several good options:
 ### Docker
 
 [Docker](https://www.docker.com/what-docker) is a tool for running and managing
-containers. Containers are rapidly growing in popularity for local development
-(as an alternative to virtual machines), and can also run software in production
-with tools like [Kubernetes](https://kubernetes.io/) or [Amazon
-ECS](https://aws.amazon.com/ecs/).
+containers. Containers are rapidly growing in popularity for local development (as an alternative to virtual machines), and can also run software in production with tools like [Kubernetes](https://kubernetes.io/) or [Amazon ECS](https://aws.amazon.com/ecs/).
 
 #### Installing Docker
 
@@ -266,6 +266,21 @@ Follow the installation instructions for your preferred platform:
 #### Learning Docker
 
 * [The Docker Book](https://www.dockerbook.com/) - An excellent resource for getting started with Docker. This book is quick & easy to read.
+
+### Kubernetes
+
+Kubernetes is a portable open-source container orchestration system used to automate deployment, scaling, and management of containerized applications.
+
+#### Tutorials
+
+There are many good tutorials at [kubernetes.io](https://kubernetes.io/docs/home/). I recommend you start with either the [minikube](https://kubernetes.io/docs/setup/learning-environment/minikube/) walkthrough since it will get you a running test cluster quickly, or enable the kubernetes cluster option in [Docker Desktop](https://www.docker.com/products/docker-desktop).
+
+If you want to understand everything that is involved in getting a Kubernetes cluster up and running, [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way) by Kelsey Hightower is hard to beat.
+
+#### Utilities
+
+* [krew](https://github.com/kubernetes-sigs/krew/) - Makes it easy to use [kubectl plugins](https://kubernetes.io/docs/tasks/extend-kubectl/kubectl-plugins/). `krew` helps you discover plugins, install and manage them on your machine. It is similar to tools like `apt`, `dnf` or `brew`. Today, over 70 `kubectl` plugins are available on `krew`.
+* [kubectx](https://github.com/ahmetb/kubectx) - Provides the `kubectx` command, which makes it easy to switch between clusters specified in your `.kube/config`, and `kubens`, which helps you switch between Kubernetes namespaces smoothly.
 
 ### Regular Expressions
 
