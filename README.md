@@ -38,6 +38,9 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
   - [Docker](#docker)
     - [Installing Docker](#installing-docker)
     - [Learning Docker](#learning-docker)
+  - [Kubernetes](#kubernetes)
+    - [Tutorials](#tutorials)
+    - [Utilities](#utilities)
   - [Regular Expressions](#regular-expressions)
   - [Sed & Awk](#sed--awk)
   - [Serverless](#serverless)
@@ -249,9 +252,7 @@ There are several good options:
 ### Docker
 
 [Docker](https://www.docker.com/what-docker) is a tool for running and managing
-containers. Containers are rapidly growing in popularity for local development
-(as an alternative to virtual machines), and can also run software in production with tools like [Kubernetes](https://kubernetes.io/) or [Amazon
-ECS](https://aws.amazon.com/ecs/).
+containers. Containers are rapidly growing in popularity for local development (as an alternative to virtual machines), and can also run software in production with tools like [Kubernetes](https://kubernetes.io/) or [Amazon ECS](https://aws.amazon.com/ecs/).
 
 #### Installing Docker
 
