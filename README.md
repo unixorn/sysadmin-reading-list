@@ -339,7 +339,7 @@ Testing is incredibly important and you should undertake this for your infrastru
 
 #### Test Harnesses
 
-* [Test Kitchen](https://kitchen.ci) - Test your configuration management tooling.
+* **Test Kitchen** https://kitchen.ci - Test your configuration management tooling.
 
 ### Text Editors:
 
