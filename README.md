@@ -293,6 +293,7 @@ When you have a multi-gigabyte logfile, it's a lot less painful to look at just 
 
 * [Introducing Regular Expressions](http://shop.oreilly.com/product/0636920012337.do)
 * [Regular Expressions Cookbook](http://shop.oreilly.com/product/0636920023630.do)
+* [https://www.debuggex.com/]https://www.debuggex.com/) will visualize regular expressions graphically.
 
 ### Sed & Awk
 
