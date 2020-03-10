@@ -13,4 +13,4 @@ jobs:
 
       - run:
           name: Check README.md
-          command: awesome_bot README.md --allow-redirect --allow-dupe -w www.terraform.io,signup.hangops.com,kitchen.ci --white-list https://vimeo.com/289905221,kubernetes.io,kitchen.ci
+          command: awesome_bot README.md --allow-redirect --allow-dupe -w www.terraform.io,signup.hangops.com,kitchen.ci --white-list https://vimeo.com/289905221,kubernetes.io,kitchen.ci,debuggex.com
