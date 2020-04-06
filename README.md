@@ -87,7 +87,7 @@ So you've got your first sysadmin/sre job or internship. Congratulations, it's g
 * [Time Management for System Administrators](http://smile.amazon.com/Management-System-Administrators-Thomas-Limoncelli/dp/0596007833), by Tom Limoncelli. You're going to be pulled in a dozen different directions, if you can't manage your time you and your job performance are going to suffer.
 * [UNIX-Linux-System-Administration-Handbook](http://smile.amazon.com/UNIX-Linux-System-Administration-Handbook/dp/0131480057) by Evi Nemeth is a great book, this book is targeted to larger system deployments and real world large systems.
 * [Web Operations: Keeping the Data on Time](https://smile.amazon.com/Web-Operations-Keeping-Data-Time-ebook/dp/B0043M4Z34) - A collection of essays and interviews, with web veterans such as Theo Schlossnagle, Baron Schwartz, and Alistair Croll that will teach you strategies for designing your web site to scale up smoothly to web-scale load.
-* [Wizard Zines](https://wizardzines.com/) - Julia Evans has a great set of zine's she's published about many topics useful to a starting (or even an experienced) sysadmin/SRE.
+* [Wizard Zines](https://wizardzines.com/) - Julia Evans has a great set of zines she's published about many topics useful to a starting (or even an experienced) sysadmin/SRE.
 
 ## Languages
 
