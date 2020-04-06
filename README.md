@@ -278,6 +278,8 @@ There are many good tutorials at [kubernetes.io](https://kubernetes.io/docs/home
 
 If you want to understand everything that is involved in getting a Kubernetes cluster up and running, [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way) by Kelsey Hightower is hard to beat.
 
+Ever wondered exactly what happens when you type something `kubectl run nginx --image=nginx --replicas=3` to make everything happen? [What happens when K8s...](https://github.com/jamiehannaford/what-happens-when-k8s/) is a guide that leads you through the full lifecycle of a request from the client to the kubelet, linking off to the source code where necessary to illustrate what's going on.
+
 #### Utilities
 
 * [krew](https://github.com/kubernetes-sigs/krew/) - Makes it easy to use [kubectl plugins](https://kubernetes.io/docs/tasks/extend-kubectl/kubectl-plugins/). `krew` helps you discover plugins, install and manage them on your machine. It is similar to tools like `apt`, `dnf` or `brew`. Today, over 70 `kubectl` plugins are available on `krew`.
