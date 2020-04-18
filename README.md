@@ -113,7 +113,7 @@ Here are some useful resources to help you step up your shell scripting game:
 * [shellharden](https://github.com/anordal/shellharden) - is a syntax highlighter and a tool to semi-automate the rewriting of scripts to ShellCheck conformance, mainly focused on quoting.
 * [zshelldoc](https://github.com/zdharma/zshelldoc) - Documentation generator for Bash & ZSH, with call-trees, comment extraction, etc.
 
-Finally, remember that `bash` is not `sh`. If you're writing a script in `bash`, and testing it with `bash`, don't put `#!/bin/sh` as the shebang. Firstly, because `bash` behaves differently when called as `sh`, and secondly, not all *NIX systems (and not even all linux distributions) use `bash` as their `/bin/sh`.
+Finally, remember that `bash` is not `sh`. If you're writing a script in `bash`, and testing it with `bash`, don't put `#!/bin/sh` as the shebang. Firstly, because `bash` behaves differently when called as `sh`, and secondly, not all *NIX systems (and not even all linux distributions) use `bash` as their `/bin/sh` any more.
 
 ### Powershell
 
@@ -311,9 +311,11 @@ Here are a few resources to help:
 
 ### Source control
 
-No matter what source control system you use (`git`, `hg`, `perforce`, whatever), you're going to have to write commit messages. Make them good. Explain _why_ you made the change, not just _what_ you changed. And no, the diff is not an explanation. Always start with a single line that explains what you were trying to do in general, then a body that goes into more detail.
+No matter what source control system you use (`git`, `hg`, `perforce`, whatever), you're going to have to write commit messages. Make them good. It may be obvious _today_ why you made the change, but in six months or a year you won't have that context.
 
-Good commit messages help the rest of your team understand what you're trying to do and make it easier for them to find logic errors in your pull requests - the code may be technically correct, but if they understand what you're _trying to do_, they can see when your code isn't actually doing what you say you want it to do, even when it is syntactically correct.
+Explain _why_ you made the change, not just _what_ you changed. And no, the diff is not an explanation. Always start your commit messages with a single line that explains what you were trying to do in general, then go into more detail in the body. Talk about what you intend the change to do and why more than how you did it. If there's an issue or ticket number, include that in your commit message too, it'll give more context to your coworkers (or you in a year).
+
+Good commit messages help the rest of your team understand what you're trying to do and make it easier for them to find logic errors in your pull requests - the code may be technically correct, but if they understand what you're _trying_ to do, they can see when your code isn't actually doing what you say you want it to do, even when it is syntactically correct.
 
 Here are a few articles that while focused on `git` apply to any source control system:
 
@@ -323,15 +325,15 @@ Here are a few articles that while focused on `git` apply to any source control 
 
 #### Git
 
-Whether or not your shop uses `git` internally, you're going to end up needing to use it for the many useful things on GitHub.
+Whether or not your shop uses `git` internally, you're going to end up needing to use it for the many useful things on GitHub and GitLab.
 
 * [19 Git Tips for Everyday Use](http://www.alexkras.com/19-git-tips-for-everyday-use/) - a good set of starter tips for using git.
 * [git-extra-commands](https://github.com/unixorn/git-extra-commands) - a collection of extra git helper scripts.
-* [git-flight-rules](https://github.com/k88hudson/git-flight-rules) is Kate Hudson's guide to using Git in specific situations.
-* [git-tips/tips](https://github.com/git-tips/tips) is a collection of git tips
+* [git-flight-rules](https://github.com/k88hudson/git-flight-rules) is Kate Hudson's guide to using `git` in specific situations.
+* [git-tips/tips](https://github.com/git-tips/tips) is a collection of `git` tips
 * [Pro Git](https://git-scm.com/book/en/v2) by Scott Chacon and Ben Straub is a great overall resource for `git`.
 * [Why the Heck is Git so Hard? The Places Model](http://merrigrove.blogspot.com/2014/02/why-heck-is-git-so-hard-places-model-ok.html) - an article about moving from SVN/CVS to `git`.
-* Ben Limmer's [Git Skills Talk](https://github.com/blimmer/1up-git-skills-talk) will help you understand using `git` (particularly with GitHub)
+* Ben Limmer's [Git Skills Talk](https://github.com/blimmer/1up-git-skills-talk) will help you understand using `git` (particularly with GitHub).
 
 ### SSH
 
@@ -343,7 +345,7 @@ Testing is incredibly important and you should undertake this for your infrastru
 
 #### Test Harnesses
 
-* **Test Kitchen** https://kitchen.ci - Test your configuration management tooling.
+* **Test Kitchen** https://kitchen.ci - Test your configuration management tooling. Was originally written to test chef cookbooks, but can be used for other configuration management systems as well.
 
 ### Text Editors:
 
