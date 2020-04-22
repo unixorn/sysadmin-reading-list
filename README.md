@@ -437,6 +437,7 @@ Help wanted here.
 * Etsy's [Debriefing Facilitation Guide](https://extfiles.etsy.com/DebriefingFacilitationGuide.pdf) is a great guide to conducting a blame-free debrief after an outage.
 * Pēteris Ņikiforovs has a good blog post explaining what everything you see in top/htop output [here](https://peteris.rocks/blog/htop/).
 * Dan Luu wrote an excellent article about the [Normalization of Deviance](https://danluu.com/wat/) that is good food for thought about engineering practices.
+* Donne Martin maintains a great [System Design Primer](https://github.com/donnemartin/system-design-primer).
 
 ### Career
 
