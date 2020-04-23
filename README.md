@@ -430,6 +430,7 @@ Help wanted here.
 * [awesome-scalability](https://github.com/binhnguyennus/awesome-scalability/) - An organized reading list for illustrating the patterns behind scalable, reliable, and performant large-scale systems.
 * [awesome-sre](https://github.com/dastergon/awesome-sre) - A curated list of awesome [Site Reliability](https://www.usenix.org/conference/srecon14/technical-sessions/presentation/keys-sre) and [Production](https://www.usenix.org/conference/srecon15/program/presentation/canahuati) Engineering resources.
 * [awesome-sysadmin](https://github.com/n1trux/awesome-sysadmin) - A curated list of awesome open-source sysadmin resources.
+* [devops-exercises](https://github.com/bregman-arie/devops-exercises) - Questions and exercises on various technical topics, sometimes related to DevOps and SRE.
 * [oncall-handbook](https://github.com/alicegoldfuss/oncall-handbook) - Alice Goldfuss' excellent oncall handbook, read this before your first oncall shift.
 * [sre-interview](https://github.com/michael-kehoe/sre-interview) - A collection of questions to practice for interviews.
 * [stack-on-a-budget](https://github.com/255kb/stack-on-a-budget) - A list of free/cheap tiers of services that you can use to learn the various cloud-based systems.
