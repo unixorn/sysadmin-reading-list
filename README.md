@@ -425,6 +425,10 @@ Help wanted here.
 
 ## Other Resources
 
+### Free Services
+
+* A [list](https://github.com/ripienaar/free-for-dev) of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev.
+
 ### Miscellanea
 
 * [awesome-scalability](https://github.com/binhnguyennus/awesome-scalability/) - An organized reading list for illustrating the patterns behind scalable, reliable, and performant large-scale systems.
