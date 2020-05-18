@@ -57,6 +57,7 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
 - [Online Communities](#online-communities)
 - [Windows Administration](#windows-administration)
 - [Other Resources](#other-resources)
+  - [Free Services](#free-services)
   - [Miscellanea](#miscellanea)
   - [Career](#career)
   - [Communication](#communication)
