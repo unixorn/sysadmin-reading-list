@@ -100,7 +100,7 @@ Here are some of the scripting languages you're most likely to see in your infra
 
 `bash` is objectively a terrible programming language. All variables default to being globals, there is no module system built into the language, dealing with hashes is horrible, and there are other horrors resulting from it trying to be backward compatible with `sh`.
 
-That said, it is on every system, so every *NIX sysadmin needs to know `bash`. 
+That said, it is on every system, so every *NIX sysadmin needs to know `bash`.
 
 Here are some useful resources to help you step up your shell scripting game:
 
@@ -338,8 +338,8 @@ Whether or not your shop uses `git` internally, you're going to end up needing t
 
 ### SSH
 
+* [awesome-ssh](https://github.com/moul/awesome-ssh) - A curated list of ssh apps, libraries and other resources.
 * [SSH, The Secure Shell: The Definitive Guide, 2nd Edition](http://shop.oreilly.com/product/9780596008956.do)
-
 ### Testing
 
 Testing is incredibly important and you should undertake this for your infrastructure as well as your applications.
