@@ -47,7 +47,6 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
   - [Source control](#source-control)
     - [Git](#git)
   - [SSH](#ssh)
-  - [Testing](#testing)
     - [Test Harnesses](#test-harnesses)
   - [Text Editors:](#text-editors)
     - [Vim](#vim)
