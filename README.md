@@ -98,7 +98,9 @@ Here are some of the scripting languages you're most likely to see in your infra
 
 ### Awk
 
-`awk` is one of the older scripting languages - the first version was written in 1977, but it's on pretty much any unix (even minimal variants that might not have `perl`, `python` or `ruby`) and is still very useful. I still use it frequently for pulling columns out of tabular output because by default (and unlike `cut` where you have to count spaces) it treats consecutive runs of whitespace characters as a delimiter, so you can pipe things to `awk '{print $3}'`.
+The `awk` family (`awk`, `gawk`, `nawk` and I'm sure I've missed other implementations) of scripting languages is one of the oldest - the first version of `awk` was written in 1977, but it's on pretty much any unix (even minimal variants that might not have `perl`, `python` or `ruby`) and is still very useful.
+
+I still use it frequently for pulling columns out of tabular output because by default (and unlike `cut` where you have to count spaces) it treats consecutive runs of whitespace characters as a delimiter, so for example you can pipe things to `awk '{print $3}'`, but it's Turing-complete - people can and have written complex programs in it.
 
 Here are some good references to get you started:
 
