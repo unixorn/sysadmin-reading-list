@@ -12,6 +12,7 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
 
 - [Articles and Books to Read](#articles-and-books-to-read)
 - [Languages](#languages)
+  - [Awk](#awk)
   - [Bash](#bash)
   - [Powershell](#powershell)
   - [Python](#python)
@@ -94,6 +95,18 @@ So you've got your first sysadmin/sre job or internship. Congratulations, it's g
 The **Dev** part of **DevOps** means you're going to inevitably end up writing some code. Here's a list of [free programming books](https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md) for many languages.
 
 Here are some of the scripting languages you're most likely to see in your infrastructure, with links to some good references and tutorials.
+
+### Awk
+
+The `awk` family (`awk`, `gawk`, `nawk` and I'm sure I've missed other implementations) of scripting languages is one of the oldest - the first version of `awk` was written in 1977, but it's on pretty much any unix (even minimal variants that might not have `perl`, `python` or `ruby`) and is still very useful.
+
+I still use it frequently for pulling columns out of tabular output because by default (and unlike `cut` where you have to count spaces) it treats consecutive runs of whitespace characters as a delimiter, so for example you can pipe things to `awk '{print $3}'`, but it's Turing-complete - people can and have written complex programs in it.
+
+Here are some good references to get you started:
+
+* [Bite Size Command Line](https://wizardzines.com/comics/awk/)
+* [Scripting Tutorial: Awk](https://github.com/darkn3rd/script-tut/tree/master/gen_scripts/awk)
+* [Serious Shell Programming](https://freebsdfrau.gitbook.io/serious-shell-programming/basics/regex/awk)
 
 ### Bash
 
