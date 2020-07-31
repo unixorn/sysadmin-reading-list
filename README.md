@@ -130,7 +130,7 @@ Finally, remember that `bash` is not `sh`. If you're writing a script in `bash`,
 
 ### Powershell
 
-Often you'll find yourself in a Windows enviroment, like it or not. These might come help you in those cases -
+Often you'll find yourself in a Windows enviroment, like it or not. These resources might help you in those cases -
 
 * [Best Practices and Style guide](https://github.com/PoshCode/PowerShellPracticeAndStyle)
 * [Powershell Slack](http://slack.poshcode.org) - Think of it as a virtual Powershell user's group.
@@ -139,7 +139,7 @@ Often you'll find yourself in a Windows enviroment, like it or not. These might 
 
 ### Python
 
-Python has much better support for string manipulation and system infrastructure than Bash. In addition, there is a rich library of modules supporting various tasks you can use in your scripts that are just a `pip install` away.
+Python has much better support for string manipulation and system infrastructure than Bash. In addition, there is a rich library of modules supporting various tasks you can use in your scripts that are just a `pip3 install` away.
 
 A couple of places to go into as training are:
 
