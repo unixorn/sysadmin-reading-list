@@ -438,6 +438,8 @@ Help wanted here.
 
 ## Other Resources
 
+Packetlife has some great cheat sheets and posters [here](https://packetlife.net/library/cheat-sheets/) for a lot of applications (wireshark and tcpdump for example) and networking principles. Well worth a look, even if you think you know the apps in question.
+
 ### Free Services
 
 * A [list](https://github.com/ripienaar/free-for-dev) of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev.
