@@ -397,8 +397,8 @@ If you're looking for `emacs` packages, the following online package index is th
 There are several excellent starter kits out there, with varying delineations of wizz-bang. Roughly sorted by wizz-bang, here are the starter kits that exist, with spacemacs being the most popular:
 
 * https://github.com/technomancy/better-defaults
-* https://github.com/bbatsov/prelude
 * https://github.com/hlissner/doom-emacs
+* https://github.com/bbatsov/prelude
 * https://github.com/syl20bnr/spacemacs
 
 Here are some `emacs` configurations for inspiration:
