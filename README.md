@@ -397,8 +397,8 @@ If you're looking for `emacs` packages, the following online package index is th
 There are several excellent starter kits out there, with varying delineations of wizz-bang. Roughly sorted by wizz-bang, here are the starter kits that exist, with spacemacs being the most popular:
 
 * https://github.com/technomancy/better-defaults
-* https://github.com/bbatsov/prelude
 * https://github.com/hlissner/doom-emacs
+* https://github.com/bbatsov/prelude
 * https://github.com/syl20bnr/spacemacs
 
 Here are some `emacs` configurations for inspiration:
@@ -437,6 +437,8 @@ There are GUI versions of `vim` and `emacs` that have ardent followers.
 Help wanted here.
 
 ## Other Resources
+
+Packetlife has some great cheat sheets and posters [here](https://packetlife.net/library/cheat-sheets/) for a lot of applications (wireshark and tcpdump for example) and networking principles. Well worth a look, even if you think you know the apps in question.
 
 ### Free Services
 
