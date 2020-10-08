@@ -42,6 +42,8 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
   - [Kubernetes](#kubernetes)
     - [Tutorials](#tutorials)
     - [Utilities](#utilities)
+  - [Monitoring](#monitoring)
+    - [Articles/Tutorials](#articlestutorials)
   - [Regular Expressions](#regular-expressions)
   - [Sed & Awk](#sed--awk)
   - [Serverless](#serverless)
@@ -297,6 +299,17 @@ Ever wondered exactly what happens when you type something `kubectl run nginx --
 
 * [krew](https://github.com/kubernetes-sigs/krew/) - Makes it easy to use [kubectl plugins](https://kubernetes.io/docs/tasks/extend-kubectl/kubectl-plugins/). `krew` helps you discover plugins, install and manage them on your machine. It is similar to tools like `apt`, `dnf` or `brew`. Today, over 70 `kubectl` plugins are available on `krew`.
 * [kubectx](https://github.com/ahmetb/kubectx) - Provides the `kubectx` command, which makes it easy to switch between clusters specified in your `.kube/config`, and `kubens`, which helps you switch between Kubernetes namespaces smoothly.
+
+### Monitoring
+
+There are several good projects for monitoring.
+
+* [Grafana](https://www.grafana.com) - Grafana allows you to query, visualize, alert on and understand your metrics no matter where they are stored. Create, explore, and share dashboards with your team and foster a data driven culture.
+* [Prometheus](https://www.prometheus.io/docs) - Prometheus is an open-source systems monitoring and alerting toolkit originally built at SoundCloud. Since its inception in 2012, many companies and organizations have adopted Prometheus, and the project has a very active developer and user community. It is now a standalone open source project and maintained independently of any company.
+
+#### Articles/Tutorials
+
+[Impactful Dashboards](https://jesswhite.co.uk/2018/04/09/impactfuldashboardspart1-post.html) - It's easy to make monitoring dashboards that are a jumble of poorly presented information, this article gives guidelines on making good dashboards.
 
 ### Regular Expressions
 
