@@ -443,7 +443,7 @@ There are GUI versions of `vim` and `emacs` that have ardent followers.
 
 * [DevOpsChat Slack](https://devopschat.co/) is another community of DevOps minded folk with a diverse set of topic specific chat rooms. Home to Arrested DevOps.
 * [Hangops Slack](https://signup.hangops.com/) is a community of DevOps minded folk with many subject focused chat rooms.
-* [PowerShell Slack](http://slack.poshcode.org/) is a community of PowerShell enthusiasts and Windows centric DevOps topics.
+* [PowerShell Slack](http://poshcode.org/) is a community of PowerShell enthusiasts and Windows centric DevOps topics.
 
 ## Windows Administration
 
