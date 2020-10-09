@@ -262,6 +262,7 @@ There are several good options:
 
 * [Ansible](http://www.ansible.com/) is designed to be minimal in nature, consistent, secure, and highly reliable. Is owned & supported by Red Hat.
 * [Chef](http://www.opscode.com/chef/) is written in Ruby and Erlang and uses a Ruby DSL to describe system configuration.
+* [Chocolatey](https://chocolatey.org/) a windows software management tool.
 * [Puppet](http://puppetlabs.com/) makes it easy to automate the provisioning, configuration and ongoing management of your machines and the software running on them. Make rapid, repeatable changes and automatically enforce the consistency of systems and devices – across physical and virtual machines, on premise or in the cloud.
 * [Salt](http://www.saltstack.com/) orchestrates the build and ongoing management of your infrastructure.
 
@@ -305,6 +306,7 @@ Ever wondered exactly what happens when you type something `kubectl run nginx --
 There are several good projects for monitoring.
 
 * [Grafana](https://www.grafana.com) - Grafana allows you to query, visualize, alert on and understand your metrics no matter where they are stored. Create, explore, and share dashboards with your team and foster a data driven culture.
+* [OSquery](https://osquery.readthedocs.io/en/stable/) for Windows, linux, OS X, and FreeBSD. Use SQL queries to look into items such as installed programs, running processes, and other events for inventory and monitoring. 
 * [Prometheus](https://www.prometheus.io/docs) - Prometheus is an open-source systems monitoring and alerting toolkit originally built at SoundCloud. Since its inception in 2012, many companies and organizations have adopted Prometheus, and the project has a very active developer and user community. It is now a standalone open source project and maintained independently of any company.
 
 #### Articles/Tutorials
