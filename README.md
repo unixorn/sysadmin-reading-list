@@ -262,7 +262,7 @@ There are several good options:
 
 * [Ansible](http://www.ansible.com/) is designed to be minimal in nature, consistent, secure, and highly reliable. Is owned & supported by Red Hat.
 * [Chef](http://www.opscode.com/chef/) is written in Ruby and Erlang and uses a Ruby DSL to describe system configuration.
-* [Chocolatey](https://chocolatey.org/) a windows software management tool.
+* [Chocolatey](https://chocolatey.org/) a Windows software management tool.
 * [Puppet](http://puppetlabs.com/) makes it easy to automate the provisioning, configuration and ongoing management of your machines and the software running on them. Make rapid, repeatable changes and automatically enforce the consistency of systems and devices – across physical and virtual machines, on premise or in the cloud.
 * [Salt](http://www.saltstack.com/) orchestrates the build and ongoing management of your infrastructure.
 
