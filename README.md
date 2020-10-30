@@ -487,13 +487,13 @@ Packetlife has some great cheat sheets and posters [here](https://packetlife.net
 
 Writing good documentation and design docs is as important as writing code. The more senior you are, the more writing you're going to have to do - communication skills are a must.
 
--Email - Like it or not, you're going to write a _lot_ of email in the course of you work. Lazarus Lazaridis wrote a good article on [Composing Better Emails](https://iridakos.com/how-to/2019/06/26/composing-better-emails.html)
--Gergely Orosz wrote an excellent blog post about [Undervalued Software Engineering Skills: Writing Well](https://blog.pragmaticengineer.com/on-writing-well/).
+- Email - Like it or not, you're going to write a _lot_ of email in the course of you work. Lazarus Lazaridis wrote a good article on [Composing Better Emails](https://iridakos.com/how-to/2019/06/26/composing-better-emails.html)
+- Gergely Orosz wrote an excellent blog post about [Undervalued Software Engineering Skills: Writing Well](https://blog.pragmaticengineer.com/on-writing-well/).
 
 ### Finance/Salary
 
--Patrick McKenzie wrote a great blog post on [salary negotiation](https://www.kalzumeus.com/2012/01/23/salary-negotiation/). Salary negotiation is one of the few times in your life where a five minute conversation can earn you (or _cost_ you!) thousands of dollars - be prepared.
--Patrick also has a good podcast episode on salary negotiation - [Kalzumeus Podcast Episode 12: Salary Negotiation with Josh Doody](https://www.kalzumeus.com/2016/06/03/kalzumeus-podcast-episode-12-salary-negotiation-with-josh-doody/)  (there's a transcript too). You have to do it, it affects your life, you should do it well.
+- Patrick McKenzie wrote a great blog post on [salary negotiation](https://www.kalzumeus.com/2012/01/23/salary-negotiation/). Salary negotiation is one of the few times in your life where a five minute conversation can earn you (or _cost_ you!) thousands of dollars - be prepared.
+- Patrick also has a good podcast episode on salary negotiation - [Kalzumeus Podcast Episode 12: Salary Negotiation with Josh Doody](https://www.kalzumeus.com/2016/06/03/kalzumeus-podcast-episode-12-salary-negotiation-with-josh-doody/)  (there's a transcript too). You have to do it, it affects your life, you should do it well.
 - [The Holloway Guide to Equity Compensation](https://www.holloway.com/g/equity-compensation) - Stock options, RSUs, job offers, and taxes — a detailed reference, including hundreds of resources, explained from the ground up.
 - [What I Wish I'd Known About Equity Before Joining A Unicorn](https://gist.github.com/yossorion/4965df74fd6da6cdc280ec57e83a202d) - This is an excellent (though USA-centric) summary of how to value stock options and what the tax implications are and how to minimize potential tax. I heartily recommend reading it before you accept any offers involving stock or stock options as part of your compensation.
 
