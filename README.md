@@ -198,18 +198,18 @@ Perl has a long history of being the system administrator's friend, bringing the
 
 #### Web
 
--[Mojolicious](https://metacpan.org/pod/Mojolicious) - A rich framework for doing all things web, from building web services and sites to building HTTP client applications.
--[Plack/PSGI](http://plackperl.org/) - The Perl implementation of WSGI, with many Plack servers available for use.
+- [Mojolicious](https://metacpan.org/pod/Mojolicious) - A rich framework for doing all things web, from building web services and sites to building HTTP client applications.
+- [Plack/PSGI](http://plackperl.org/) - The Perl implementation of WSGI, with many Plack servers available for use.
 
 #### Modules
 
--[Task::Kensho](https://metacpan.org/pod/Task::Kensho) - A list of recommended modules for many purposes, including reading configuration files, connecting to databases, logging, sending email, web crawling and development, and handling XML.
+- [Task::Kensho](https://metacpan.org/pod/Task::Kensho) - A list of recommended modules for many purposes, including reading configuration files, connecting to databases, logging, sending email, web crawling and development, and handling XML.
 
 #### Blog Posts
 
--[Perl on the Rise for Devops](https://scalability.org/2017/01/perl-on-the-rise-for-devops/)
--[A Perl Toolchain for Building Microservices at Scale](https://engineering.semantics3.com/a-perl-toolchain-for-building-micro-services-at-scale-8851626a4b1b)
--[Perl tricks for system administrators](https://opensource.com/life/16/7/perl-tricks-system-administrators)
+- [Perl on the Rise for Devops](https://scalability.org/2017/01/perl-on-the-rise-for-devops/)
+- [A Perl Toolchain for Building Microservices at Scale](https://engineering.semantics3.com/a-perl-toolchain-for-building-micro-services-at-scale-8851626a4b1b)
+- [Perl tricks for system administrators](https://opensource.com/life/16/7/perl-tricks-system-administrators)
 
 ## Tools
 
@@ -217,39 +217,39 @@ Perl has a long history of being the system administrator's friend, bringing the
 
 #### Multi-Platform
 
--[Terraform](https://www.terraform.io) is a tool that allows you to configure your infrastructure as code, just like Chef/Puppet/etc allow you to manage the configuration of individual machines as code, with all the benefits of being able to diff, code review, etc. Terraform works with (as of this edit) AWS, Google Cloud, Microsoft Azure, vSphere and many other systems.
+- [Terraform](https://www.terraform.io) is a tool that allows you to configure your infrastructure as code, just like Chef/Puppet/etc allow you to manage the configuration of individual machines as code, with all the benefits of being able to diff, code review, etc. Terraform works with (as of this edit) AWS, Google Cloud, Microsoft Azure, vSphere and many other systems.
 
 #### AWS
 
--[AWSCli](https://github.com/aws/aws-cli) provides a unified command line interface to Amazon Web Services. Wean yourself off of the webui if you want to be truly productive.
--[og-aws](https://github.com/open-guides/og-aws) is an excellent resource to AWS written by and for engineers who use AWS extensively.
--[S3cmd](http://s3tools.org/s3cmd) is a free command line tool and client for uploading, retrieving and managing data in Amazon S3 and other cloud storage service providers that use the S3 protocol, such as Google Cloud Storage or DreamHost DreamObjects.
+- [AWSCli](https://github.com/aws/aws-cli) provides a unified command line interface to Amazon Web Services. Wean yourself off of the webui if you want to be truly productive.
+- [og-aws](https://github.com/open-guides/og-aws) is an excellent resource to AWS written by and for engineers who use AWS extensively.
+- [S3cmd](http://s3tools.org/s3cmd) is a free command line tool and client for uploading, retrieving and managing data in Amazon S3 and other cloud storage service providers that use the S3 protocol, such as Google Cloud Storage or DreamHost DreamObjects.
 
 #### Azure
 
--[Az PowerShell Module](https://docs.microsoft.com/en-us/powershell/azure/new-azureps-module-az?view=azurermps-6.13.0) The cross-platform (i.e. PS Core) Azure PowerShell module. Replaces the `AzureRm` module and provides a migration path from it.
--[Azure CLI 2.0](https://github.com/Azure/azure-cli) new preview CLI interface for Azure (written in python).
--[Azure Code Samples](https://azure.microsoft.com/en-us/documentation/samples/) samples of code showing how to interact with Azure.
--[Azure Friday](https://azure.microsoft.com/en-us/documentation/videos/azure-friday/) "Just two engineers, a laptop and the cloud, solving problems".
--[Azure Quickstart Templates](https://github.com/Azure/azure-quickstart-templates) community contributed Azure Resource Manager templates for tons of things.
--[Azure Xplat CLI](https://github.com/Azure/azure-xplat-cli) cross platform CLI interface for Azure (written in nodejs).
--[Official Azure Documentation](https://azure.microsoft.com/en-us/documentation/) official documentation for all Azure services.
+- [Az PowerShell Module](https://docs.microsoft.com/en-us/powershell/azure/new-azureps-module-az?view=azurermps-6.13.0) The cross-platform (i.e. PS Core) Azure PowerShell module. Replaces the `AzureRm` module and provides a migration path from it.
+- [Azure CLI 2.0](https://github.com/Azure/azure-cli) new preview CLI interface for Azure (written in python).
+- [Azure Code Samples](https://azure.microsoft.com/en-us/documentation/samples/) samples of code showing how to interact with Azure.
+- [Azure Friday](https://azure.microsoft.com/en-us/documentation/videos/azure-friday/) "Just two engineers, a laptop and the cloud, solving problems".
+- [Azure Quickstart Templates](https://github.com/Azure/azure-quickstart-templates) community contributed Azure Resource Manager templates for tons of things.
+- [Azure Xplat CLI](https://github.com/Azure/azure-xplat-cli) cross platform CLI interface for Azure (written in nodejs).
+- [Official Azure Documentation](https://azure.microsoft.com/en-us/documentation/) official documentation for all Azure services.
 
 #### Google Cloud
 
--[Introduction](https://cloud.google.com/docs/overview/) official introduction and an overview.
--[GCP for AWS professionals](https://cloud.google.com/docs/compare/aws/) list equivalents for AWS products in GCP.
--[GCP for Azure professionals](https://cloud.google.com/docs/compare/azure/) list equivalents for Azure products in GCP.
+- [Introduction](https://cloud.google.com/docs/overview/) official introduction and an overview.
+- [GCP for AWS professionals](https://cloud.google.com/docs/compare/aws/) list equivalents for AWS products in GCP.
+- [GCP for Azure professionals](https://cloud.google.com/docs/compare/azure/) list equivalents for Azure products in GCP.
 
 #### OpenStack
 
--[Introduction](https://www.openstack.org/software/) The OpenStack project's official introductory overview.
--[Installing](https://www.openstack.org/software/project-navigator/deployment-tools) The list of tools you should consider if you want to install and operate OpenStack yourself.
--[Community](https://www.openstack.org/community/) Where to go and who to ask for help.
--[Planet OpenStack](http://planet.openstack.org) An aggregated feed from across the Internet of OpenStack-related content, including contributions from individuals.
--[Public Clouds](https://www.openstack.org/marketplace/public-clouds/) Similar to AWS, GCP or Azure, this is a list of providers who offer cloud services running on OpenStack.
--[SuperUser](https://superuser.openstack.org) SuperUser is an online 'publication' aggregating and editorialising content related to OpenStack and Open Infrastructure.
--[Stackalytics](https://www.stackalytics.com) Code contribution statistics to OpenStack and related projects.
+- [Introduction](https://www.openstack.org/software/) The OpenStack project's official introductory overview.
+- [Installing](https://www.openstack.org/software/project-navigator/deployment-tools) The list of tools you should consider if you want to install and operate OpenStack yourself.
+- [Community](https://www.openstack.org/community/) Where to go and who to ask for help.
+- [Planet OpenStack](http://planet.openstack.org) An aggregated feed from across the Internet of OpenStack-related content, including contributions from individuals.
+- [Public Clouds](https://www.openstack.org/marketplace/public-clouds/) Similar to AWS, GCP or Azure, this is a list of providers who offer cloud services running on OpenStack.
+- [SuperUser](https://superuser.openstack.org) SuperUser is an online 'publication' aggregating and editorialising content related to OpenStack and Open Infrastructure.
+- [Stackalytics](https://www.stackalytics.com) Code contribution statistics to OpenStack and related projects.
 
 ### Configuration Management
 
@@ -261,11 +261,11 @@ Treating your configuration as something described in text files allows you to t
 
 There are several good options:
 
--[Ansible](http://www.ansible.com/) is designed to be minimal in nature, consistent, secure, and highly reliable. Is owned & supported by Red Hat.
--[Chef](http://www.opscode.com/chef/) is written in Ruby and Erlang and uses a Ruby DSL to describe system configuration.
--[Chocolatey](https://chocolatey.org/) a Windows software management tool.
--[Puppet](http://puppetlabs.com/) makes it easy to automate the provisioning, configuration and ongoing management of your machines and the software running on them. Make rapid, repeatable changes and automatically enforce the consistency of systems and devices – across physical and virtual machines, on premise or in the cloud.
--[Salt](http://www.saltstack.com/) orchestrates the build and ongoing management of your infrastructure.
+- [Ansible](http://www.ansible.com/) is designed to be minimal in nature, consistent, secure, and highly reliable. Is owned & supported by Red Hat.
+- [Chef](http://www.opscode.com/chef/) is written in Ruby and Erlang and uses a Ruby DSL to describe system configuration.
+- [Chocolatey](https://chocolatey.org/) a Windows software management tool.
+- [Puppet](http://puppetlabs.com/) makes it easy to automate the provisioning, configuration and ongoing management of your machines and the software running on them. Make rapid, repeatable changes and automatically enforce the consistency of systems and devices – across physical and virtual machines, on premise or in the cloud.
+- [Salt](http://www.saltstack.com/) orchestrates the build and ongoing management of your infrastructure.
 
 ### Docker
 
@@ -283,7 +283,7 @@ Follow the installation instructions for your preferred platform:
 
 #### Learning Docker
 
--[The Docker Book](https://www.dockerbook.com/) - An excellent resource for getting started with Docker. This book is quick & easy to read.
+- [The Docker Book](https://www.dockerbook.com/) - An excellent resource for getting started with Docker. This book is quick & easy to read.
 
 ### Kubernetes
 
@@ -299,8 +299,8 @@ Ever wondered exactly what happens when you type something `kubectl run nginx --
 
 #### Utilities
 
--[krew](https://github.com/kubernetes-sigs/krew/) - Makes it easy to use [kubectl plugins](https://kubernetes.io/docs/tasks/extend-kubectl/kubectl-plugins/). `krew` helps you discover plugins, install and manage them on your machine. It is similar to tools like `apt`, `dnf` or `brew`. Today, over 70 `kubectl` plugins are available on `krew`.
--[kubectx](https://github.com/ahmetb/kubectx) - Provides the `kubectx` command, which makes it easy to switch between clusters specified in your `.kube/config`, and `kubens`, which helps you switch between Kubernetes namespaces smoothly.
+- [krew](https://github.com/kubernetes-sigs/krew/) - Makes it easy to use [kubectl plugins](https://kubernetes.io/docs/tasks/extend-kubectl/kubectl-plugins/). `krew` helps you discover plugins, install and manage them on your machine. It is similar to tools like `apt`, `dnf` or `brew`. Today, over 70 `kubectl` plugins are available on `krew`.
+- [kubectx](https://github.com/ahmetb/kubectx) - Provides the `kubectx` command, which makes it easy to switch between clusters specified in your `.kube/config`, and `kubens`, which helps you switch between Kubernetes namespaces smoothly.
 
 ### Monitoring
 
@@ -494,8 +494,8 @@ Writing good documentation and design docs is as important as writing code. The 
 
 -Patrick McKenzie wrote a great blog post on [salary negotiation](https://www.kalzumeus.com/2012/01/23/salary-negotiation/). Salary negotiation is one of the few times in your life where a five minute conversation can earn you (or _cost_ you!) thousands of dollars - be prepared.
 -Patrick also has a good podcast episode on salary negotiation - [Kalzumeus Podcast Episode 12: Salary Negotiation with Josh Doody](https://www.kalzumeus.com/2016/06/03/kalzumeus-podcast-episode-12-salary-negotiation-with-josh-doody/)  (there's a transcript too). You have to do it, it affects your life, you should do it well.
--[The Holloway Guide to Equity Compensation](https://www.holloway.com/g/equity-compensation) - Stock options, RSUs, job offers, and taxes — a detailed reference, including hundreds of resources, explained from the ground up.
--[What I Wish I'd Known About Equity Before Joining A Unicorn](https://gist.github.com/yossorion/4965df74fd6da6cdc280ec57e83a202d) - This is an excellent (though USA-centric) summary of how to value stock options and what the tax implications are and how to minimize potential tax. I heartily recommend reading it before you accept any offers involving stock or stock options as part of your compensation.
+- [The Holloway Guide to Equity Compensation](https://www.holloway.com/g/equity-compensation) - Stock options, RSUs, job offers, and taxes — a detailed reference, including hundreds of resources, explained from the ground up.
+- [What I Wish I'd Known About Equity Before Joining A Unicorn](https://gist.github.com/yossorion/4965df74fd6da6cdc280ec57e83a202d) - This is an excellent (though USA-centric) summary of how to value stock options and what the tax implications are and how to minimize potential tax. I heartily recommend reading it before you accept any offers involving stock or stock options as part of your compensation.
 
 ## License
 
