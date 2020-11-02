@@ -422,7 +422,7 @@ There are several excellent starter kits out there, with varying delineations of
 Here are some `emacs` configurations for inspiration:
 
 - Magnar Sveen's very interesting and original `emacs` config! [https://github.com/magnars/.emacs.d](https://github.com/magnars/.emacs.d)
-- Phil Hagelberg's config: [https://github.com/technomancy/dotfiles/tree/master/.emacs.d](https://github.com/technomancy/dotfiles/tree/master/.emacs.d)
+- Phil Hagelberg's config: [https://git.sr.ht/~technomancy/dotfiles/tree/master/.emacs.d](https://git.sr.ht/~technomancy/dotfiles/tree/master/.emacs.d)
 - Steve Purcell's excellent config: [https://github.com/purcell/emacs.d](https://github.com/purcell/emacs.d)
 
 #### Visual Editors and IDEs
