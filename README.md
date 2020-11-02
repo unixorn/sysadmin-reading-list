@@ -118,7 +118,6 @@ That said, it is on every system, so every *NIX sysadmin needs to know `bash`.
 
 Here are some useful resources to help you step up your shell scripting game:
 
-
 - [Advancing in the Bash Shell](http://samrowe.com/wordpress/advancing-in-the-bash-shell/) - Sam Rowe's `bash` as CLI tutorial.
 - [Bash Pitfalls](http://mywiki.wooledge.org/BashPitfalls) - Greg Wooledge has a great list of unpleasant surprises in `bash`.
 - [Commandlinefu](https://www.commandlinefu.com/) - an extensive list of `bash` oneliners for almost every task you may need to accomplish.
@@ -129,7 +128,6 @@ Here are some useful resources to help you step up your shell scripting game:
 - [shellcheck](https://github.com/koalaman/shellcheck) is a lint for `bash`. It'll help you find unused variables, deprecated syntax and other things that make your `bash` scripts less stable. You can install it with `apt-get`, `brew`, `cabal`, or `yum`.
 - [shellharden](https://github.com/anordal/shellharden) - is a syntax highlighter and a tool to semi-automate the rewriting of scripts to ShellCheck conformance, mainly focused on quoting.
 - [zshelldoc](https://github.com/zdharma/zshelldoc) - Documentation generator for Bash & ZSH, with call-trees, comment extraction, etc.
-
 
 Finally, remember that `bash` is not `sh`. If you're writing a script in `bash`, and testing it with `bash`, don't put `#!/bin/sh` as the shebang. Firstly, because `bash` behaves differently when called as `sh`, and secondly, not all *NIX systems (and not even all linux distributions) use `bash` as their `/bin/sh` any more.
 
