@@ -26,5 +26,5 @@ This repository is copyright 2017-2020 Joseph Block under a [Attribution-NonComm
 
 - [ ] All new and existing tests pass.
 - [ ] List entries are sorted alphabetically.
-- [ ] Any list entries are one line. This makes it easier to keep the sections sorted. We let the markdown renderer handle line breaks.
+- [ ] Any list entries are one line. This makes it easier to keep the sections sorted. Let the markdown renderer handle line breaks, don't try to help it.
 - [ ] I confirmed that all the links in my PR are valid.
