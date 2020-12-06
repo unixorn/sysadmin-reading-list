@@ -1,7 +1,7 @@
 # sysadmin-reading-list
 
 [![GitHub stars](https://img.shields.io/github/stars/unixorn/sysadmin-reading-list.svg)](https://github.com/unixorn/sysadmin-reading-list/stargazers)
-[![CircleCI](https://circleci.com/gh/unixorn/sysadmin-reading-list.svg?style=shield)](https://circleci.com/gh/unixorn/sysadmin-reading-list)
+[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Funixorn%2Fsysadmin-reading-list%2Fbadge&style=flat)](https://actions-badge.atrox.dev/unixorn/sysadmin-reading-list/goto)
 [![GitHub last commit (branch)](https://img.shields.io/github/last-commit/unixorn/sysadmin-reading-list/master.svg)](https://github.com/unixorn/sysadmin-reading-list)
 
 A reading list for the larval stage sysadmin. This list is focused on the UNIX family of OSes, mainly because that is my area of expertise, but PRs about other OSes are welcome.
@@ -50,8 +50,9 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
   - [Source control](#source-control)
     - [Git](#git)
   - [SSH](#ssh)
+  - [Testing](#testing)
     - [Test Harnesses](#test-harnesses)
-  - [Text Editors:](#text-editors)
+  - [Text Editors](#text-editors)
     - [Vim](#vim)
     - [Emacs](#emacs)
     - [Visual Editors and IDEs](#visual-editors-and-ides)
@@ -94,7 +95,7 @@ So you've got your first sysadmin/sre job or internship. Congratulations, it's g
 
 ## Languages
 
-The **Dev** part of **DevOps** means you're going to inevitably end up writing some code. Here's a list of [free programming books](https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md) for many languages.
+The **Dev** part of **DevOps** means you're going to inevitably end up writing some code. Here's a list of [free programming books](https://github.com/EbookFoundation/free-programming-books/) for many languages.
 
 Here are some of the scripting languages you're most likely to see in your infrastructure, with links to some good references and tutorials.
 
