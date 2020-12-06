@@ -294,7 +294,7 @@ Kubernetes is a portable open-source container orchestration system used to auto
 
 #### Tutorials
 
-There are many good tutorials at [kubernetes.io](https://kubernetes.io/docs/home/). I recommend you start with either the [minikube](https://kubernetes.io/docs/setup/learning-environment/minikube/) walkthrough since it will get you a running test cluster quickly, or enable the kubernetes cluster option in [Docker Desktop](https://www.docker.com/products/docker-desktop).
+There are many good tutorials at [kubernetes.io](https://kubernetes.io/docs/home/). I recommend you start with either the [minikube](https://minikube.sigs.k8s.io/docs/start/) walkthrough since it will get you a running test cluster quickly, or enable the kubernetes cluster option in [Docker Desktop](https://www.docker.com/products/docker-desktop).
 
 If you want to understand everything that is involved in getting a Kubernetes cluster up and running, [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way) by Kelsey Hightower is hard to beat.
 
