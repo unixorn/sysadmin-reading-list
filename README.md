@@ -95,7 +95,7 @@ So you've got your first sysadmin/sre job or internship. Congratulations, it's g
 
 ## Languages
 
-The **Dev** part of **DevOps** means you're going to inevitably end up writing some code. Here's a list of [free programming books](https://github.com/EbookFoundation/free-programming-books/blob/master/free-programming-books.md) for many languages.
+The **Dev** part of **DevOps** means you're going to inevitably end up writing some code. Here's a list of [free programming books](https://github.com/EbookFoundation/free-programming-books/) for many languages.
 
 Here are some of the scripting languages you're most likely to see in your infrastructure, with links to some good references and tutorials.
 
