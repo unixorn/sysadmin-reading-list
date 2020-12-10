@@ -122,6 +122,7 @@ Here are some useful resources to help you step up your shell scripting game:
 
 - [Advancing in the Bash Shell](http://samrowe.com/wordpress/advancing-in-the-bash-shell/) - Sam Rowe's `bash` as CLI tutorial.
 - [Bash Pitfalls](http://mywiki.wooledge.org/BashPitfalls) - Greg Wooledge has a great list of unpleasant surprises in `bash`.
+- [Bash Guide](https://mywiki.wooledge.org/BashGuide) - Gives examples of good practice when writing `bash` scripts. It is targeted at beginning users with no advanced knowledge.
 - [Commandlinefu](https://www.commandlinefu.com/) - an extensive list of `bash` oneliners for almost every task you may need to accomplish.
 - [Google's Shell Style Guide](https://google.github.io/styleguide/shell.xml) lists what Google's developers consider best practices for `bash` scripts.
 - [Learning the Bash Shell](http://shop.oreilly.com/product/9780596009656.do) - It's hard to go wrong with an O'Reilly reference on anything, really.
