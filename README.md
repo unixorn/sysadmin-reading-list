@@ -472,6 +472,7 @@ Packetlife has some great cheat sheets and posters [here](https://packetlife.net
 - [awesome-sysadmin](https://github.com/n1trux/awesome-sysadmin) - A curated list of awesome open-source sysadmin resources.
 - [devops-exercises](https://github.com/bregman-arie/devops-exercises) - Questions and exercises on various technical topics, sometimes related to DevOps and SRE.
 - [devops-resources](https://github.com/bregman-arie/devops-resources) - Another repository of useful resources and information about DevOps.
+- [nohello](https://www.nohello.com/) - Why you shouldn't just say 'Hello' when you chat with someone. Make it easier for them to help you.
 - [oncall-handbook](https://github.com/alicegoldfuss/oncall-handbook) - Alice Goldfuss' excellent oncall handbook, read this before your first oncall shift.
 - [sre-interview](https://github.com/michael-kehoe/sre-interview) - A collection of questions to practice for interviews.
 - [stack-on-a-budget](https://github.com/255kb/stack-on-a-budget) - A list of free/cheap tiers of services that you can use to learn the various cloud-based systems.
