@@ -330,6 +330,7 @@ When you have a multi-gigabyte logfile, it's a lot less painful to look at just 
 
 - [debuggex.com/](https://www.debuggex.com/) will visualize regular expressions graphically.
 - [Introducing Regular Expressions](http://shop.oreilly.com/product/0636920012337.do)
+- [Regex for Noobs](https://www.janmeppe.com/blog/regex-for-noobs/) - An illustrated guide to regex that aims to provide a gentle introduction for people who never have fiddled with regex, want to, but are kind of intimidated by the whole thing.
 - [Regular Expressions Cookbook](http://shop.oreilly.com/product/0636920023630.do)
 
 ### Sed & Awk
