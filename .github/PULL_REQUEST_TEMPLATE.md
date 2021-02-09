@@ -1,10 +1,6 @@
 <!--- Provide a general summary of your changes in the Title above -->
-
-# Motivation and Context
-<!--- Why is this change required? What problem does it solve? -->
-<!--- If it fixes an open issue, please link to the issue here. -->
-
 # Description
+
 <!--- Describe your changes in detail -->
 
 # License Assignment
@@ -21,8 +17,9 @@ This repository is copyright 2017-2020 Joseph Block under a [Attribution-NonComm
 - [ ] Text updates
 
 # Checklist:
+
 <!--- Go over all the following points, and put an `x` in all the boxes that apply. -->
-<!--- If you're unsure about any of these, don't hesitate to ask in a comment -->
+<!--- If you're unsure about any of these, don't hesitate to ask in a comment on the PR -->
 
 - [ ] All new and existing tests pass.
 - [ ] List entries are sorted alphabetically.
