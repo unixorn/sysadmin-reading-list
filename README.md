@@ -152,10 +152,10 @@ A couple of places to go into as training are:
 
 #### Python Books
 
-- [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/), a free Book that helps you automate boring and repetitive tasks with Python.
+- [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/), a free book that helps you automate boring and repetitive tasks with Python.
 - [Programming Python](http://shop.oreilly.com/product/9780596158118.do), a well-written O'Reilly book, short and concise.
 - [Python 101 --- Introduction to Python](http://www.davekuhlman.org/python_101.html), a free book that introduces and explains many python concepts.
-- [20 Python Libraries You Aren't Using (But Should)](http://www.oreilly.com/programming/free/20-python-libraries-you-arent-using-but-should.csp), a free Book by Caleb Hattingh published by O'Reilly (No real Email address needed.)
+- [20 Python Libraries You Aren't Using (But Should)](http://www.oreilly.com/programming/free/20-python-libraries-you-arent-using-but-should.csp), a free book by Caleb Hattingh published by O'Reilly (No real Email address needed.)
 
 #### Tutorials @ Python
 
@@ -164,7 +164,7 @@ A couple of places to go into as training are:
 #### Python & Sysadmin
 
 - [The Hitchhiker's Guide to Python](http://docs.python-guide.org/en/latest/scenarios/admin/), a neat place to see usage and examples of Python and not only for systems administration.
-- [WSGI - Web Server Gateway Interface](http://uwsgi-docs.readthedocs.io/en/latest/WSGIquickstart.html), the Python implementation of web servers.
+- [WSGI - Web Server Gateway Interface](http://uwsgi-docs.readthedocs.io/en/latest/WSGIquickstart.html), a Python implementation of web servers.
 
 #### Python & Deployment Utils
 
@@ -228,7 +228,7 @@ Perl has a long history of being the system administrator's friend, bringing the
 
 - [AWSCli](https://github.com/aws/aws-cli) provides a unified command line interface to Amazon Web Services. Wean yourself off of the webui if you want to be truly productive.
 - [og-aws](https://github.com/open-guides/og-aws) is an excellent resource to AWS written by and for engineers who use AWS extensively.
-- [S3cmd](http://s3tools.org/s3cmd) is a free command line tool and client for uploading, retrieving and managing data in Amazon S3 and other cloud storage service providers that use the S3 protocol, such as Google Cloud Storage or DreamHost DreamObjects.
+- [S3cmd](http://s3tools.org/s3cmd) is a free command line tool and client for uploading, retrieving and managing data in Amazon S3 and other cloud storage service providers that use the S3 protocol, such as Google Cloud Storage, Backblaze B2 or DreamHost DreamObjects.
 
 #### Azure
 
@@ -266,7 +266,7 @@ Treating your configuration as something described in text files allows you to t
 
 There are several good options:
 
-- [Ansible](http://www.ansible.com/) is designed to be minimal in nature, consistent, secure, and highly reliable. Is owned & supported by Red Hat.
+- [Ansible](http://www.ansible.com/) is designed to be minimal in nature, consistent, secure, and highly reliable. Owned & supported by Red Hat.
 - [CFEngine](https://cfengine.com) has been in continuous development since 1993.  Unlike some of its peers on this list, it is written in C and is built with speed and scalability in mind.  It should be considered for very, very large systems and for very small (think embedded) systems.
 - [Chef](http://www.opscode.com/chef/) is written in Ruby and Erlang and uses a Ruby DSL to describe system configuration.
 - [Chocolatey](https://chocolatey.org/) a Windows software management tool.
@@ -275,8 +275,7 @@ There are several good options:
 
 ### Docker
 
-[Docker](https://www.docker.com/what-docker) is a tool for running and managing
-containers. Containers are rapidly growing in popularity for local development (as an alternative to virtual machines), and can also run software in production with tools like [Kubernetes](https://kubernetes.io/) or [Amazon ECS](https://aws.amazon.com/ecs/).
+[Docker](https://www.docker.com/what-docker) is a tool for running and managing containers. Containers are rapidly growing in popularity for local development (as an alternative to virtual machines), and can also run software in production with tools like [Kubernetes](https://kubernetes.io/) or [Amazon ECS](https://aws.amazon.com/ecs/).
 
 #### Installing Docker
 
@@ -301,7 +300,7 @@ There are many good tutorials at [kubernetes.io](https://kubernetes.io/docs/home
 
 If you want to understand everything that is involved in getting a Kubernetes cluster up and running, [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way) by Kelsey Hightower is hard to beat.
 
-Ever wondered exactly what happens when you type something `kubectl run nginx --image=nginx --replicas=3` to make everything happen? [What happens when K8s...](https://github.com/jamiehannaford/what-happens-when-k8s/) is a guide that leads you through the full lifecycle of a request from the client to the kubelet, linking off to the source code where necessary to illustrate what's going on.
+Have you ever wondered exactly what happens when you type something `kubectl run nginx --image=nginx --replicas=3` to make everything happen? [What happens when K8s...](https://github.com/jamiehannaford/what-happens-when-k8s/) is a guide that leads you through the full lifecycle of a request from the client to the kubelet, linking off to the source code where necessary to illustrate what's going on.
 
 #### Utilities
 
@@ -373,7 +372,7 @@ Whether or not your shop uses `git` internally, you're going to end up needing t
 
 ### SSH
 
-- [awesome-ssh](https://github.com/moul/awesome-ssh) - A curated list of ssh apps, libraries and other resources.
+- [awesome-ssh](https://github.com/moul/awesome-ssh) - A curated list of `ssh` apps, libraries and other resources.
 - [SSH, The Secure Shell: The Definitive Guide, 2nd Edition](http://shop.oreilly.com/product/9780596008956.do)
 
 ### Testing
@@ -382,7 +381,7 @@ Testing is incredibly important and you should undertake this for your infrastru
 
 #### Test Harnesses
 
-- **Test Kitchen** [https://kitchen.ci](https://kitchen.ci) - Test your configuration management tooling. Was originally written to test chef cookbooks, but can be used for other configuration management systems as well.
+- **Test Kitchen** [https://kitchen.ci](https://kitchen.ci) - Test your configuration management tooling. Test kitchen was originally written to test chef cookbooks, but can be used for other configuration management systems as well.
 
 ### Text Editors
 
@@ -419,16 +418,16 @@ If you're looking for `emacs` packages, the following online package index is th
 
 There are several excellent starter kits out there, with varying delineations of wizz-bang. Roughly sorted by wizz-bang, here are the starter kits that exist, with spacemacs being the most popular:
 
-- [https://github.com/technomancy/better-defaults](https://github.com/technomancy/better-defaults)
-- [https://github.com/hlissner/doom-emacs](https://github.com/hlissner/doom-emacs)
-- [https://github.com/bbatsov/prelude](https://github.com/bbatsov/prelude)
-- [https://github.com/syl20bnr/spacemacs](https://github.com/syl20bnr/spacemacs)
+- [technomancy/better-defaults](https://github.com/technomancy/better-defaults)
+- [hlissner/doom-emacs](https://github.com/hlissner/doom-emacs)
+- [bbatsov/prelude](https://github.com/bbatsov/prelude)
+- [syl20bnr/spacemacs](https://github.com/syl20bnr/spacemacs)
 
 Here are some `emacs` configurations for inspiration:
 
-- Magnar Sveen's very interesting and original `emacs` config! [https://github.com/magnars/.emacs.d](https://github.com/magnars/.emacs.d)
+- Magnar Sveen's very interesting and original `emacs` config! [magnars/.emacs.d](https://github.com/magnars/.emacs.d)
 - Phil Hagelberg's config: [https://git.sr.ht/~technomancy/dotfiles/tree/master/.emacs.d](https://git.sr.ht/~technomancy/dotfiles/tree/master/.emacs.d)
-- Steve Purcell's excellent config: [https://github.com/purcell/emacs.d](https://github.com/purcell/emacs.d)
+- Steve Purcell's excellent config: [purcell/emacs.d](https://github.com/purcell/emacs.d)
 
 #### Visual Editors and IDEs
 
@@ -447,7 +446,7 @@ There are GUI versions of `vim` and `emacs` that have ardent followers.
 - [Hey, Scripting Guy! Blog](https://blogs.technet.microsoft.com/heyscriptingguy/) is a blog that answers common (and some uncommon) PowerShell queries.
 - [Julia Evans' Blog](http://jvns.ca/) - Julia writes a great blog where she dives into interesting ops topics and explains them clearly.
 - [Kitchen Soap](http://www.kitchensoap.com/) - John Alspaw is the CTO at Etsy and writes a great blog about web operations and operating at scale and other things that are interesting to ops types.
-- [PowerScripting Podcast](https://powershell.org/podcast/) is hosted by Jon Walz and Hal Rottenberg.
+- [PowerScripting Podcast](https://powershell.org/category/podcast/) is hosted by Jon Walz and Hal Rottenberg.
 
 ## Online Communities
 
@@ -465,7 +464,7 @@ Packetlife has some great cheat sheets and posters [here](https://packetlife.net
 
 ### Free Services
 
-- A [list](https://github.com/ripienaar/free-for-dev) of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev.
+- [Free-for-Dev](https://github.com/ripienaar/free-for-dev) is a list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev.
 
 ### Miscellanea
 
@@ -495,7 +494,7 @@ Packetlife has some great cheat sheets and posters [here](https://packetlife.net
 
 Writing good documentation and design docs is as important as writing code. The more senior you are, the more writing you're going to have to do - communication skills are a must.
 
-- Email - Like it or not, you're going to write a _lot_ of email in the course of you work. Lazarus Lazaridis wrote a good article on [Composing Better Emails](https://iridakos.com/how-to/2019/06/26/composing-better-emails.html)
+- Email - Like it or not, you're going to write a _lot_ of email in the course of your work. Lazarus Lazaridis wrote a good article on [Composing Better Emails](https://iridakos.com/how-to/2019/06/26/composing-better-emails.html)
 - Gergely Orosz wrote an excellent blog post about [Undervalued Software Engineering Skills: Writing Well](https://blog.pragmaticengineer.com/on-writing-well/).
 
 ### Finance/Salary
@@ -507,4 +506,4 @@ Writing good documentation and design docs is as important as writing code. The 
 
 ## License
 
-This repository is copyright 2017-2020 Joseph Block under a [Attribution-NonCommercial-ShareAlike 4.0 International](#attribution-noncommercial-sharealike-40-international) license.
+This repository is copyright 2017-2021 Joseph Block under a [Attribution-NonCommercial-ShareAlike 4.0 International](#attribution-noncommercial-sharealike-40-international) license.
