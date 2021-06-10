@@ -446,7 +446,7 @@ There are GUI versions of `vim` and `emacs` that have ardent followers.
 - [Hey, Scripting Guy! Blog](https://blogs.technet.microsoft.com/heyscriptingguy/) is a blog that answers common (and some uncommon) PowerShell queries.
 - [Julia Evans' Blog](http://jvns.ca/) - Julia writes a great blog where she dives into interesting ops topics and explains them clearly.
 - [Kitchen Soap](http://www.kitchensoap.com/) - John Alspaw is the CTO at Etsy and writes a great blog about web operations and operating at scale and other things that are interesting to ops types.
-- [PowerScripting Podcast](https://powershell.org/podcast/) is hosted by Jon Walz and Hal Rottenberg.
+- [PowerScripting Podcast](https://powershell.org/category/podcast/) is hosted by Jon Walz and Hal Rottenberg.
 
 ## Online Communities
 
