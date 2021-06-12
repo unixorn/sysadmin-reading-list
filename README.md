@@ -298,6 +298,8 @@ Kubernetes is a portable open-source container orchestration system used to auto
 
 There are many good tutorials at [kubernetes.io](https://kubernetes.io/docs/home/). I recommend you start with either the [minikube](https://minikube.sigs.k8s.io/docs/start/) walkthrough since it will get you a running test cluster quickly, or enable the kubernetes cluster option in [Docker Desktop](https://www.docker.com/products/docker-desktop).
 
+VMWare sponsors a free set of online Kubernetes courses at [https://kube.academy/courses](https://kube.academy/courses).
+
 If you want to understand everything that is involved in getting a Kubernetes cluster up and running, [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way) by Kelsey Hightower is hard to beat.
 
 Have you ever wondered exactly what happens when you type something `kubectl run nginx --image=nginx --replicas=3` to make everything happen? [What happens when K8s...](https://github.com/jamiehannaford/what-happens-when-k8s/) is a guide that leads you through the full lifecycle of a request from the client to the kubelet, linking off to the source code where necessary to illustrate what's going on.
