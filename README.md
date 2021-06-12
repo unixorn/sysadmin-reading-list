@@ -445,10 +445,17 @@ There are GUI versions of `vim` and `emacs` that have ardent followers.
 
 - [Arrested Devops](https://www.arresteddevops.com/) is hosted by Matt Stratton, Trevor Hess, and Bridget Kromhout. ADO is the podcast that helps you achieve understanding, develop good practices, and operate your team and organization for maximum DevOps awesomeness.
 - [Code as Craft](http://codeascraft.com/) is Etsy's ops blog and is full of well written examples of dealing with real-world problems at scale.
+- [Corecursive](https://corecursive.com/) - Each episode someone shares the fascinating story behind a piece of software being built.
+- [DevOps'ish](https://devopsish.com/) - A weekly newsletter assembled by open source contributor, DevOps leader, and Cloud Native Computing Foundation (CNCF) Ambassador Chris Short.
 - [Hey, Scripting Guy! Blog](https://blogs.technet.microsoft.com/heyscriptingguy/) is a blog that answers common (and some uncommon) PowerShell queries.
 - [Julia Evans' Blog](http://jvns.ca/) - Julia writes a great blog where she dives into interesting ops topics and explains them clearly.
 - [Kitchen Soap](http://www.kitchensoap.com/) - John Alspaw is the CTO at Etsy and writes a great blog about web operations and operating at scale and other things that are interesting to ops types.
+- [Last Week in AWS](https://www.lastweekinaws.com/) - Corey Quinn's weekly newsletter about the latest goings-on in the world of AWS.
+- [Last Week in Kubernetes Development](https://lwkd.info/) - Weekly newsletter summarizing code activity in the Kubernetes project: merges, PRs, deprecations, version updates, release schedules, and the weekly community meeting.
+- [Monitoring Weekly](https://monitoring.love/) - Weekly compilation of curated articles, news and tools related to monitoring.
+- [On the Metal](https://oxide.computer/podcasts) - Bryan Cantrill and Jessie Frazelle host a podcast about all sorts of interesting aspects of computing.
 - [PowerScripting Podcast](https://powershell.org/category/podcast/) is hosted by Jon Walz and Hal Rottenberg.
+- [SRE Weekly](https://sreweekly.com/) - SRE Weekly is a newsletter devoted to everything related to keeping a site or service available as consistently as possible.
 
 ## Online Communities
 
