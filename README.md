@@ -36,6 +36,8 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
     - [Google Cloud](#google-cloud)
     - [OpenStack](#openstack)
   - [Configuration Management](#configuration-management)
+  - [Containerd](#containerd)
+    - [Installing and Learning Containerd](#installing-and-learning-containerd)
   - [Docker](#docker)
     - [Installing Docker](#installing-docker)
     - [Learning Docker](#learning-docker)
@@ -273,6 +275,16 @@ There are several good options:
 - [Chocolatey](https://chocolatey.org/) a Windows software management tool.
 - [Puppet](http://puppetlabs.com/) makes it easy to automate the provisioning, configuration and ongoing management of your machines and the software running on them. Make rapid, repeatable changes and automatically enforce the consistency of systems and devices – across physical and virtual machines, on premise or in the cloud.
 - [Salt](http://www.saltstack.com/) orchestrates the build and ongoing management of your infrastructure.
+
+### Containerd
+
+[Containerd](https://github.com/containerd/containerd) is an industry-standard container runtime with an emphasis on simplicity, robustness and portability. It is available as a daemon for Linux and Windows, which can manage the complete container lifecycle of its host system: image transfer and storage, container execution and supervision, low-level storage and network attachments, etc.
+
+#### Installing and Learning Containerd
+
+Follow the installation instructions for your preferred platform (Currently, only Linux and Windows are supported) and start learning how to use Containerd:
+
+- [Getting started with containerd](https://containerd.io/docs/getting-started/)
 
 ### Docker
 
