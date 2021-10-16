@@ -39,6 +39,8 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
   - [Docker](#docker)
     - [Installing Docker](#installing-docker)
     - [Learning Docker](#learning-docker)
+  - [Containerd](#containerd)
+    - [Installing and Learning Containerd](#installing-and-learning-containerd)
   - [Kubernetes](#kubernetes)
     - [Tutorials](#tutorials)
     - [Utilities](#utilities)
@@ -290,6 +292,16 @@ Follow the installation instructions for your preferred platform:
 #### Learning Docker
 
 - [The Docker Book](https://www.dockerbook.com/) - An excellent resource for getting started with Docker. This book is quick & easy to read.
+
+### Containerd
+
+[Containerd](https://github.com/containerd/containerd) is an industry-standard container runtime with an emphasis on simplicity, robustness and portability. It is available as a daemon for Linux and Windows, which can manage the complete container lifecycle of its host system: image transfer and storage, container execution and supervision, low-level storage and network attachments, etc.
+
+#### Installing and Learning Containerd
+
+Follow the installation instructions for your preferred platform (Currently, only Linux and Windows are supported) and start learning how to use Containerd:
+
+- [Getting started with containerd](https://containerd.io/docs/getting-started/)
 
 ### Kubernetes
 
