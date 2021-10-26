@@ -158,7 +158,6 @@ A couple of places to go into as training are:
 
 - [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/), a free book that helps you automate boring and repetitive tasks with Python.
 - [Programming Python](http://shop.oreilly.com/product/9780596158118.do), a well-written O'Reilly book, short and concise.
-- [Python 101 --- Introduction to Python](http://www.davekuhlman.org/python_101.html), a free book that introduces and explains many python concepts.
 - [20 Python Libraries You Aren't Using (But Should)](http://www.oreilly.com/programming/free/20-python-libraries-you-arent-using-but-should.csp), a free book by Caleb Hattingh published by O'Reilly (No real Email address needed.)
 
 #### Tutorials @ Python
