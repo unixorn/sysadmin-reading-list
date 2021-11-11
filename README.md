@@ -135,7 +135,7 @@ Here are some useful resources to help you step up your shell scripting game:
 - [Safe Ways to do Things in Bash](https://github.com/anordal/shellharden/blob/master/how_to_do_things_safely_in_bash.md) - An excellent set of tips from the authors of [shellharden](https://github.com/anordal/shellharden).
 - [shellcheck](https://github.com/koalaman/shellcheck) is a lint for `bash`. It'll help you find unused variables, deprecated syntax and other things that make your `bash` scripts less stable. You can install it with `apt-get`, `brew`, `cabal`, or `yum`.
 - [shellharden](https://github.com/anordal/shellharden) - is a syntax highlighter and a tool to semi-automate the rewriting of scripts to ShellCheck conformance, mainly focused on quoting.
-- [zshelldoc](https://github.com/zdharma/zshelldoc) - Documentation generator for Bash & ZSH, with call-trees, comment extraction, etc.
+- [zshelldoc](https://github.com/zdharma-continuum/zshelldoc) - Documentation generator for Bash & ZSH, with call-trees, comment extraction, etc.
 
 Finally, remember that `bash` is not `sh`. If you're writing a script in `bash`, and testing it with `bash`, don't put `#!/bin/sh` as the shebang. Firstly, because `bash` behaves differently when called as `sh`, and secondly, not all *NIX systems (and not even all linux distributions) use `bash` as their `/bin/sh` any more.
 
