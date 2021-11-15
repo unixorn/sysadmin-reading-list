@@ -47,6 +47,7 @@ A reading list for the larval stage sysadmin. This list is focused on the UNIX f
     - [Utilities](#utilities)
   - [Monitoring](#monitoring)
     - [Articles/Tutorials](#articlestutorials)
+  - [JSON parsing with jq](#json-parsing-with-jq)
   - [Regular Expressions](#regular-expressions)
   - [Sed & Awk](#sed--awk)
   - [Serverless](#serverless)
@@ -338,6 +339,14 @@ There are several good projects for monitoring.
 #### Articles/Tutorials
 
 [Impactful Dashboards](https://jesswhite.co.uk/2018/04/09/impactfuldashboardspart1-post.html) - It's easy to make monitoring dashboards that are a jumble of poorly presented information, this article gives guidelines on making good dashboards.
+
+### JSON parsing with jq
+
+Many of the tools you're going to use have JSON output options. [jq](https://github.com/stedolan/jq) is a lightweight JSON processor you can use to slice out useful bits of the output for use in scripts similarly to how you can use `awk` or `sed` on text files.
+
+
+- Adam Gordon Bell wrote a good [Introduction to JQ](https://earthly.dev/blog/jq-select/).
+- There's an online playground at [https://jqplay.org/](https://jqplay.org/) you can use to experiment.
 
 ### Regular Expressions
 
