@@ -2,7 +2,7 @@
 
 [![GitHub stars](https://img.shields.io/github/stars/unixorn/sysadmin-reading-list.svg)](https://github.com/unixorn/sysadmin-reading-list/stargazers)
 [![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Funixorn%2Fsysadmin-reading-list%2Fbadge&style=flat)](https://actions-badge.atrox.dev/unixorn/sysadmin-reading-list/goto)
-[![GitHub last commit (branch)](https://img.shields.io/github/last-commit/unixorn/sysadmin-reading-list/master.svg)](https://github.com/unixorn/sysadmin-reading-list)
+[![GitHub last commit (branch)](https://img.shields.io/github/last-commit/unixorn/sysadmin-reading-list/main.svg)](https://github.com/unixorn/sysadmin-reading-list)
 
 A reading list for the larval stage sysadmin. This list is focused on the UNIX family of OSes, mainly because that is my area of expertise, but PRs about other OSes are welcome.
 
