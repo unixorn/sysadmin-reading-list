@@ -138,7 +138,7 @@ Here are some useful resources to help you step up your shell scripting game:
 - [shellharden](https://github.com/anordal/shellharden) - is a syntax highlighter and a tool to semi-automate the rewriting of scripts to ShellCheck conformance, mainly focused on quoting.
 - [zshelldoc](https://github.com/zdharma-continuum/zshelldoc) - Documentation generator for Bash & ZSH, with call-trees, comment extraction, etc.
 
-Finally, remember that `bash` is not `sh`. If you're writing a script in `bash`, and testing it with `bash`, don't put `#!/bin/sh` as the shebang. Firstly, because `bash` behaves differently when called as `sh`, and secondly, not all *NIX systems (and not even all linux distributions) use `bash` as their `/bin/sh` any more.
+Finally, remember that `bash` is not `sh`. If you're writing a script in `bash`, and testing it with `bash`, don't use `#!/bin/sh` as the shebang. Firstly, because `bash` behaves differently when called as `sh`, and secondly, not all *NIX systems (and not even all linux distributions) use `bash` as their `/bin/sh` any more.
 
 ### Powershell
 
@@ -195,9 +195,9 @@ Perl has a long history of being the system administrator's friend, bringing the
 
 #### Perl Books
 
-- [Programming Perl](http://shop.oreilly.com/product/9780596004927.do)
 - [Learning Perl](http://shop.oreilly.com/product/9780596001322.do)
 - [Perl Best Practices](http://shop.oreilly.com/product/9780596001735.do)
+- [Programming Perl](http://shop.oreilly.com/product/9780596004927.do)
 
 #### Toolchain
 
@@ -258,8 +258,8 @@ Perl has a long history of being the system administrator's friend, bringing the
 - [Community](https://www.openstack.org/community/) Where to go and who to ask for help.
 - [Planet OpenStack](http://planet.openstack.org) An aggregated feed from across the Internet of OpenStack-related content, including contributions from individuals.
 - [Public Clouds](https://www.openstack.org/marketplace/public-clouds/) Similar to AWS, GCP or Azure, this is a list of providers who offer cloud services running on OpenStack.
-- [SuperUser](https://superuser.openstack.org) SuperUser is an online 'publication' aggregating and editorialising content related to OpenStack and Open Infrastructure.
 - [Stackalytics](https://www.stackalytics.com) Code contribution statistics to OpenStack and related projects.
+- [SuperUser](https://superuser.openstack.org) SuperUser is an online 'publication' aggregating and editorialising content related to OpenStack and Open Infrastructure.
 
 ### Configuration Management
 
@@ -301,8 +301,8 @@ On macOS, you can use Lima, which launches Linux virtual machines with automatic
 
 Follow the installation instructions for your preferred platform:
 
-- [Docker CE for Mac](https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac)
 - [Docker CE for Linux](https://docs.docker.com/engine/installation/linux/docker-ce/ubuntu/)
+- [Docker CE for Mac](https://docs.docker.com/docker-for-mac/install/#download-docker-for-mac)
   - Linux usually requires a separate installation of [docker-compose](https://docs.docker.com/compose/install/)
 - [Docker CE for Windows](https://docs.docker.com/docker-for-windows/install/)
 
@@ -320,9 +320,9 @@ There are many good tutorials at [kubernetes.io](https://kubernetes.io/docs/home
 
 VMWare sponsors a free set of online Kubernetes courses at [https://kube.academy/courses](https://kube.academy/courses).
 
-If you want to understand everything that is involved in getting a Kubernetes cluster up and running, [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way) by Kelsey Hightower is hard to beat.
+If you want to understand everything that is involved in getting a Kubernetes cluster up and running, [Kubernetes the Hard Way](https://github.com/kelseyhightower/kubernetes-the-hard-way) by Kelsey Hightower is a must-read.
 
-Have you ever wondered exactly what happens when you type something `kubectl run nginx --image=nginx --replicas=3` to make everything happen? [What happens when K8s...](https://github.com/jamiehannaford/what-happens-when-k8s/) is a guide that leads you through the full lifecycle of a request from the client to the kubelet, linking off to the source code where necessary to illustrate what's going on.
+Have you ever wondered exactly what happens when you type something like `kubectl run nginx --image=nginx --replicas=3` to make everything happen? [What happens when K8s...](https://github.com/jamiehannaford/what-happens-when-k8s/) is an in-depth guide that leads you through the full lifecycle of a request from the client to the `kubelet`, linking off to the source code where necessary to illustrate what's going on.
 
 #### Utilities
 
@@ -343,7 +343,7 @@ There are several good projects for monitoring.
 
 ### JSON parsing with jq
 
-Many of the tools you're going to use have JSON output options. [jq](https://github.com/stedolan/jq) is a lightweight JSON processor you can use to slice out useful bits of the output for use in scripts similarly to how you can use `awk` or `sed` on text files.
+Many of the tools you're going to use have JSON output options. Trying to parse JSON with `grep` or `awk` is a world of pain, fortunately there is [jq](https://github.com/stedolan/jq), a lightweight JSON processor you can use to slice out useful bits of the output for use in scripts similarly to how you can use `awk` or `sed` on text files.
 
 
 - Adam Gordon Bell wrote a good [Introduction to JQ](https://earthly.dev/blog/jq-select/).
@@ -378,11 +378,13 @@ Here are a few resources to help:
 
 No matter what source control system you use (`git`, `hg`, `perforce`, whatever), you're going to have to write commit messages. Make them good. It may be obvious _today_ why you made the change, but in six months or a year you won't have that context.
 
-Explain _why_ you made the change, not just _what_ you changed. And no, the diff is not an explanation. Always start your commit messages with a single line that explains what you were trying to do in general, then go into more detail in the body. Talk about what you intend the change to do and why more than how you did it. If there's an issue or ticket number, include that in your commit message too, it'll give more context to your coworkers (or you in a year).
+- Explain _why_ you made the change, not just _what_ you changed. And no, the diff is not an explanation.
+- Start your commit messages with a single line that explains what you were trying to do in general
+- Go into more detail about your changes in the message body. Talk about what you intend the change to do and why more than how you did it. If there's an issue or ticket number, include that in your commit message too, it'll give more context to your coworkers (or you in a year).
 
 Good commit messages help the rest of your team understand what you're trying to do and make it easier for them to find logic errors in your pull requests - the code may be technically correct, but if they understand what you're _trying_ to do, they can see when your code isn't actually doing what you say you want it to do, even when it is syntactically correct.
 
-Here are a few articles that while focused on `git` apply to any source control system:
+Here are a few articles that while focused on `git` commit messages apply to any source control system:
 
 - [5 Useful Tips for a Better Commit Message](https://robots.thoughtbot.com/5-useful-tips-for-a-better-commit-message) is another good article on writing commit messages.
 - [A Note About Git Commit Messages](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html)
@@ -393,11 +395,11 @@ Here are a few articles that while focused on `git` apply to any source control 
 Whether or not your shop uses `git` internally, you're going to end up needing to use it for the many useful things on GitHub and GitLab.
 
 - [19 Git Tips for Everyday Use](http://www.alexkras.com/19-git-tips-for-everyday-use/) - a good set of starter tips for using git.
-- [git-extra-commands](https://github.com/unixorn/git-extra-commands) - a collection of extra git helper scripts.
+- [git-extra-commands](https://github.com/unixorn/git-extra-commands) - is a collection of extra `git` helper scripts.
 - [git-flight-rules](https://github.com/k88hudson/git-flight-rules) is Kate Hudson's guide to using `git` in specific situations.
 - [git-tips/tips](https://github.com/git-tips/tips) is a collection of `git` tips
 - [Pro Git](https://git-scm.com/book/en/v2) by Scott Chacon and Ben Straub is a great overall resource for `git`.
-- [Why the Heck is Git so Hard? The Places Model](http://merrigrove.blogspot.com/2014/02/why-heck-is-git-so-hard-places-model-ok.html) - an article about moving from SVN/CVS to `git`.
+- [Why the Heck is Git so Hard? The Places Model](http://merrigrove.blogspot.com/2014/02/why-heck-is-git-so-hard-places-model-ok.html) is an article about moving from SVN/CVS to `git`.
 - Ben Limmer's [Git Skills Talk](https://github.com/blimmer/1up-git-skills-talk) will help you understand using `git` (particularly with GitHub).
 
 ### SSH
@@ -434,9 +436,9 @@ If you want to get a taste of what `emacs` can do, you can defer to Magnars and 
 
 - [http://emacsrocks.com](http://emacsrocks.com/)
 
-One of the biggest problems with `emacs` is that the defaults present a fairly different experience to what people are used to. Your first stop should be learning the basics using the built-in tutorial, followed by the mini-manual from tuhdo:
+One of the biggest problems with `emacs` is that the defaults present a fairly different experience to what people are used to in other editors. Your first stop should be learning the basics using the built-in tutorial, followed by the mini-manual from tuhdo:
 
--Type `ctrl-h`, followed closely by `t` from within emacs to see the tutorial [http://tuhdo.github.io/index.html](http://tuhdo.github.io/index.html)
+-Type `ctrl-h`, followed closely by `t` from within `emacs` to see the tutorial [http://tuhdo.github.io/index.html](http://tuhdo.github.io/index.html)
 
 Emacs can be can be made to look and act relatively modern if that's your desire:
 
@@ -446,12 +448,12 @@ If you're looking for `emacs` packages, the following online package index is th
 
 - [http://melpa.org/](http://melpa.org/)
 
-There are several excellent starter kits out there, with varying delineations of wizz-bang. Roughly sorted by wizz-bang, here are the starter kits that exist, with spacemacs being the most popular:
+There are several excellent starter kits out there, with varying delineations of wizz-bang. Here are some starter kits, with spacemacs being the most popular:
 
-- [technomancy/better-defaults](https://github.com/technomancy/better-defaults)
-- [hlissner/doom-emacs](https://github.com/hlissner/doom-emacs)
 - [bbatsov/prelude](https://github.com/bbatsov/prelude)
+- [hlissner/doom-emacs](https://github.com/hlissner/doom-emacs)
 - [syl20bnr/spacemacs](https://github.com/syl20bnr/spacemacs)
+- [technomancy/better-defaults](https://github.com/technomancy/better-defaults)
 
 Here are some `emacs` configurations for inspiration:
 
@@ -467,7 +469,7 @@ There are GUI versions of `vim` and `emacs` that have ardent followers.
 
 - [Atom](https://atom.io/) is a fairly new editor with significant traction and plugin ecosystem.
 - [Sublime Text](http://sublimetext.com) is another editor with an extensive plugin ecosystem and arguably one of the inspirations for Atom.
-- [Visual Studio Code](https://code.visualstudio.com) is a cross platform editor that is gaining traction in the marketplace.
+- [Visual Studio Code](https://code.visualstudio.com) is a cross platform editor that is gaining traction in the community.
 
 ## Blogs and Podcasts
 
@@ -497,7 +499,7 @@ Help wanted here.
 
 ## Other Resources
 
-Packetlife has some great cheat sheets and posters [here](https://packetlife.net/library/cheat-sheets/) for a lot of applications (wireshark and tcpdump for example) and networking principles. Well worth a look, even if you think you know the apps in question.
+Packetlife has some great cheat sheets and posters [here](https://packetlife.net/library/cheat-sheets/) for a lot of applications (`wireshark` and `tcpdump` for example) and networking principles. Well worth a look, even if you think you know the apps in question.
 
 ### Free Services
 
@@ -517,7 +519,7 @@ Packetlife has some great cheat sheets and posters [here](https://packetlife.net
 - [sysadvent](https://sysadvent.blogspot.com/) - Every year the sysadvent team publishes 24 good articles for sysadmins and SREs.
 - [tools.tldr.run](https://tools.tldr.run/) - A curated list of security tools for Hackers and Builders.
 - Etsy's [Debriefing Facilitation Guide](https://extfiles.etsy.com/DebriefingFacilitationGuide.pdf) is a great guide to conducting a blame-free debrief after an outage.
-- Pēteris Ņikiforovs has a good blog post explaining what everything you see in top/htop output [here](https://peteris.rocks/blog/htop/).
+- Pēteris Ņikiforovs has a good blog post explaining what everything you see in `top`/`htop` output [here](https://peteris.rocks/blog/htop/).
 - Dan Luu wrote an excellent article about the [Normalization of Deviance](https://danluu.com/wat/) that is good food for thought about engineering practices.
 - Donne Martin maintains a great [System Design Primer](https://github.com/donnemartin/system-design-primer).
 
@@ -525,7 +527,7 @@ Packetlife has some great cheat sheets and posters [here](https://packetlife.net
 
 - Alice Goldfuss wrote an excellent article, [How to Get Into SRE](https://blog.alicegoldfuss.com/how-to-get-into-sre/), about her path to becoming an SRE.
 - Alice also gave a great presentation - [Passing the Console: Fostering the Next Generation of Ops Professionals](https://www.usenix.org/conference/lisa16/conference-program/presentation/goldfuss) at LISA16.
-- Julia Evans has a couple of great resources on making your 1-on-1's with your manager more effective. 1-on-1s should _not_ just be a status report on what you're working on - you should be using them to focus on more big picture goals (both yours and the organizations) and your career. Read her article on [1-on-1 ideas](https://jvns.ca/blog/2015/03/06/1-1-topic-ideas/), and I recommend buying her [Help, I have a Manager!](https://wizardzines.com/zines/manager/) zine.
+- Julia Evans wrote a couple of great resources on making your 1-on-1's with your manager more effective. 1-on-1s should _not_ just be a status report on what you're working on - you should be using them to focus on more big picture goals (both yours and the organizations) and your career. Read her article on [1-on-1 ideas](https://jvns.ca/blog/2015/03/06/1-1-topic-ideas/), and I recommend buying her [Help, I have a Manager!](https://wizardzines.com/zines/manager/) zine.
 
 ### Communication
 
