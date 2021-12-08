@@ -4,7 +4,7 @@
 ![Awesomebot link checking](https://github.com/unixorn/sysadmin-reading-list/actions/workflows/awesomebot.yml/badge.svg)
 [![GitHub last commit (branch)](https://img.shields.io/github/last-commit/unixorn/sysadmin-reading-list/main.svg)](https://github.com/unixorn/sysadmin-reading-list)
 
-A reading list for the larval stage sysadmin. This list is focused on the UNIX family of OSes, mainly because that is my area of expertise, but PRs about other OSes are welcome.
+A reading list for the larval stage sysadmin/SRE. This list is focused on the UNIX family of OSes, but PRs about other OSes are welcome.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -164,6 +164,7 @@ A couple of places to go into as training are:
 #### Tutorials @ Python
 
 - [Google's Python Course](https://developers.google.com/edu/python/), an introduction to Python, assuming little programming experience.
+- [Python Koans](https://github.com/gregmalcolm/python_koans) is an interactive tutorial for learning the Python programming language by making tests pass.
 
 #### Python & Sysadmin
 
