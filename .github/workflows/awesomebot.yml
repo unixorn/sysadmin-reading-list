@@ -15,4 +15,4 @@ jobs:
     - uses: actions/checkout@v1
     - uses: docker://dkhamsing/awesome_bot:latest
       with:
-        args: /github/workspace/README.md README.md  --request-delay 1 --allow-redirect --allow-dupe -w www.terraform.io,signup.hangops.com,kitchen.ci --white-list https://vimeo.com,kubernetes.io,kitchen.ci,debuggex.com,smile.amazon.com
+        args: /github/workspace/README.md README.md  --request-delay 1 --allow 502,503,504,509,521 --allow-redirect --allow-dupe -w www.terraform.io,signup.hangops.com,kitchen.ci --white-list https://vimeo.com,kubernetes.io,kitchen.ci,debuggex.com,smile.amazon.com
