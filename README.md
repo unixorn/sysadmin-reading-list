@@ -528,6 +528,7 @@ Packetlife has some great cheat sheets and posters [here](https://packetlife.net
 - Alice Goldfuss wrote an excellent article, [How to Get Into SRE](https://blog.alicegoldfuss.com/how-to-get-into-sre/), about her path to becoming an SRE.
 - Alice also gave a great presentation - [Passing the Console: Fostering the Next Generation of Ops Professionals](https://www.usenix.org/conference/lisa16/conference-program/presentation/goldfuss) at LISA16.
 - Julia Evans wrote a couple of great resources on making your 1-on-1's with your manager more effective. 1-on-1s should _not_ just be a status report on what you're working on - you should be using them to focus on more big picture goals (both yours and the organizations) and your career. Read her article on [1-on-1 ideas](https://jvns.ca/blog/2015/03/06/1-1-topic-ideas/), and I recommend buying her [Help, I have a Manager!](https://wizardzines.com/zines/manager/) zine.
+- The [Fearless Salary Negotiation](https://fearlesssalarynegotiation.com) site is a good read overall, especially the article on handling a [Salary Expectations Interview Question](https://fearlesssalarynegotiation.com/salary-expectations-interview-question/) when the recruiter asks. To quote them, "Your salary expectations are one of the few things you know that the company doesn’t. That makes them extremely valuable and sharing them can make your salary negotiations very difficult and even cost you a lot of money." so read (at least) this article before you start your next job interview cycle.
 
 ### Communication
 
