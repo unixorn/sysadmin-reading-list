@@ -258,7 +258,7 @@ Perl has a long history of being the system administrator's friend, bringing the
 - [Community](https://www.openstack.org/community/) Where to go and who to ask for help.
 - [Planet OpenStack](http://planet.openstack.org) An aggregated feed from across the Internet of OpenStack-related content, including contributions from individuals.
 - [Public Clouds](https://www.openstack.org/marketplace/public-clouds/) Similar to AWS, GCP or Azure, this is a list of providers who offer cloud services running on OpenStack.
-- [Stackalytics](https://www.stackalytics.com) Code contribution statistics to OpenStack and related projects.
+- [Stackalytics](https://www.stackalytics.io) Code contribution statistics to OpenStack and related projects.
 - [SuperUser](https://superuser.openstack.org) SuperUser is an online 'publication' aggregating and editorialising content related to OpenStack and Open Infrastructure.
 
 ### Configuration Management
