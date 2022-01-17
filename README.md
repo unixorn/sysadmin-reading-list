@@ -542,6 +542,7 @@ Writing good documentation and design docs is as important as writing code. The 
 - Patrick also has a good podcast episode on salary negotiation - [Kalzumeus Podcast Episode 12: Salary Negotiation with Josh Doody](https://www.kalzumeus.com/2016/06/03/kalzumeus-podcast-episode-12-salary-negotiation-with-josh-doody/)  (there's a transcript too). You have to do it, it affects your life, you should do it well.
 - [An Engineer's Guide to Stock Options](https://blog.alexmaccaw.com/an-engineers-guide-to-stock-options/) - Alex McCaw wrote a good blog post explaining stock options in plain English.
 - [The Holloway Guide to Equity Compensation](https://www.holloway.com/g/equity-compensation) - Stock options, RSUs, job offers, and taxes — a detailed reference, including hundreds of resources, explained from the ground up.
+- [Understanding Startup Stock Options](https://medium.com/swlh/understanding-startup-stock-options-4bf9cc26089e) - Ben Beltzer explains when you should exercise, how to get paid out, how much you'll make, and how much tax you'll probably have to pay (get advice from your own accountant, don't rely on a blog post).
 - [What I Wish I'd Known About Equity Before Joining A Unicorn](https://gist.github.com/yossorion/4965df74fd6da6cdc280ec57e83a202d) - This is an excellent (though USA-centric) summary of how to value stock options and what the tax implications are and how to minimize potential tax. I heartily recommend reading it before you accept any offers involving stock or stock options as part of your compensation.
 
 ## License
