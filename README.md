@@ -147,7 +147,6 @@ Often you'll find yourself in a Windows enviroment, like it or not. These resour
 - [Best Practices and Style guide](https://github.com/PoshCode/PowerShellPracticeAndStyle)
 - [Powershell Slack](http://poshcode.org) - Think of it as a virtual Powershell user's group.
 - [PowerShell.org eBooks](https://leanpub.com/u/devopscollective/)
-- [PS Cmdlets In Your Inbox](https://github.com/MaxAnderson95/Cmdlets_In_Your_Inbox) lets you schedule a task to get PowerShell Cmdlets via email daily or at the command line.
 
 ### Python
 
