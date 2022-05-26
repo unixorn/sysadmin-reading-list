@@ -218,7 +218,6 @@ Perl has a long history of being the system administrator's friend, bringing the
 #### Blog Posts
 
 - [Perl on the Rise for Devops](https://scalability.org/2017/01/perl-on-the-rise-for-devops/)
-- [A Perl Toolchain for Building Microservices at Scale](https://engineering.semantics3.com/a-perl-toolchain-for-building-micro-services-at-scale-8851626a4b1b)
 - [Perl tricks for system administrators](https://opensource.com/life/16/7/perl-tricks-system-administrators)
 
 ## Tools
