@@ -453,7 +453,7 @@ There are several excellent starter kits out there, with varying delineations of
 - [bbatsov/prelude](https://github.com/bbatsov/prelude)
 - [hlissner/doom-emacs](https://github.com/hlissner/doom-emacs)
 - [syl20bnr/spacemacs](https://github.com/syl20bnr/spacemacs)
-- [technomancy/better-defaults](https://github.com/technomancy/better-defaults)
+- [technomancy/better-defaults](https://git.sr.ht/~technomancy/better-defaults)
 
 Here are some `emacs` configurations for inspiration:
 
