@@ -77,7 +77,7 @@ So you've got your first sysadmin/sre job or internship. Congratulations, it's g
 
 ## Articles and Books to Read
 
-- [A Few Ops Lessions We All Learn the Hard Way](https://www.netmeister.org/blog/ops-lessons.html) - A collection of lessons that everyone in Ops inevitably learns. You may not personally experience all of them, but they'll ring true after you're in ops for a while.
+- [A Few Ops Lessions We All Learn the Hard Way](https://www.netmeister.org/blog/ops-lessons.html) - A collection of lessons that everyone in ops and SRE inevitably learns. You may not personally experience all of them, but they'll ring true after you're in ops for a while.
 - [Clean Code](https://smile.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) - Every year, countless hours and significant resources are lost because of poorly written code. But it doesn't have to be that way. Martin has teamed up with his colleagues from Object Mentor to distill their best agile practice of cleaning code "on the fly" into a book that will instill within you the values of a software craftsman and make you a better programmer-but only if you work at it.
 - [Continuous Delivery](https://smile.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912) - A book that has rapidly become *the* guide to planning and implementing build pipelines.
 - [DevOps Roadmap](https://roadmap.sh/devops) - Community driven, articles, resources, guides, interview questions, quizzes for DevOps. Learn to become a modern DevOps engineer by following the steps, skills, resources and guides listed in this roadmap.
@@ -86,7 +86,7 @@ So you've got your first sysadmin/sre job or internship. Congratulations, it's g
 - [Hello DNS](https://github.com/ahupowerdns/hello-dns) - Every sysadmin/sre needs to know how DNS works. Start with [DNS Basics](https://github.com/ahupowerdns/hello-dns/blob/master/basic.md) it's a good introduction.
 - [Lean Startup](https://smile.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898) or [Lean Enterprise](https://smile.amazon.com/Lean-Enterprise-Performance-Organizations-Innovate/dp/1449368425) - This pair describes the process surrounding implementation and use of Lean principles in Startup and Enterprise organizations. There are a number of companion pieces that extend the principles to specific fields of study and implementation, such as [Lean Analytics](https://smile.amazon.com/Lean-Analytics-Better-Startup-Faster/dp/1449335675).
 - [LinkedIn's School of SRE](https://github.com/linkedin/school-of-sre) - Linkedin is using this curriculum for onboarding non-traditional hires and new college grads into the SRE role.
-- [Site Reliability Engineering](http://shop.oreilly.com/product/0636920041528.do) - How Google Runs Production Systems. This can be read online for free at Google's SRE [site](https://landing.google.com/sre/book/index.html).
+- [Site Reliability Engineering](http://shop.oreilly.com/product/0636920041528.do) - How Google Runs Production Systems. This can be read online for free at Google's [SRE site](https://landing.google.com/sre/book/index.html).
 - [Systems Performance: Enterprise and Cloud](https://smile.amazon.com/Systems-Performance-Enterprise-Brendan-Gregg/dp/0133390098) by Brendan Gregg, this book is an award winner and a favorite of many a sysadmin and SRE, it addresses systems performance at scale.
 - [The Art of Capacity Planning](https://smile.amazon.com/Art-Capacity-Planning-Scaling-Resources-ebook/dp/B0026OR2Y0) - John Allspaw's book is a hands-on and practical guide to planning for such growth, with many techniques and considerations to help you plan, deploy, and manage web application infrastructure.
 - [The Art of Monitoring](https://artofmonitoring.com/) - James Turnbull's book on the art of modern application and infrastructure monitoring and metrics.
@@ -125,12 +125,12 @@ That said, it is on every system, so every *NIX sysadmin needs to know `bash`.
 
 Here are some useful resources to help you step up your shell scripting game:
 
-- [The Art of the Command Line](https://github.com/jlevy/the-art-of-command-line) - A good set of notes and tips on using the command-line useful when working on Linux/Unix.
+- [The Art of the Command Line](https://github.com/jlevy/the-art-of-command-line) - A good set of notes and tips on using the command-line that is useful when working on Linux/Unix.
 - [Advancing in the Bash Shell](http://samrowe.com/wordpress/advancing-in-the-bash-shell/) - Sam Rowe's `bash` as CLI tutorial.
 - [Bash Guide For Beginners](https://tldp.org/LDP/Bash-Beginners-Guide/html/) -  A practical guide which, while not always being too serious, tries to give real-life instead of theoretical examples.
 - [Bash Guide](https://mywiki.wooledge.org/BashGuide) - Gives examples of good practice when writing `bash` scripts. It is targeted at beginning users with no advanced knowledge.
 - [Bash Pitfalls](http://mywiki.wooledge.org/BashPitfalls) - Greg Wooledge has a great list of unpleasant surprises in `bash`.
-- [Commandlinefu](https://www.commandlinefu.com/) - an extensive list of `bash` oneliners for almost every task you may need to accomplish.
+- [Commandlinefu](https://www.commandlinefu.com/) - An extensive list of `bash` oneliners for almost every task you may need to accomplish.
 - [Google's Shell Style Guide](https://google.github.io/styleguide/shell.xml) lists what Google's developers consider best practices for `bash` scripts.
 - [Learning the Bash Shell](http://shop.oreilly.com/product/9780596009656.do) - It's hard to go wrong with an O'Reilly reference on anything, really.
 - [Pure Bash Bible](https://github.com/dylanaraps/pure-bash-bible) - A collection of pure `bash` alternatives to external processes.
@@ -356,6 +356,7 @@ Enter regexes and the `grep` family of tools.
 
 When you have a multi-gigabyte logfile, it's a lot less painful to look at just the entries generated by the service that you got alerted about. Even better to only look at the error messages from the service, and something as basic as `grep -i yourservice < log | grep -i errorcode` can convert a potentially multi-hour ordeal into a quick minute or two task.
 
+- [autoregex](https://www.autoregex.xyz/home) - This site will let you paste a regex in and have it translate it to English, or make an English statement like "First character A, second character B, up to three B characters, then a C and end of line" and have that translated to `^A.{0,3}BC$`.
 - [debuggex.com/](https://www.debuggex.com/) will visualize regular expressions graphically.
 - [Introducing Regular Expressions](http://shop.oreilly.com/product/0636920012337.do)
 - [Regex for Noobs](https://www.janmeppe.com/blog/regex-for-noobs/) - An illustrated guide to regex that aims to provide a gentle introduction for people who never have fiddled with regex, want to, but are kind of intimidated by the whole thing.
@@ -452,7 +453,7 @@ There are several excellent starter kits out there, with varying delineations of
 - [bbatsov/prelude](https://github.com/bbatsov/prelude)
 - [hlissner/doom-emacs](https://github.com/hlissner/doom-emacs)
 - [syl20bnr/spacemacs](https://github.com/syl20bnr/spacemacs)
-- [technomancy/better-defaults](https://github.com/technomancy/better-defaults)
+- [technomancy/better-defaults](https://git.sr.ht/~technomancy/better-defaults)
 
 Here are some `emacs` configurations for inspiration:
 
