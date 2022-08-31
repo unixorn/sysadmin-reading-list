@@ -467,7 +467,6 @@ Use tools with which you are productive.  If you want to use a GUI Text Editor o
 
 There are GUI versions of `vim` and `emacs` that have ardent followers.
 
-- [Atom](https://atom.io/) is a fairly new editor with significant traction and plugin ecosystem.
 - [Sublime Text](http://sublimetext.com) is another editor with an extensive plugin ecosystem and arguably one of the inspirations for Atom.
 - [Visual Studio Code](https://code.visualstudio.com) is a cross platform editor that is gaining traction in the community.
 
