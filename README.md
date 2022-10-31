@@ -338,7 +338,7 @@ There are several good projects for monitoring.
 
 #### Articles/Tutorials
 
-[Impactful Dashboards](https://jesswhite.co.uk/2018/04/09/impactfuldashboardspart1-post.html) - It's easy to make monitoring dashboards that are a jumble of poorly presented information, this article gives guidelines on making good dashboards.
+[Infroduction To Baselines for Dashboards](https://jesswhite.co.uk/blog/practical-dashboards-part1/) - It's easy to make monitoring dashboards that are a jumble of poorly presented information. This series of articles gives guidelines on making good dashboards.
 
 ### JSON parsing with jq
 
