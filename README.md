@@ -145,9 +145,10 @@ Finally, remember that `bash` is not `sh`. If you're writing a script in `bash`,
 
 Often you'll find yourself in a Windows enviroment, like it or not. These resources might help you in those cases -
 
-- [Best Practices and Style guide](https://github.com/PoshCode/PowerShellPracticeAndStyle)
+- [awesome-powershell](https://github.com/janikvonrotz/awesome-powershell) - Awesome list of PowerShell resources.
+- [Best Practices and Style guide](https://github.com/PoshCode/PowerShellPracticeAndStyle) - Unofficial recommendations for better PowerShell code. 
 - [Powershell Slack](http://poshcode.org) - Think of it as a virtual Powershell user's group.
-- [PowerShell.org eBooks](https://leanpub.com/u/devopscollective/)
+- [PowerShell.org eBooks](https://leanpub.com/u/devopscollective/) - A collection of PowerShell (and other) eBooks.
 
 ### Python
 
@@ -226,6 +227,7 @@ Perl has a long history of being the system administrator's friend, bringing the
 
 #### Multi-Platform
 
+- [Pulumi](https://www.pulumi.com) is similar to Terraform, in that you can configure infrastructure with code. Unlike Terraform, you can do this with conventional languages such as TypeScript, Python, and Go.
 - [Terraform](https://www.terraform.io) is a tool that allows you to configure your infrastructure as code, just like Chef/Puppet/etc allow you to manage the configuration of individual machines as code, with all the benefits of being able to diff, code review, etc. Terraform works with (as of this edit) AWS, Google Cloud, Microsoft Azure, vSphere and many other systems.
 
 #### AWS
@@ -236,7 +238,7 @@ Perl has a long history of being the system administrator's friend, bringing the
 
 #### Azure
 
-- [Az PowerShell Module](https://docs.microsoft.com/en-us/powershell/azure/new-azureps-module-az?view=azurermps-6.13.0) The cross-platform (i.e. PS Core) Azure PowerShell module. Replaces the `AzureRm` module and provides a migration path from it.
+- [Az PowerShell Module](https://github.com/Azure/azure-powershell) The cross-platform (i.e. PS Core) Azure PowerShell module. Replaces the `AzureRm` module and provides a migration path from it.
 - [Azure CLI 2.0](https://github.com/Azure/azure-cli) new preview CLI interface for Azure (written in python).
 - [Azure Code Samples](https://azure.microsoft.com/en-us/documentation/samples/) samples of code showing how to interact with Azure.
 - [Azure Friday](https://azure.microsoft.com/en-us/documentation/videos/azure-friday/) "Just two engineers, a laptop and the cloud, solving problems".
@@ -273,7 +275,6 @@ There are several good options:
 - [Ansible](http://www.ansible.com/) is designed to be minimal in nature, consistent, secure, and highly reliable. Owned & supported by Red Hat.
 - [CFEngine](https://cfengine.com) has been in continuous development since 1993.  Unlike some of its peers on this list, it is written in C and is built with speed and scalability in mind.  It should be considered for very, very large systems and for very small (think embedded) systems.
 - [Chef](http://www.opscode.com/chef/) is written in Ruby and Erlang and uses a Ruby DSL to describe system configuration.
-- [Chocolatey](https://chocolatey.org/) a Windows software management tool.
 - [Puppet](http://puppetlabs.com/) makes it easy to automate the provisioning, configuration and ongoing management of your machines and the software running on them. Make rapid, repeatable changes and automatically enforce the consistency of systems and devices – across physical and virtual machines, on premise or in the cloud.
 - [Salt](http://www.saltstack.com/) orchestrates the build and ongoing management of your infrastructure.
 
@@ -494,7 +495,21 @@ There are GUI versions of `vim` and `emacs` that have ardent followers.
 
 ## Windows Administration
 
-Help wanted here.
+### Package Managers
+
+- [Chocolatey](https://chocolatey.org/) - Having existed much longer than WinGet, Chocolatey has a large ecosystem of packages.
+- [Scoop](https://github.com/ScoopInstaller/Scoop) - A simple, no frills package manager. Compared to Chocolatey, package manifests are easier to write and it munges with the system much less.
+- [WinGet](https://github.com/microsoft/winget-cli) - The official pakcage manger, useful for installing applications, PowerShell scripts, and more.
+
+## Setup
+
+- [privatezilla](https://github.com/builtbybel/privatezilla) - Checks (and optionally fixes) your Windows 10 installation for privacy violations with a GUI interface.
+- [Win-Debloat-Tools](https://github.com/LeDragoX/Win-Debloat-Tools) - Another tool for fixing privacy and performance issues on Windows 10 and 11.
+
+## Tools
+
+- [dbatools](https://github.com/dataplat/dbatools) - A set of PowerShell commands to streamline SQL Server management.
+- [gsudo](https://github.com/gerardog/gsudo) - In a pinch, this allows you to run a certain command as Administrator, without running an console session.
 
 ## Other Resources
 
