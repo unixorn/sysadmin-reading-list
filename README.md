@@ -4,6 +4,8 @@
 ![Awesomebot link checking](https://github.com/unixorn/sysadmin-reading-list/actions/workflows/awesomebot.yml/badge.svg)
 [![GitHub last commit (branch)](https://img.shields.io/github/last-commit/unixorn/sysadmin-reading-list/main.svg)](https://github.com/unixorn/sysadmin-reading-list)
 
+Copyright 2017-2023 Joe Block <jpb@unixorn.net>. See [LICENSE.md](https://github.com/unixorn/sysadmin-reading-list/blob/main/LICENSE.md) for details.
+
 A reading list for the larval stage sysadmin/SRE. This list is focused on the UNIX family of OSes, but PRs about other OSes are welcome.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
@@ -146,7 +148,7 @@ Finally, remember that `bash` is not `sh`. If you're writing a script in `bash`,
 Often you'll find yourself in a Windows enviroment, like it or not. These resources might help you in those cases -
 
 - [awesome-powershell](https://github.com/janikvonrotz/awesome-powershell) - Awesome list of PowerShell resources.
-- [Best Practices and Style guide](https://github.com/PoshCode/PowerShellPracticeAndStyle) - Unofficial recommendations for better PowerShell code. 
+- [Best Practices and Style guide](https://github.com/PoshCode/PowerShellPracticeAndStyle) - Unofficial recommendations for better PowerShell code.
 - [Powershell Slack](http://poshcode.org) - Think of it as a virtual Powershell user's group.
 - [PowerShell.org eBooks](https://leanpub.com/u/devopscollective/) - A collection of PowerShell (and other) eBooks.
 

@@ -5,7 +5,7 @@
 
 # License Assignment
 
-This repository is copyright 2017-2022 Joseph Block under a [Attribution-NonCommercial-ShareAlike 4.0 International](#attribution-noncommercial-sharealike-40-international) license.
+This repository is copyright 2017-2023 Joseph Block under a [Attribution-NonCommercial-ShareAlike 4.0 International](#attribution-noncommercial-sharealike-40-international) license.
 
 - [ ] I assign copyright to the changes in this PR to Joseph Block per the [Attribution-NonCommercial-ShareAlike 4.0 International](#attribution-noncommercial-sharealike-40-international) license.
 
