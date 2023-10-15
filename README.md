@@ -79,7 +79,7 @@ So you've got your first sysadmin/sre job or internship. Congratulations, it's g
 
 - [A Few Ops Lessions We All Learn the Hard Way](https://www.netmeister.org/blog/ops-lessons.html) - A collection of lessons that everyone in ops and SRE inevitably learns. You may not personally experience all of them, but they'll ring true after you're in ops for a while.
 - [Clean Code](https://smile.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882) - Every year, countless hours and significant resources are lost because of poorly written code. But it doesn't have to be that way. Martin has teamed up with his colleagues from Object Mentor to distill their best agile practice of cleaning code "on the fly" into a book that will instill within you the values of a software craftsman and make you a better programmer-but only if you work at it.
-- [Continuous Delivery](https://smile.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912) - A book that has rapidly become *the* guide to planning and implementing build pipelines.
+- [Continuous Delivery](https://smile.amazon.com/Continuous-Delivery-Deployment-Automation-Addison-Wesley/dp/0321601912) - A book that has rapidly become _the_ guide to planning and implementing build pipelines.
 - [DevOps Roadmap](https://roadmap.sh/devops) - Community driven, articles, resources, guides, interview questions, quizzes for DevOps. Learn to become a modern DevOps engineer by following the steps, skills, resources and guides listed in this roadmap.
 - [Effective DevOps](http://shop.oreilly.com/product/0636920039846.do) - A practical guide for creating affinity among teams and promoting efficient tool usage in your company.
 - [Git Magic (free ebook)](http://www-cs-students.stanford.edu/~blynn/gitmagic/) - `git` is a version control Swiss army knife. A reliable versatile multipurpose revision control tool whose extraordinary flexibility makes it tricky to learn, let alone master.
@@ -280,6 +280,7 @@ There are several good options:
 ### Container Tooling
 
 Containers package software and all its dependencies in a single package that can be run in isolation from other containers or applications running on the server, without the overhead of a full virtual machine.
+
 #### Containerd
 
 [Containerd](https://github.com/containerd/containerd) is an industry-standard container runtime with an emphasis on simplicity, robustness and portability. It is available as a daemon for Linux and Windows, which can manage the complete container lifecycle of its host system: image transfer and storage, container execution and supervision, low-level storage and network attachments, etc.
@@ -343,7 +344,6 @@ There are several good projects for monitoring.
 ### JSON parsing with jq
 
 Many of the tools you're going to use have JSON output options. Trying to parse JSON with `grep` or `awk` is a world of pain, fortunately there is [jq](https://github.com/stedolan/jq), a lightweight JSON processor you can use to slice out useful bits of the output for use in scripts similarly to how you can use `awk` or `sed` on text files.
-
 
 - Adam Gordon Bell wrote a good [Introduction to JQ](https://earthly.dev/blog/jq-select/).
 - There's an online playground at [https://jqplay.org/](https://jqplay.org/) you can use to experiment.
