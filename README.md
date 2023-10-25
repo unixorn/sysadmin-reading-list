@@ -88,6 +88,7 @@ So you've got your first sysadmin/sre job or internship. Congratulations, it's g
 - [Hello DNS](https://github.com/ahupowerdns/hello-dns) - Every sysadmin/sre needs to know how DNS works. Start with [DNS Basics](https://github.com/ahupowerdns/hello-dns/blob/master/basic.md) it's a good introduction.
 - [Lean Startup](https://smile.amazon.com/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898) or [Lean Enterprise](https://smile.amazon.com/Lean-Enterprise-Performance-Organizations-Innovate/dp/1449368425) - This pair describes the process surrounding implementation and use of Lean principles in Startup and Enterprise organizations. There are a number of companion pieces that extend the principles to specific fields of study and implementation, such as [Lean Analytics](https://smile.amazon.com/Lean-Analytics-Better-Startup-Faster/dp/1449335675).
 - [LinkedIn's School of SRE](https://github.com/linkedin/school-of-sre) - Linkedin is using this curriculum for onboarding non-traditional hires and new college grads into the SRE role.
+- [The Missing Semester of Your CS Education](https://missing.csail.mit.edu/) - There’s one critical subject that’s rarely covered in CS programs, and is instead left to students to figure out on their own: proficiency with their tools. This course will teach you how to master the command-line, use a powerful text editor, use fancy features of version control systems, and much more!
 - [Site Reliability Engineering](http://shop.oreilly.com/product/0636920041528.do) - How Google Runs Production Systems. This can be read online for free at Google's [SRE site](https://landing.google.com/sre/book/index.html).
 - [Systems Performance: Enterprise and Cloud](https://smile.amazon.com/Systems-Performance-Enterprise-Brendan-Gregg/dp/0133390098) by Brendan Gregg, this book is an award winner and a favorite of many a sysadmin and SRE, it addresses systems performance at scale.
 - [The Art of Capacity Planning](https://smile.amazon.com/Art-Capacity-Planning-Scaling-Resources-ebook/dp/B0026OR2Y0) - John Allspaw's book is a hands-on and practical guide to planning for such growth, with many techniques and considerations to help you plan, deploy, and manage web application infrastructure.
@@ -398,7 +399,7 @@ Here are a few articles that while focused on `git` commit messages apply to any
 Whether or not your shop uses `git` internally, you're going to end up needing to use it for the many useful things on GitHub and GitLab.
 
 - [19 Git Tips for Everyday Use](http://www.alexkras.com/19-git-tips-for-everyday-use/) - a good set of starter tips for using git.
-- [git-extra-commands](https://github.com/unixorn/git-extra-commands) - is a collection of extra `git` helper scripts.
+- [git-extra-commands](https://github.com/unixorn/git-extra-commands) - a misleadingly named collection of extra `git` helper scripts, blog posts, tutorials and videos.
 - [git-flight-rules](https://github.com/k88hudson/git-flight-rules) is Kate Hudson's guide to using `git` in specific situations.
 - [git-tips/tips](https://github.com/git-tips/tips) is a collection of `git` tips
 - [Pro Git](https://git-scm.com/book/en/v2) by Scott Chacon and Ben Straub is a great overall resource for `git`.
