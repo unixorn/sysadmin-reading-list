@@ -399,7 +399,7 @@ Here are a few articles that while focused on `git` commit messages apply to any
 Whether or not your shop uses `git` internally, you're going to end up needing to use it for the many useful things on GitHub and GitLab.
 
 - [19 Git Tips for Everyday Use](http://www.alexkras.com/19-git-tips-for-everyday-use/) - a good set of starter tips for using git.
-- [git-extra-commands](https://github.com/unixorn/git-extra-commands) - is a collection of extra `git` helper scripts.
+- [git-extra-commands](https://github.com/unixorn/git-extra-commands) - a misleadingly named collection of extra `git` helper scripts, blog posts, tutorials and videos.
 - [git-flight-rules](https://github.com/k88hudson/git-flight-rules) is Kate Hudson's guide to using `git` in specific situations.
 - [git-tips/tips](https://github.com/git-tips/tips) is a collection of `git` tips
 - [Pro Git](https://git-scm.com/book/en/v2) by Scott Chacon and Ben Straub is a great overall resource for `git`.
