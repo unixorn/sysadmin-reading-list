@@ -409,6 +409,7 @@ Whether or not your shop uses `git` internally, you're going to end up needing t
 ### SSH
 
 - [awesome-ssh](https://github.com/moul/awesome-ssh) - A curated list of `ssh` apps, libraries and other resources.
+- [drduh Yubikey-Guide](https://github.com/drduh/YubiKey-Guide) - A comprehensive guide to using Yubikey hardware tokens with SSH and GPG.
 - [SSH, The Secure Shell: The Definitive Guide, 2nd Edition](http://shop.oreilly.com/product/9780596008956.do)
 
 ### Testing
