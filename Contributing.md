@@ -19,6 +19,7 @@ Contributions to this repository are covered by the [Attribution-NonCommercial-S
   * End descriptions with a period.
 * Make an individual commit for each category.
   * Order links and projects alphabetically within a category.
+* Include `Signed-off-by: Author Name <authoremail@example.com>` in your commit message. I.e. `git commit -signoff`
 * Put only stuff on the list you can personally recommend.
 * Use imperative (e.g. add instead of added/adding) in your commit descriptions.
 * Links should
