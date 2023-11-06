@@ -332,6 +332,7 @@ Have you ever wondered exactly what happens when you type something like `kubect
 
 #### Utilities
 
+- [k3s](https://k3s.io/) - k3s is a kubernetes distribution optimized for IOT and edge computing. It is packaged as a single binary for ARM64, ARMv7 and X86 and is ideal for a learning environment - you can set up a k3s instance in less than five minutes, and if you break it, tear it down and re-install it quickly.
 - [krew](https://github.com/kubernetes-sigs/krew/) - Makes it easy to use [kubectl plugins](https://kubernetes.io/docs/tasks/extend-kubectl/kubectl-plugins/). `krew` helps you discover plugins, install and manage them on your machine. It is similar to tools like `apt`, `dnf` or `brew`. Today, over 70 `kubectl` plugins are available on `krew`.
 - [kubectx](https://github.com/ahmetb/kubectx) - Provides the `kubectx` command, which makes it easy to switch between clusters specified in your `.kube/config`, and `kubens`, which helps you switch between Kubernetes namespaces smoothly.
 
