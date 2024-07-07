@@ -248,7 +248,6 @@ Perl has a long history of being the system administrator's friend, bringing the
 - [Azure Code Samples](https://azure.microsoft.com/en-us/documentation/samples/) samples of code showing how to interact with Azure.
 - [Azure Friday](https://azure.microsoft.com/en-us/documentation/videos/azure-friday/) "Just two engineers, a laptop and the cloud, solving problems".
 - [Azure Quickstart Templates](https://github.com/Azure/azure-quickstart-templates) community contributed Azure Resource Manager templates for tons of things.
-- [Azure Xplat CLI](https://github.com/Azure/azure-xplat-cli) cross platform CLI interface for Azure (written in nodejs).
 - [Official Azure Documentation](https://azure.microsoft.com/en-us/documentation/) official documentation for all Azure services.
 
 #### Google Cloud
