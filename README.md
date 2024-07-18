@@ -4,7 +4,7 @@
 ![Awesomebot link checking](https://github.com/unixorn/sysadmin-reading-list/actions/workflows/awesomebot.yml/badge.svg)
 [![GitHub last commit (branch)](https://img.shields.io/github/last-commit/unixorn/sysadmin-reading-list/main.svg)](https://github.com/unixorn/sysadmin-reading-list)
 
-Copyright 2017-2023 Joe Block <jpb@unixorn.net>. See [LICENSE.md](https://github.com/unixorn/sysadmin-reading-list/blob/main/LICENSE.md) for details.
+Copyright 2017-2024 Joe Block <jpb@unixorn.net>. See [LICENSE.md](https://github.com/unixorn/sysadmin-reading-list/blob/main/LICENSE.md) for details.
 
 A reading list for the larval stage sysadmin/SRE. This list is focused on the UNIX family of OSes, but PRs about other OSes are welcome.
 
