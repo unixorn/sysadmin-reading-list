@@ -4,7 +4,7 @@
 ![Awesomebot link checking](https://github.com/unixorn/sysadmin-reading-list/actions/workflows/awesomebot.yml/badge.svg)
 [![GitHub last commit (branch)](https://img.shields.io/github/last-commit/unixorn/sysadmin-reading-list/main.svg)](https://github.com/unixorn/sysadmin-reading-list)
 
-Copyright 2017-2023 Joe Block <jpb@unixorn.net>. See [LICENSE.md](https://github.com/unixorn/sysadmin-reading-list/blob/main/LICENSE.md) for details.
+Copyright 2017-2024 Joe Block <jpb@unixorn.net>. See [LICENSE.md](https://github.com/unixorn/sysadmin-reading-list/blob/main/LICENSE.md) for details.
 
 A reading list for the larval stage sysadmin/SRE. This list is focused on the UNIX family of OSes, but PRs about other OSes are welcome.
 
@@ -131,7 +131,6 @@ That said, it is on every system, so every *NIX sysadmin needs to know `bash`.
 Here are some useful resources to help you step up your shell scripting game:
 
 - [The Art of the Command Line](https://github.com/jlevy/the-art-of-command-line) - A good set of notes and tips on using the command-line that is useful when working on Linux/Unix.
-- [Advancing in the Bash Shell](http://samrowe.com/wordpress/advancing-in-the-bash-shell/) - Sam Rowe's `bash` as CLI tutorial.
 - [Bash Guide For Beginners](https://tldp.org/LDP/Bash-Beginners-Guide/html/) -  A practical guide which, while not always being too serious, tries to give real-life instead of theoretical examples.
 - [Bash Guide](https://mywiki.wooledge.org/BashGuide) - Gives examples of good practice when writing `bash` scripts. It is targeted at beginning users with no advanced knowledge.
 - [Bash Pitfalls](http://mywiki.wooledge.org/BashPitfalls) - Greg Wooledge has a great list of unpleasant surprises in `bash`.

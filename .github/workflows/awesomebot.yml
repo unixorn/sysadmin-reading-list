@@ -1,6 +1,8 @@
 name: Check links in README.md
 
 on:
+  # Run daily
+  schedule: [{cron: "0 1 * * *"}]
   push:
     branches: [ '*' ]
   pull_request:
