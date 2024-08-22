@@ -133,7 +133,6 @@ That said, it is on every system, so every *NIX sysadmin needs to know `bash`.
 Here are some useful resources to help you step up your shell scripting game:
 
 - [The Art of the Command Line](https://github.com/jlevy/the-art-of-command-line) - A good set of notes and tips on using the command-line that is useful when working on Linux/Unix.
-- [Advancing in the Bash Shell](http://samrowe.com/wordpress/advancing-in-the-bash-shell/) - Sam Rowe's `bash` as CLI tutorial.
 - [Bash Guide For Beginners](https://tldp.org/LDP/Bash-Beginners-Guide/html/) -  A practical guide which, while not always being too serious, tries to give real-life instead of theoretical examples.
 - [Bash Guide](https://mywiki.wooledge.org/BashGuide) - Gives examples of good practice when writing `bash` scripts. It is targeted at beginning users with no advanced knowledge.
 - [Bash Pitfalls](http://mywiki.wooledge.org/BashPitfalls) - Greg Wooledge has a great list of unpleasant surprises in `bash`.
@@ -521,8 +520,6 @@ There are GUI versions of `vim` and `emacs` that have ardent followers.
 - [gsudo](https://github.com/gerardog/gsudo) - In a pinch, this allows you to run a certain command as Administrator, without running an console session.
 
 ## Other Resources
-
-Packetlife has some great cheat sheets and posters [here](https://packetlife.net/library/cheat-sheets/) for a lot of applications (`wireshark` and `tcpdump` for example) and networking principles. Well worth a look, even if you think you know the apps in question.
 
 ### Free Services
 
