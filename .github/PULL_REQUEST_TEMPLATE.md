@@ -13,6 +13,7 @@ This repository is copyright 2017-2023 Joseph Block under a [Attribution-NonComm
 <!--- What types of changes does your PR introduce? Put an `x` in all the boxes that apply: -->
 
 - [ ] New entry
+- [ ] Link updates
 - [ ] Typo cleanup
 - [ ] Text updates
 
