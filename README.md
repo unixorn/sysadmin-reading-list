@@ -346,7 +346,7 @@ There are several good projects for monitoring.
 
 #### Articles/Tutorials
 
-[Infroduction To Baselines for Dashboards](https://jesswhite.co.uk/blog/practical-dashboards-part1/) - It's easy to make monitoring dashboards that are a jumble of poorly presented information. This series of articles gives guidelines on making good dashboards.
+Help wanted.
 
 ### JSON parsing with jq
 
