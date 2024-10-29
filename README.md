@@ -281,7 +281,7 @@ There are several good options:
 - [CFEngine](https://cfengine.com) has been in continuous development since 1993.  Unlike some of its peers on this list, it is written in C and is built with speed and scalability in mind.  It should be considered for very, very large systems and for very small (think embedded) systems.
 - [Chef](http://www.opscode.com/chef/) is written in Ruby and Erlang and uses a Ruby DSL to describe system configuration.
 - [Puppet](http://puppetlabs.com/) makes it easy to automate the provisioning, configuration and ongoing management of your machines and the software running on them. Make rapid, repeatable changes and automatically enforce the consistency of systems and devices – across physical and virtual machines, on premise or in the cloud.
-- [Salt](http://www.saltstack.com/) orchestrates the build and ongoing management of your infrastructure.
+- [Salt](http://saltproject.io/) orchestrates the build and ongoing management of your infrastructure.
 
 ### Container Tooling
 
