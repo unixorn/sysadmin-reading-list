@@ -246,10 +246,9 @@ Perl has a long history of being the system administrator's friend, bringing the
 
 - [Az PowerShell Module](https://github.com/Azure/azure-powershell) The cross-platform (i.e. PS Core) Azure PowerShell module. Replaces the `AzureRm` module and provides a migration path from it.
 - [Azure CLI 2.0](https://github.com/Azure/azure-cli) new preview CLI interface for Azure (written in python).
-- [Azure Code Samples](https://azure.microsoft.com/en-us/documentation/samples/) samples of code showing how to interact with Azure.
-- [Azure Friday](https://azure.microsoft.com/en-us/documentation/videos/azure-friday/) "Just two engineers, a laptop and the cloud, solving problems".
-- [Azure Quickstart Templates](https://github.com/Azure/azure-quickstart-templates) community contributed Azure Resource Manager templates for tons of things.
-- [Official Azure Documentation](https://azure.microsoft.com/en-us/documentation/) official documentation for all Azure services.
+- [Azure Friday](https://learn.microsoft.com/en-us/shows/azure-friday/) "Just two engineers, a laptop and the cloud, solving problems".
+- [Azure Quickstart Templates](https://learn.microsoft.com/en-us/azure/azure-resource-manager/templates/overview) community contributed Azure Resource Manager templates for tons of things.
+- [Official Azure Documentation](https://learn.microsoft.com/en-us/azure/?product=popular) official documentation for all Azure services.
 
 #### Google Cloud
 
