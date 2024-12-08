@@ -1,7 +1,7 @@
 # sysadmin-reading-list
 
 [![GitHub stars](https://img.shields.io/github/stars/unixorn/sysadmin-reading-list.svg)](https://github.com/unixorn/sysadmin-reading-list/stargazers)
-[![Contributors](https://img.shields.io/github/contributors/unixorn/sysadmin-reading-list.svg)
+![Contributors](https://img.shields.io/github/contributors/unixorn/sysadmin-reading-list.svg)
 ![Awesomebot link checking](https://github.com/unixorn/sysadmin-reading-list/actions/workflows/awesomebot.yml/badge.svg)
 [![GitHub last commit (branch)](https://img.shields.io/github/last-commit/unixorn/sysadmin-reading-list/main.svg)](https://github.com/unixorn/sysadmin-reading-list)
 
