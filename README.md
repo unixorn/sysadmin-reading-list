@@ -224,7 +224,6 @@ Perl has a long history of being the system administrator's friend, bringing the
 
 #### Blog Posts
 
-- [Perl on the Rise for Devops](https://scalability.org/2017/01/perl-on-the-rise-for-devops/)
 - [Perl tricks for system administrators](https://opensource.com/life/16/7/perl-tricks-system-administrators)
 
 ## Tools
