@@ -66,6 +66,9 @@ A reading list for the larval stage sysadmin/SRE. This list is focused on the UN
 - [Blogs and Podcasts](#blogs-and-podcasts)
 - [Online Communities](#online-communities)
 - [Windows Administration](#windows-administration)
+  - [Package Managers](#package-managers)
+- [Setup](#setup)
+- [Tools](#tools-1)
 - [Other Resources](#other-resources)
   - [Free Services](#free-services)
   - [Miscellanea](#miscellanea)
@@ -73,6 +76,7 @@ A reading list for the larval stage sysadmin/SRE. This list is focused on the UN
   - [Communication](#communication)
   - [Finance/Salary](#financesalary)
 - [License](#license)
+- [Thanks](#thanks)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -121,7 +125,7 @@ I still use it frequently for pulling columns out of tabular output because by d
 Here are some good references to get you started:
 
 - [Bite Size Command Line](https://wizardzines.com/comics/awk/)
-- [Scripting Tutorial: Awk](https://github.com/darkn3rd/script-tut/tree/master/gen_scripts/awk)
+- [Scripting Tutorial: Awk](https://github.com/darkn3rd/script-tut/tree/master/lessons/gen_scripts/awk)
 - [Serious Shell Programming](https://freebsdfrau.gitbook.io/serious-shell-programming/basics/regex/awk)
 
 ### Bash
@@ -568,7 +572,7 @@ Writing good documentation and design docs is as important as writing code. The 
 
 ## License
 
-This repository is copyright 2017-2024 Joseph Block under a [Attribution-NonCommercial-ShareAlike 4.0 International](#attribution-noncommercial-sharealike-40-international) license.
+This repository is copyright 2017-2026 Joseph Block under a [Attribution-NonCommercial-ShareAlike 4.0 International](#attribution-noncommercial-sharealike-40-international) license.
 
 ## Thanks
 
