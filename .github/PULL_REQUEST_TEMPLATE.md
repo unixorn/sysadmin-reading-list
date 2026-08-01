@@ -14,7 +14,7 @@ This repository is copyright 2017-2023 Joseph Block under a [Attribution-NonComm
 
 - [ ] Link updates
 - [ ] New entry
-- [ ] Test updates
+- [ ] Test / GitHub Action updates
 - [ ] Text updates
 - [ ] Typo cleanup
 
