@@ -493,7 +493,7 @@ There are GUI versions of `vim` and `emacs` that have ardent followers.
 - [Last Week in Kubernetes Development](https://lwkd.info/) - Weekly newsletter summarizing code activity in the Kubernetes project: merges, PRs, deprecations, version updates, release schedules, and the weekly community meeting.
 - [Monitoring Weekly](https://monitoring.love/) - Weekly compilation of curated articles, news and tools related to monitoring.
 - [On the Metal](https://oxide.computer/podcasts/on-the-metal) - Bryan Cantrill and Jessie Frazelle host a podcast about all sorts of interesting aspects of computing.
-- [PowerScripting Podcast](https://powershell.org/category/podcast/) - hosted by Jon Walz and Hal Rottenberg.
+- [PowerScripting Podcast](https://powershell.org/podcast/) - hosted by Jon Walz and Hal Rottenberg.
 - [SRE Weekly](https://sreweekly.com/) - SRE Weekly is a newsletter devoted to everything related to keeping a site or service available as consistently as possible.
 
 ## Online Communities
