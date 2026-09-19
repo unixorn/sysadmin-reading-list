@@ -137,19 +137,19 @@ That said, it is on every system, so every *NIX sysadmin needs to know `bash`.
 Here are some useful resources to help you step up your shell scripting game:
 
 - [The Art of the Command Line](https://github.com/jlevy/the-art-of-command-line) - A good set of notes and tips on using the command-line that is useful when working on Linux/Unix.
-- [Bash Guide For Beginners](https://tldp.org/LDP/Bash-Beginners-Guide/html/) -  A practical guide which, while not always being too serious, tries to give real-life instead of theoretical examples.
+- [Bash Guide For Beginners](https://tldp.org/LDP/Bash-Beginners-Guide/html/) -  A practical guide which tries to give real-life instead of theoretical examples.
 - [Bash Guide](https://mywiki.wooledge.org/BashGuide) - Gives examples of good practice when writing `bash` scripts. It is targeted at beginning users with no advanced knowledge.
 - [Bash Pitfalls](http://mywiki.wooledge.org/BashPitfalls) - Greg Wooledge has a great list of unpleasant surprises in `bash`.
 - [Commandlinefu](https://www.commandlinefu.com/) - An extensive list of `bash` oneliners for almost every task you may need to accomplish.
-- [Google's Shell Style Guide](https://google.github.io/styleguide/shell.xml) lists what Google's developers consider best practices for `bash` scripts.
+- [Google's Shell Style Guide](https://google.github.io/styleguide/shellguide.html) lists what Google's engineers consider best practices for `bash` scripts.
 - [Learning the Bash Shell](http://shop.oreilly.com/product/9780596009656.do) - It's hard to go wrong with an O'Reilly reference on anything, really.
 - [Pure Bash Bible](https://github.com/dylanaraps/pure-bash-bible) - A collection of pure `bash` alternatives to external processes.
 - [Safe Ways to do Things in Bash](https://github.com/anordal/shellharden/blob/master/how_to_do_things_safely_in_bash.md) - An excellent set of tips from the authors of [shellharden](https://github.com/anordal/shellharden).
-- [shellcheck](https://github.com/koalaman/shellcheck) is a lint for `bash`. It'll help you find unused variables, deprecated syntax and other things that make your `bash` scripts less stable. You can install it with `apt-get`, `brew`, `cabal`, or `yum`.
-- [shellharden](https://github.com/anordal/shellharden) - is a syntax highlighter and a tool to semi-automate the rewriting of scripts to ShellCheck conformance, mainly focused on quoting.
+- [shellcheck](https://github.com/koalaman/shellcheck) is a `bash` linter. It will help you find unused variables, deprecated syntax and other things that make your `bash` scripts less stable. You can install it with `apt-get`, `brew`, `cabal`, or `yum`.
+- [shellharden](https://github.com/anordal/shellharden) - is a syntax highlighter and a tool to semi-automate the rewriting of scripts to [shellcheck](https://github.com/koalaman/shellcheck) conformance, mainly focused on quoting.
 - [zshelldoc](https://github.com/zdharma-continuum/zshelldoc) - Documentation generator for Bash & ZSH, with call-trees, comment extraction, etc.
 
-Finally, remember that `bash` is not `sh`. If you're writing a script in `bash`, and testing it with `bash`, don't use `#!/bin/sh` as the shebang. Firstly, because `bash` behaves differently when called as `sh`, and secondly, not all *NIX systems (and not even all linux distributions) use `bash` as their `/bin/sh` any more.
+Finally, remember that `bash` is not `sh`! If you're writing a script in `bash`, and testing it with `bash`, _don't use `#!/bin/sh` as the shebang_. Firstly, because `bash` behaves differently when called as `sh`, and secondly, not all *NIX systems (and not even all Linux distributions) use `bash` as their `/bin/sh` any more.
 
 ### Powershell
 
