@@ -504,6 +504,8 @@ There are GUI versions of `vim` and `emacs` that have ardent followers.
 
 ## Windows Administration
 
+- [Windows Patch Failure Triage Checklist](https://izikipizi.github.io/nizlo-msp-operations-resources/windows-patch-failure-triage-checklist.html) - A vendor-neutral 24-step evidence workflow for failed updates before a bounded retry.
+
 ### Package Managers
 
 - [Chocolatey](https://chocolatey.org/) - Having existed much longer than WinGet, Chocolatey has a large ecosystem of packages.
