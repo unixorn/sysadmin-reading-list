@@ -481,6 +481,7 @@ There are GUI versions of `vim` and `emacs` that have ardent followers.
 
 ## Blogs and Podcasts
 
+- [AI SRE Weekly](https://www.linkedin.com/company/ai-sre-weekly/) - Weekly newsletter tracking the AI SRE category: vendor launches, funding, incident-automation research and what changed for on-call teams.
 - [Arrested Devops](https://www.arresteddevops.com/) - hosted by Matt Stratton, Trevor Hess, and Bridget Kromhout. ADO is the podcast that helps you achieve understanding, develop good practices, and operate your team and organization for maximum DevOps awesomeness.
 - [Code as Craft](http://codeascraft.com/) - Etsy's ops blog and is full of well written examples of dealing with real-world problems at scale.
 - [Corecursive](https://corecursive.com/) - Each episode someone shares the fascinating story behind a piece of software being built.
